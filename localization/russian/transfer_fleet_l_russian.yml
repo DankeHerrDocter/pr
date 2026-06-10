@@ -1,0 +1,9 @@
+﻿l_russian:
+ transfer_fleet_by_select_ship: "Передача флота"
+ transfer_fleet_by_select_ship_desc: "Выберите [Concept('concept_ship', 'корабль')], чтобы передать другой [Concept('concept_country', 'стране')] право собственности на весь [concept_fleet], к которому относится этот [concept_ship]"
+ transfer_fleet_by_select_ship_effects_desc: "• Две [Concept('concept_country', 'страны')] заключают соглашение, по которому право собственности на все [Concept('concept_ship', 'корабли')] [Concept('concept_fleet', 'флота')] переходит к другой [Concept('concept_country', 'стране')]"
+
+ TRANSFER_FLEET_EFFECT_THIRD: "Право собственности на [MILITARY_FORMATION.GetName] перейдёт к [TARGET_COUNTRY.GetAltNameNoFlag('RU_CL_DP')]"
+ DUPLICATE_ARTICLE_TRANSFER_FLEET: "Нельзя использовать одновременно с передачей флота"
+ DUPLICATE_ARTICLE_SHIP_TRANSFER: "Нельзя использовать одновременно с передачей корабля"
+

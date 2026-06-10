@@ -1,0 +1,3 @@
+﻿l_russian:
+ notification_national_awakening_started_name: "#tooltippable_name #tooltip:[SCOPE.sCulture('culture').GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [SCOPE.sCulture('culture').GetCustom('RU_CUL_ADJ')]ое#!#! [Concept('concept_national_awakening', 'национальное пробуждение')]"
+ notification_national_awakening_started_desc: "В регионе [SCOPE.sStateRegion('region').GetName] началось #tooltippable_name #tooltip:[SCOPE.sCulture('culture').GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [SCOPE.sCulture('culture').GetCustom('RU_CUL_ADJ')|l]ое#!#! [Concept('concept_national_awakening', 'национальное пробуждение')]."

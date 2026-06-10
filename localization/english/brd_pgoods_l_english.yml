@@ -1,0 +1,15 @@
+﻿l_english:
+ prestige_good_generic_fruit: "High-grade Fruit"
+ je_prestige_goods_fruit: "$prestige_good_generic_fruit$"
+ je_prestige_goods_fruit_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_fruit! #b $prestige_good_generic_fruit$#!. If successful, it will be able to expand its competitiveness within the global @fruit! #b $fruit$#! market."
+ je_prestige_goods_fruit_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_fruit_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_fruit_complete_tt: "Has completed the #b $je_prestige_goods_fruit$#! [concept_journal_entry]"
+ je_prestige_goods_fruit_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_fruit! #b $prestige_good_generic_fruit$#!"
+
+ not_prestige_good_generic_fruit_var_tt: "Has #b not#! already developed @prestige_good_generic_fruit! #b $prestige_good_generic_fruit$#!"
+
+ notification_prestige_goods_fruit_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_fruit! #b $prestige_good_generic_fruit$#!"
+ notification_prestige_goods_fruit_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_fruit! #b $prestige_good_generic_fruit$#!"
+ notification_prestige_goods_fruit_unlocked_tooltip: "#header $notification_prestige_goods_fruit_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_fruit_unlocked_desc$"
+

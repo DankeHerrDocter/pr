@@ -1,0 +1,10 @@
+﻿l_russian:
+ SHOW_BASE_COMPANIES: "Обычные компании"
+ SHOW_FLAVORED_COMPANIES: "Уникальные компании"
+ TOGGLE_FLAVORED_HIGHLIGHT_TEXT: "Подсветка"
+ SHOW_ALL_COMPANIES: "Все"
+ SHOW_NO_PRESTIGE_COMPANIES: "Без престижных"
+ SHOW_PRESTIGE_COMPANIES: "Престижные"
+ TOGGLE_NO_FLAVORED_HIGHLIGHT_TEXT: "Без подсветки"
+ PRESTIGE_COMPANY_FILTER: "Престижные товары"
+ COMPANY_FILTERS: "Фильтры компаний"

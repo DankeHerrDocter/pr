@@ -1,0 +1,7 @@
+﻿l_russian:
+ UBOY_FILTER_BY_COUNTRY: "Фильтр по странам"
+ UBOY_TOGGLE_COUNTRY_FILTER_TOOLTIP: "Нажмите, чтобы показать или скрыть фильтр стран"
+ UBOY_SELECT_COUNTRY_HEADER: "Выберите страну"
+ UBOY_CLEAR_FILTER: "Сбросить"
+ UBOY_CLEAR_COUNTRY_FILTER: "Сбросить фильтр стран"
+ UBOY_FILTERING_BY: "Текущий фильтр:"

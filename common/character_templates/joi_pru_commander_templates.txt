@@ -1,0 +1,156 @@
+﻿REPLACE_OR_CREATE:pru_general_von_caprivi = { #卡普里维，也许哪天人物志是他
+	first_name = Leo
+	last_name = von_Caprivi
+	historical = yes
+	culture = cu:north_german
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_armed_forces
+	birth_date = 1831.2.24
+	dna = dna_leo_caprivi
+	traits = {
+		experienced_diplomat
+		ambitious
+		experienced_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			owns_entire_state_region = STATE_BRANDENBURG
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+		}
+		role = general
+		earliest_usage_date = 1862.1.1
+		latest_usage_date = 1899.2.6
+		chance = 95
+	}
+}
+
+REPLACE_OR_CREATE:pru_general_von_steinmetz = {
+	first_name = Karl_Friedrich
+	last_name = von_Steinmetz
+	historical = yes
+	culture = cu:north_german
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_armed_forces
+	birth_date = 1796.12.27
+	dna = dna_von_steinmetz
+	traits = {
+		persistent
+		experienced_offensive_planner
+		traditionalist_commander
+		honorable
+	}
+	commander_usage = {
+		country_trigger = {
+			owns_entire_state_region = STATE_BRANDENBURG
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+		}
+		role = general
+		earliest_usage_date = 1839.1.1
+		latest_usage_date = 1877.8.2
+		chance = 95
+	}
+}
+
+REPLACE_OR_CREATE:pru_general_bittenfeld = {
+	first_name = Karl_Eberhard
+	last_name = von_Caprivi
+	historical = yes
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1796.9.4
+	dna = dna_von_bittenfeld
+	traits = {
+		expert_defensive_strategist
+		honorable
+		wrathful
+	}
+	commander_usage = {
+		country_trigger = {
+			owns_entire_state_region = STATE_BRANDENBURG
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+		}
+		role = general
+		earliest_usage_date = 1836.1.2
+		latest_usage_date = 1872.1.1
+		chance = 95
+	}
+}
+
+REPLACE_OR_CREATE:pru_general_von_flies = {
+	first_name = Eduard_Moritz
+	last_name = von_Flies
+	historical = yes
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1802.8.25
+	dna = dna_von_flies
+	traits = {
+		experienced_defensive_strategist
+		resupply_commander
+		forest_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			owns_entire_state_region = STATE_BRANDENBURG
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+		}
+		role = general
+		earliest_usage_date = 1841.5.24
+		latest_usage_date = 1886.12.10
+		chance = 95
+	}
+}
+
+REPLACE_OR_CREATE:pru_general_friedrich_karl_i = {
+	#卡尔亲王，开局普王三子
+	first_name = "ecchi_pru_Friedrich_Karl"
+	last_name = "von_Hohenzollern"
+	historical = yes
+	culture = cu:north_german
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1801.6.29
+	dna = ecchi_dna_pru_friedrich_karl_01
+	traits = {
+		aesthete
+		experienced_offensive_planner
+		traditionalist_commander
+		expensive_tastes
+	}
+	commander_usage = {
+		country_trigger = {
+			owns_entire_state_region = STATE_BRANDENBURG
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1883.1.21
+		chance = 99
+	}
+	on_created = {
+		set_variable = house_hohenzollern
+	}
+}
+

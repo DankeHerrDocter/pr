@@ -1,0 +1,25 @@
+﻿### CULTURE | КУЛЬТУРЫ ###
+## ADJECTIVE | ПРИЛАГАТЕЛЬНЫЕ КУЛЬТУР ##
+TRY_INJECT:RU_CUL_ADJ = {
+	type = culture
+	log_loc_errors = no
+
+	text = {
+		trigger = {
+			this = cu:french_aferican
+		}
+		localization_key = RU_CUL_ADJ_french_aferican
+	}
+	text = {
+		trigger = {
+			this = cu:western_japanese
+		}
+		localization_key = RU_CUL_ADJ_western_japanese
+	}
+	text = {
+		trigger = {
+			this = cu:rumeli_turkish
+		}
+		localization_key = RU_CUL_ADJ_rumeli_turkish
+	}
+}

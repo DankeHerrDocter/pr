@@ -1,0 +1,627 @@
+﻿set_rus_civil_war_white_army = {
+		if = {#波兰
+			limit = {
+				owns_entire_state_region = STATE_MAZOVIA
+				OR = {
+				owns_entire_state_region = STATE_LESSER_POLAND
+				owns_entire_state_region = STATE_GREATER_POLAND
+				owns_entire_state_region = STATE_WEST_GALICIA
+				owns_entire_state_region = STATE_EAST_GALICIA
+				owns_entire_state_region = STATE_BREST
+				owns_entire_state_region = STATE_VOLHYNIA
+				}
+			}
+			create_country = {
+				tag = POL
+				origin = this
+				state = s:STATE_MAZOVIA.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_mass_conscription
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_interventionism
+				activate_law = law_type:law_free_trade
+				add_modifier = { name = rus_civil_war_polish_army months = 60 }
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    state_region = { is_homeland = cu:polish }
+                }
+                set_state_owner = c:POL
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_MAZOVIA.region_state:POL
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#爱沙尼亚
+			limit = {
+				owns_entire_state_region = STATE_TALINN
+			}
+			create_country = {
+				tag = EST
+				origin = this
+				state = s:STATE_TALINN.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_mass_conscription
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_interventionism
+				activate_law = law_type:law_free_trade
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    state_region = { is_homeland = cu:estonian }
+                }
+                set_state_owner = c:EST
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_ESTONIA.region_state:EST
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#立陶宛
+			limit = {
+				owns_entire_state_region = STATE_VILNIUS
+			}
+			create_country = {
+				tag = LIT
+				origin = this
+				state = s:STATE_VILNIUS.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_mass_conscription
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_interventionism
+				activate_law = law_type:law_free_trade
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    state_region = { is_homeland = cu:lithuanian }
+                }
+                set_state_owner = c:LIT
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_VILNIUS.region_state:LIT
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#拉脱维亚
+			limit = {
+				owns_entire_state_region = STATE_RIGA
+			}
+			create_country = {
+				tag = LAT
+				origin = this
+				state = s:STATE_RIGA.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_mass_conscription
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_interventionism
+				activate_law = law_type:law_free_trade
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    state_region = { is_homeland = cu:latvian }
+                }
+                set_state_owner = c:LAT
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_RIGA.region_state:LAT
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#乌克兰
+			limit = {
+				owns_entire_state_region = STATE_KIEV
+				OR = {
+				owns_entire_state_region = STATE_KHARKOV
+				owns_entire_state_region = STATE_CHERSON
+				owns_entire_state_region = STATE_CRIMEA
+				}
+			}
+			create_country = {
+				tag = UKR
+				origin = this
+				state = s:STATE_KIEV.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_council_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_mass_conscription 
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_anarchy 
+				add_modifier = { name = rus_civil_war_ukriane_army months = 60 }
+				}
+			}
+			every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_KHARKOV
+					state_region = s:STATE_CHERSON
+					state_region = s:STATE_TAURIDA
+					state_region = s:STATE_CHERNIHIV
+					state_region = s:STATE_VOLHYNIA
+				}
+			}
+			set_state_owner = c:UKR
+			set_state_type = incorporated
+			}
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_KIEV.region_state:UKR
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#土库曼
+			limit = {
+				owns_entire_state_region = STATE_TURKMENIA
+			}
+			create_country = {
+				tag = TRC
+				origin = this
+				state = s:STATE_TURKMENIA.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_national_militia 
+				activate_law = law_type:law_no_colonial_affairs
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    state_region = { is_homeland = cu:turkmen }
+                }
+                set_state_owner = c:TRC
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_TURKMENIA.region_state:TRC
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#布哈拉
+			limit = {
+				owns_entire_state_region = STATE_UZBEKIA
+			}
+			create_country = {
+				tag = BUK
+				origin = this
+				state = s:STATE_UZBEKIA.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_national_militia 
+				activate_law = law_type:law_no_colonial_affairs
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    OR = {
+                    	state_region = s:STATE_MERZ
+                    	state_region = s:STATE_KHIVA
+                    }
+                }
+                set_state_owner = c:BUK
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_UZBEKIA.region_state:BUK
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#浩罕
+			limit = {
+				owns_entire_state_region = STATE_TAJIKISTAN
+			}
+			create_country = {
+				tag = KOK
+				origin = this
+				state = s:STATE_TAJIKISTAN.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_national_militia 
+				activate_law = law_type:law_no_colonial_affairs
+				}
+			}
+			every_scope_state = {
+                limit = {
+                    state_region = {
+                    	OR = {
+                    		is_homeland = cu:tajik
+                    		is_homeland = cu:kirgiz
+                    	}
+                    }
+                }
+                set_state_owner = c:KOK
+                set_state_type = incorporated
+            }
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_TAJIKISTAN.region_state:KOK
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#顿河哥萨克
+			limit = {
+				owns_entire_state_region = STATE_ASTRAKHAN
+			}
+			create_country = {
+				tag = DON
+				origin = this
+				state = s:STATE_ASTRAKHAN.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_professional_army 
+				activate_law = law_type:law_oligarchy
+				add_modifier = { name = rus_civil_war_white_army months = 60 }
+				hidden_effect = {
+				add_modifier = { name = civil_war_clear_badname months = 1 }
+					}
+				}
+			}
+			every_scope_state = {
+				limit = {
+					is_in_geographic_region = geographic_region_caucasus_old
+					OR = {
+						state_region = s:STATE_KALMYKIA
+						state_region = {
+						OR = {
+							is_homeland = cu:north_caucasian
+							is_homeland = cu:russian
+							is_homeland = cu:circassian
+							}
+						}
+					}
+				}
+				set_state_owner = c:DON
+				set_state_type = incorporated
+			}
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_ASTRAKHAN.region_state:DON
+			
+				war = yes
+			
+				type = dp_annex_war
+
+				add_war_goal = {
+					holder = c:DON
+					type = annex_country 
+					target_state = s:STATE_MOSCOW.region_state:RUS
+					}
+				}			
+			}
+		}
+		if = {#山区共和国
+			limit = {
+				owns_entire_state_region = STATE_GREATER_CAUCASUS
+			}
+			create_country = {
+				tag = NCA
+				origin = this
+				state = s:STATE_GREATER_CAUCASUS.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_presidential_republic
+				activate_law = law_type:law_no_colonial_affairs
+				activate_law = law_type:law_peasant_proprietorship
+				activate_law = law_type:law_national_militia 
+				activate_law = law_type:law_oligarchy
+				add_modifier = { name = rus_civil_war_caucasus_army months = 60 }
+				}
+			}
+			every_scope_state = {
+				limit = {
+					OR = {
+						is_in_geographic_region = geographic_region_caucasus_old
+						region = sr:region_greater_persia
+					}
+					state_region = {
+						OR = {
+							is_homeland = cu:georgian
+							is_homeland = cu:azerbaijani
+							is_homeland = cu:armenian
+							is_homeland = cu:turkish
+							is_homeland = cu:persian
+						}
+					}
+				}
+				set_state_owner = c:NCA
+				set_state_type = incorporated
+			}
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_GREATER_CAUCASUS.region_state:NCA
+			
+				war = yes
+			
+				type = dp_annex_war
+				}			
+			}
+		}
+		if = {#西伯利亚白军
+			limit = {
+				owns_entire_state_region = STATE_TOBOLSK
+			}
+			create_country = {
+				tag = SIB
+				origin = this
+				state = s:STATE_TOBOLSK.region_state:RUS
+				on_created = {
+				activate_law = law_type:law_monarchy
+				activate_law = law_type:law_tenant_farmers
+				activate_law = law_type:law_mass_conscription 
+				activate_law = law_type:law_autocracy
+				add_modifier = { name = rus_civil_war_white_army months = 60 }
+				hidden_effect = {
+				add_modifier = { name = civil_war_clear_badname months = 1 }
+				add_primary_culture = cu:russian
+				remove_primary_culture = cu:siberian
+				remove_primary_culture = cu:ugrian
+				remove_primary_culture = cu:inuit
+				remove_primary_culture = cu:yakut
+				create_character = {
+						first_name = Nikolai
+						last_name = Romanov
+						historical = yes
+						interest_group = ig_landowners
+						ideology = ideology_royalist
+						ruler = yes
+						ig_leader = yes
+						age = 39
+						dna = dna_tsar_nicolas_02
+						traits = {
+							explorer 
+							master_bureaucrat
+							}
+						}
+					}
+				}
+			}
+			every_scope_state = {
+				limit = {
+					OR = {
+						region = sr:region_siberia
+						region = sr:region_northeast_asia
+						region = sr:region_north_china
+						state_region = s:STATE_SEMIRECHE
+						state_region = s:STATE_AKMOLINSK
+						state_region = s:STATE_SYRDARYA
+						state_region = s:STATE_CHELYABINSK
+						state_region = s:STATE_GALICH
+						state_region = s:STATE_NENETSIA
+						state_region = s:STATE_AKTOBE
+						state_region = s:STATE_ARKHANGELSK
+					}
+				}
+				set_state_owner = c:SIB
+				set_state_type = incorporated
+			}
+			c:RUS = {
+			create_diplomatic_play = {
+				name = july_revolution
+		
+				target_state = s:STATE_TOBOLSK.region_state:SIB
+			
+				war = yes
+			
+				type = dp_annex_war
+
+				add_war_goal = {
+					holder = c:SIB
+					type = annex_country 
+					target_state = s:STATE_MOSCOW.region_state:RUS
+						}
+					}			
+				}
+			}
+}
+
+REPLACE:character_russia_ruler_succession_chain_effect = {
+	if = {
+		limit = {
+			has_template = RUS_alexander_ii
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.1 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_konstantin_nikolayevich_ii
+		}
+		owner ?= {
+			trigger_event = { id = joi_flavor_gbr.128 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_tsarevich_nicholas_alexandrovich
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.3 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_alexander_iii
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.4 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_nicholas_ii
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.5 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_alexei_ii
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.9 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_michael_ii
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.10 popup = yes }
+		}
+	}
+	else_if = {
+		limit = {
+			has_template = RUS_george_i
+		}
+		owner ?= {
+			trigger_event = { id = russia_monarchy.11 popup = yes }
+		}
+	}
+}
+
+panal_russia_botton_exile_effect = {
+	random_scope_state = {
+			limit = {
+				OR = {
+					region = sr:region_russia
+					region = sr:region_eastern_europe
+					region = sr:region_northern_europe
+					region = sr:region_balkans
+					region = sr:region_central_europe
+					region = sr:region_north_china
+				}
+			}
+			random_scope_pop = {
+				limit = {
+					total_size <= 500000
+					NOT = {
+						is_pop_type = officers
+						is_pop_type = soldiers
+					}
+				}
+				move_pop = scope:siberian_1_state
+			}
+		}
+	random_scope_state = {
+			limit = {
+				OR = {
+					region = sr:region_russia
+					region = sr:region_eastern_europe
+					region = sr:region_northern_europe
+					region = sr:region_balkans
+					region = sr:region_central_europe
+					region = sr:region_north_china
+				}
+			}
+			random_scope_pop = {
+				limit = {
+					total_size <= 500000
+					NOT = {
+						is_pop_type = officers
+						is_pop_type = soldiers
+					}
+				}
+				move_pop = scope:siberian_2_state
+			}
+		}
+	random_scope_state = {
+			limit = {
+				OR = {
+					region = sr:region_russia
+					region = sr:region_eastern_europe
+					region = sr:region_northern_europe
+					region = sr:region_balkans
+					region = sr:region_central_europe
+					region = sr:region_north_china
+				}
+			}
+			random_scope_pop = {
+				limit = {
+					total_size <= 500000
+					NOT = {
+						is_pop_type = officers
+						is_pop_type = soldiers
+					}
+				}
+				move_pop = scope:siberian_3_state
+			}
+		}
+}

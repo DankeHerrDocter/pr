@@ -1,0 +1,12 @@
+l_russian: 
+ prestige_good_generic_fruit: "Отборные фрукты"
+ je_prestige_goods_fruit: "$prestige_good_generic_fruit$"
+ je_prestige_goods_fruit_reason: "Компания «[SCOPE.sCompany('relevant_company').GetName]» стала важной частью нашей экономики. Пользуясь своей успешностью, она намеревается создать собственный бренд @prestige_good_generic_fruit! #b высококачественный фрукт#!. В случае успеха это повысит конкурентоспособность компании на мировом рынке @fruit! #b фрукта#!."
+ je_prestige_goods_fruit_goal: "Выполняйте следующие условия в течение #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] мес.#! (сейчас #v [ROOT.GetCountry.MakeScope.Var('prestige_fruit_timer_var').GetValue]#!): #indent_newline:3 "
+ je_prestige_goods_fruit_complete_tt: "Завершена [Concept('concept_journal_entry', 'запись в дневнике')] «#b $je_prestige_goods_fruit$#!»"
+ je_prestige_goods_fruit_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] сможет производить @prestige_good_generic_fruit! #b высококачественный фрукт#!"
+ not_prestige_good_generic_fruit_var_tt: "Ещё #b не#! создан бренд @prestige_good_generic_fruit! #b высококачественный фрукт#!"
+ notification_prestige_goods_fruit_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] разрабатывает бренд @prestige_good_generic_fruit! #b высококачественный фрукт#!"
+ notification_prestige_goods_fruit_unlocked_desc: "[Concept('concept_building', 'Сооружения')] в собственности компании «[SCOPE.sCompany('relevant_company').GetName]» теперь могут производить @prestige_good_generic_fruit! #b высококачественный фрукт#!"
+ notification_prestige_goods_fruit_unlocked_tooltip: "#header $notification_prestige_goods_fruit_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_fruit_unlocked_desc$"
+

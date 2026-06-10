@@ -1,0 +1,18 @@
+﻿l_russian:
+  #MOD
+ ai_strategy_splendid_isolation: "Блестящая изоляция"
+ ai_strategy_splendid_isolation_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться избегать постоянных союзов с [Concept('concept_great_power', 'великими державами')] Европы, минимизировать своё участие в континентальных делах и уделять больше внимания сохранению и расширению заморских владений и [Concept('concept_subject','субъектов')] Британской империи."
+ ai_strategy_monroe_doctrine_isolation: "Изоляционизм"
+ ai_strategy_monroe_doctrine_isolation_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться предотвратить дальнейшую колонизацию Америки, защитить собственные интересы на континенте и придерживаться максимального нейтралитета в заморских делах, чтобы не быть втянутой в какие-либо конфликты, не имеющие к ней отношения."
+ ai_strategy_expand_french_colony: "Расширение заморских владений"
+ ai_strategy_expand_french_colony_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться расширить свою заморскую колониальную империю, особенно в Африке, и обеспечить, чтобы ситуация в Европе всегда оставалась сбалансированной и контролируемой для сохранения своего влияния."
+ ai_strategy_russian_conquest: "Имперские завоевания"
+ ai_strategy_russian_conquest_desc: "[COUNTRY.GetName] — амбициозная страна с особой тягой к землям, которая буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться к неограниченному расширению своей территории силой, захватывая земли любых соседей, которых способна одолеть."
+ ai_strategy_kontinental_politik: "Континентальная политика"
+ ai_strategy_kontinental_politik_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться избежать международной изоляции, ища сильных геополитических [Concept('concept_ally','союзников')] для сохранения своего влияния в Европе ценой отказа от большинства колониальных планов и применяя силу лишь в случае крайней необходимости."
+ ai_strategy_deutschreich_weltpolitik: "Мировая политика"
+ ai_strategy_deutschreich_weltpolitik_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] считать, что её статус на мировой арене зависит от создания мощной колониальной империи, и стремиться любой ценой получить «место под солнцем», чтобы конкурировать с другими [Concept('concept_great_power', 'великими державами')]."
+ ai_strategy_rule_india: "Господство на субконтиненте"
+ ai_strategy_rule_india_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться подчинить себе весь Индийский субконтинент, сохраняя верность своему [Concept('concept_overlord', 'сюзерену')|l] и ища его помощи для обеспечения стабильности на подвластных территориях и предотвращения возможных восстаний."
+ ai_strategy_implementing_westernization: "Проведение политики самоусиления"
+ ai_strategy_implementing_westernization_desc: "[COUNTRY.GetName] буд[COUNTRY.GetAltNameNoFormatting('RU_CL_END_UT')] стремиться к проведению ограниченных реформ по принципу «перенимать заморские технологии, чтобы управлять варварами», изучая передовые западные технологии, но не изменяя традиционную систему."

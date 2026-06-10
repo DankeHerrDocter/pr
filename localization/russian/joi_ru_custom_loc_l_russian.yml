@@ -1,0 +1,556 @@
+﻿l_russian:
+#Культуры
+ RU_CUL_ADJ_western_japanese: "Японск"
+ RU_CUL_ADJ_french_aferican: "Афро-французск"
+ RU_CUL_ADJ_rumeli_turkish: "Османск"
+
+# Падежи страны
+ #Имперская Федерация
+ IMP_RP: "Имперской Федерации"
+ IMP_DP: "Имперской Федерации"
+ IMP_VP: "Имперскую Федерацию"
+ IMP_TP: "Имперской Федерацией"
+ IMP_PP: "Имперской Федерации"
+
+ dyn_c_imp_socialist_republic_RP: "Республиканского Содружества"
+ dyn_c_imp_socialist_republic_DP: "Республиканскому Содружеству"
+ dyn_c_imp_socialist_republic_VP: "Республиканское Содружество"
+ dyn_c_imp_socialist_republic_TP: "Республиканским Содружеством"
+ dyn_c_imp_socialist_republic_PP: "Республиканском Содружестве"
+
+ dyn_c_imp_republic_RP: "Британского Содружества"
+ dyn_c_imp_republic_DP: "Британскому Содружеству"
+ dyn_c_imp_republic_VP: "Британское Содружество"
+ dyn_c_imp_republic_TP: "Британским Содружеством"
+ dyn_c_imp_republic_PP: "Британском Содружестве"
+  #Израиль
+ dyn_c_isr_british_subject_RP: "Британского мандата в Палестине"
+ dyn_c_isr_british_subject_DP: "Британскому мандату в Палестине"
+ dyn_c_isr_british_subject_VP: "Британский мандат в Палестине"
+ dyn_c_isr_british_subject_TP: "Британским мандатом в Палестине"
+ dyn_c_isr_british_subject_PP: "Британском мандате в Палестине"
+
+  #Индия
+ dyn_c_joi_british_raj_RP: "Британской Индии"
+ dyn_c_joi_british_raj_DP: "Британской Индии"
+ dyn_c_joi_british_raj_VP: "Британскую Индию"
+ dyn_c_joi_british_raj_TP: "Британской Индией"
+ dyn_c_joi_british_raj_PP: "Британской Индии"
+
+ dyn_c_british_raj_domination_RP: "Индийского доминиона"
+ dyn_c_british_raj_domination_DP: "Индийскому доминиону"
+ dyn_c_british_raj_domination_VP: "Индийский доминион"
+ dyn_c_british_raj_domination_TP: "Индийским доминионом"
+ dyn_c_british_raj_domination_PP: "Индийском доминионе"
+
+  #Независимая Индия
+ dyn_c_rpb_india_RP: "Республики Индия"
+ dyn_c_rpb_india_DP: "Республике Индия"
+ dyn_c_rpb_india_VP: "Республику Индия"
+ dyn_c_rpb_india_TP: "Республикой Индия"
+ dyn_c_rpb_india_PP: "Республике Индия"
+
+ dyn_c_india_realm_RP: "Индийского Союза"
+ dyn_c_india_realm_DP: "Индийскому Союзу"
+ dyn_c_india_realm_VP: "Индийский Союз"
+ dyn_c_india_realm_TP: "Индийским Союзом"
+ dyn_c_india_realm_PP: "Индийском Союзе"
+
+ dyn_c_india_realm_monarchy_RP: "Индийского Союза"
+ dyn_c_india_realm_monarchy_DP: "Индийскому Союзу"
+ dyn_c_india_realm_monarchy_VP: "Индийский Союз"
+ dyn_c_india_realm_monarchy_TP: "Индийским Союзом"
+ dyn_c_india_realm_monarchy_PP: "Индийском Союзе"
+
+  #Канада
+ dyn_c_british_canada_RP: "Канадского доминиона"
+ dyn_c_british_canada_DP: "Канадскому доминиону"
+ dyn_c_british_canada_VP: "Канадский доминион"
+ dyn_c_british_canada_TP: "Канадским доминионом"
+ dyn_c_british_canada_PP: "Канадском доминионе"
+
+  #Австралия
+ dyn_c_british_australia_RP: "Австралийского доминиона"
+ dyn_c_british_australia_DP: "Австралийскому доминиону"
+ dyn_c_british_australia_VP: "Австралийский доминион"
+ dyn_c_british_australia_TP: "Австралийским доминионом"
+ dyn_c_british_australia_PP: "Австралийском доминионе"
+
+  #Южная Африка
+ dyn_c_british_south_africa_RP: "Южно-Африканского доминиона"
+ dyn_c_british_south_africa_DP: "Южно-Африканскому доминиону"
+ dyn_c_british_south_africa_VP: "Южно-Африканский доминион"
+ dyn_c_british_south_africa_TP: "Южно-Африканским доминионом"
+ dyn_c_british_south_africa_PP: "Южно-Африканском доминионе"
+
+  #Россия
+ dyn_c_rus_third_rome_RP: "Третьего Рима"
+ dyn_c_rus_third_rome_DP: "Третьему Риму"
+ dyn_c_rus_third_rome_VP: "Третий Рим"
+ dyn_c_rus_third_rome_TP: "Третьим Римом"
+ dyn_c_rus_third_rome_PP: "Третьем Риме"
+
+ dyn_c_sib_white_army_RP: "Временного Всеросийского правительства"
+ dyn_c_sib_white_army_DP: "Временному Всеросийскому правительству"
+ dyn_c_sib_white_army_VP: "Временное Всеросийское правительство"
+ dyn_c_sib_white_army_TP: "Временным Всеросийским правительством"
+ dyn_c_sib_white_army_PP: "Временном Всеросийском правительстве"
+
+ dyn_c_don_white_army_RP: "Временного Южно-Русского правительства"
+ dyn_c_don_white_army_DP: "Временному Южно-Русскому правительству"
+ dyn_c_don_white_army_VP: "Временное Южно-Русское правительство"
+ dyn_c_don_white_army_TP: "Временным Южно-Русским правительством"
+ dyn_c_don_white_army_PP: "Временном Южно-Русском правительстве"
+
+  #Китай
+ dyn_c_qing_dynasty_RP: "Великой Цин"
+ dyn_c_qing_dynasty_DP: "Великой Цин"
+ dyn_c_qing_dynasty_VP: "Великую Цин"
+ dyn_c_qing_dynasty_TP: "Великой Цин"
+ dyn_c_qing_dynasty_PP: "Великой Цин"
+
+ dyn_c_rus_china_RP: "Желтороссии"
+ dyn_c_rus_china_DP: "Желтороссии"
+ dyn_c_rus_china_VP: "Желтороссию"
+ dyn_c_rus_china_TP: "Желтороссией"
+ dyn_c_rus_china_PP: "Желтороссии"
+
+ dyn_c_northern_expedition_RP: "Национального правительства"
+ dyn_c_northern_expedition_DP: "Национальному правительству"
+ dyn_c_northern_expedition_VP: "Национальное правительство"
+ dyn_c_northern_expedition_TP: "Национальным правительством"
+ dyn_c_northern_expedition_PP: "Национальном правительстве"
+
+ dyn_c_mch_northern_expedition_RP: "Фэнтяньской клики"
+ dyn_c_mch_northern_expedition_DP: "Фэнтяньской клике"
+ dyn_c_mch_northern_expedition_VP: "Фэнтяньскую клику"
+ dyn_c_mch_northern_expedition_TP: "Фэнтяньской кликой"
+ dyn_c_mch_northern_expedition_PP: "Фэнтяньской клике"
+
+ dyn_c_ahu_northern_expedition_RP: "Чжилийской клики"
+ dyn_c_ahu_northern_expedition_DP: "Чжилийской клике"
+ dyn_c_ahu_northern_expedition_VP: "Чжилийскую клику"
+ dyn_c_ahu_northern_expedition_TP: "Чжилийской кликой"
+ dyn_c_ahu_northern_expedition_PP: "Чжилийской клике"
+
+ dyn_c_shn_northern_expedition_RP: "Шаньсийской клики"
+ dyn_c_shn_northern_expedition_DP: "Шаньсийской клике"
+ dyn_c_shn_northern_expedition_VP: "Шаньсийскую клику"
+ dyn_c_shn_northern_expedition_TP: "Шаньсийской кликой"
+ dyn_c_shn_northern_expedition_PP: "Шаньсийской клике"
+
+ dyn_c_xin_northern_expedition_RP: "Синьцзяна"
+ dyn_c_xin_northern_expedition_DP: "Синьцзяну"
+ dyn_c_xin_northern_expedition_VP: "Синьцзян"
+ dyn_c_xin_northern_expedition_TP: "Синьцзяном"
+ dyn_c_xin_northern_expedition_PP: "Синьцзяне"
+
+ dyn_c_chinese_revolution_republic_RP: "Китайской Республики"
+ dyn_c_chinese_revolution_republic_DP: "Китайской Республике"
+ dyn_c_chinese_revolution_republic_VP: "Китайскую Республику"
+ dyn_c_chinese_revolution_republic_TP: "Китайской Республикой"
+ dyn_c_chinese_revolution_republic_PP: "Китайской Республике"
+
+ dyn_c_zhi_northern_expedition_RP: "Китайской Империи"
+ dyn_c_zhi_northern_expedition_DP: "Китайской Империи"
+ dyn_c_zhi_northern_expedition_VP: "Китайскую Империю"
+ dyn_c_zhi_northern_expedition_TP: "Китайской Империей"
+ dyn_c_zhi_northern_expedition_PP: "Китайской Империи"
+
+  #Земли короны
+ dyn_c_hun_lander_der_krone_RP: "Земель короны Святого Стефана"
+ dyn_c_hun_lander_der_krone_DP: "Землям короны Святого Стефана"
+ dyn_c_hun_lander_der_krone_VP: "Земли короны Святого Стефана"
+ dyn_c_hun_lander_der_krone_TP: "Землями короны Святого Стефана"
+ dyn_c_hun_lander_der_krone_PP: "Землях короны Святого Стефана"
+
+ dyn_c_gal_lander_der_krone_RP: "Галицийских Земель короны"
+ dyn_c_gal_lander_der_krone_DP: "Галицийским Землям короны"
+ dyn_c_gal_lander_der_krone_VP: "Галицийские Земли короны"
+ dyn_c_gal_lander_der_krone_TP: "Галицийскими Землями короны"
+ dyn_c_gal_lander_der_krone_PP: "Галицийских Землях короны"
+
+ dyn_c_cro_lander_der_krone_RP: "Иллирийских Земель короны"
+ dyn_c_cro_lander_der_krone_DP: "Иллирийским Землям короны"
+ dyn_c_cro_lander_der_krone_VP: "Иллирийские Земли короны"
+ dyn_c_cro_lander_der_krone_TP: "Иллирийскими Землями короны"
+ dyn_c_cro_lander_der_krone_PP: "Иллирийских Землях короны"
+
+ dyn_c_lom_lander_der_krone_RP: "Ломбардских Земель короны"
+ dyn_c_lom_lander_der_krone_DP: "Ломбардским Землям короны"
+ dyn_c_lom_lander_der_krone_VP: "Ломбардские Земли короны"
+ dyn_c_lom_lander_der_krone_TP: "Ломбардскими Землями короны"
+ dyn_c_lom_lander_der_krone_PP: "Ломбардских Землях короны"
+
+  #Рим
+ RME_RU_CL_RP: "Римской империи"
+ RME_RU_CL_DP: "Римской империи"
+ RME_RU_CL_VP: "Римскую империю"
+ RME_RU_CL_TP: "Римской империей"
+ RME_RU_CL_PP: "Римской империи"
+ RME_dynamic_name_monarchy_RU_CL_RP: "Римской империи"
+ RME_dynamic_name_monarchy_RU_CL_DP: "Римской империи"
+ RME_dynamic_name_monarchy_RU_CL_VP: "Римскую империю"
+ RME_dynamic_name_monarchy_RU_CL_TP: "Римской империей"
+ RME_dynamic_name_monarchy_RU_CL_PP: "Римской империи"
+
+ RME_dynamic_name_presidential_RU_CL_RP: "Римской республики"
+ RME_dynamic_name_presidential_RU_CL_DP: "Римской республике"
+ RME_dynamic_name_presidential_RU_CL_VP: "Римскую республику"
+ RME_dynamic_name_presidential_RU_CL_TP: "Римской республикой"
+ RME_dynamic_name_presidential_RU_CL_PP: "Римской республике"
+
+ RME_dynamic_name_parlement_RU_CL_RP: "Римской республики"
+ RME_dynamic_name_parlement_RU_CL_DP: "Римской республике"
+ RME_dynamic_name_parlement_RU_CL_VP: "Римскую республику"
+ RME_dynamic_name_parlement_RU_CL_TP: "Римской республикой"
+ RME_dynamic_name_parlement_RU_CL_PP: "Римской республике"
+
+ RME_dynamic_name_theocracy_RU_CL_RP: "Империи Юпитера"
+ RME_dynamic_name_theocracy_RU_CL_DP: "Империи Юпитера"
+ RME_dynamic_name_theocracy_RU_CL_VP: "Империю Юпитера"
+ RME_dynamic_name_theocracy_RU_CL_TP: "Империей Юпитера"
+ RME_dynamic_name_theocracy_RU_CL_PP: "Империи Юпитера"
+
+ RME_dynamic_name_council_RU_CL_RP: "Римского социалистического союза"
+ RME_dynamic_name_council_RU_CL_DP: "Римскому социалистическому союзу"
+ RME_dynamic_name_council_RU_CL_VP: "Римский социалистический союз"
+ RME_dynamic_name_council_RU_CL_TP: "Римским социалистическим союзом"
+ RME_dynamic_name_council_RU_CL_PP: "Римском социалистическом союзе"
+
+  #Османские вилайеты
+ dyn_c_per_vilayet_RU_CL_RP: "Вилайета Персия"
+ dyn_c_per_vilayet_RU_CL_DP: "Вилайету Персия"
+ dyn_c_per_vilayet_RU_CL_VP: "Вилайет Персия"
+ dyn_c_per_vilayet_RU_CL_TP: "Вилайетом Персия"
+ dyn_c_per_vilayet_RU_CL_PP: "Вилайете Персия"
+
+ dyn_c_hun_vilayet_RU_CL_RP: "Вилайета Венгрия"
+ dyn_c_hun_vilayet_RU_CL_DP: "Вилайету Венгрия"
+ dyn_c_hun_vilayet_RU_CL_VP: "Вилайет Венгрия"
+ dyn_c_hun_vilayet_RU_CL_TP: "Вилайетом Венгрия"
+ dyn_c_hun_vilayet_RU_CL_PP: "Вилайете Венгрия"
+
+ dyn_c_trs_vilayet_RU_CL_RP: "Вилайета Трансильвания"
+ dyn_c_trs_vilayet_RU_CL_DP: "Вилайету Трансильвания"
+ dyn_c_trs_vilayet_RU_CL_VP: "Вилайет Трансильвания"
+ dyn_c_trs_vilayet_RU_CL_TP: "Вилайетом Трансильвания"
+ dyn_c_trs_vilayet_RU_CL_PP: "Вилайете Трансильвания"
+
+ dyn_c_tun_vilayet_RU_CL_RP: "Вилайета Варвария"
+ dyn_c_tun_vilayet_RU_CL_DP: "Вилайету Варвария"
+ dyn_c_tun_vilayet_RU_CL_VP: "Вилайет Варвария"
+ dyn_c_tun_vilayet_RU_CL_TP: "Вилайетом Варвария"
+ dyn_c_tun_vilayet_RU_CL_PP: "Вилайете Варвария"
+
+ dyn_c_nca_vilayet_RU_CL_RP: "Вилайета Ширван"
+ dyn_c_nca_vilayet_RU_CL_DP: "Вилайету Ширван"
+ dyn_c_nca_vilayet_RU_CL_VP: "Вилайет Ширван"
+ dyn_c_nca_vilayet_RU_CL_TP: "Вилайетом Ширван"
+ dyn_c_nca_vilayet_RU_CL_PP: "Вилайете Ширван"
+
+#Cогласования окончаний
+ #Имперская Федерация - ед.ч., жен.р.
+ IMP_RU_CL_END_T: "ет"
+ IMP_RU_CL_END_GUT: "же"
+ IMP_RU_CL_END: "ая"
+ IMP_RU_CL_END_FEM: "а"
+ IMP_RU_CL_END_UT: "ет"
+
+ #Союз Республик - ед.ч., муж.р.
+ dyn_c_imp_socialist_republic_RU_CL_END_T: "ет"
+ dyn_c_imp_socialist_republic_RU_CL_END_GUT: "же"
+ dyn_c_imp_socialist_republic_RU_CL_END: "ий"
+ dyn_c_imp_socialist_republic_RU_CL_END_FEM: ""
+ dyn_c_imp_socialist_republic_RU_CL_END_UT: "ет"
+
+ #Содружество Наций - ед.ч., ср.р.
+ dyn_c_imp_republic_RU_CL_END_T: "ет"
+ dyn_c_imp_republic_RU_CL_END_GUT: "же"
+ dyn_c_imp_republic_RU_CL_END: "ое"
+ dyn_c_imp_republic_RU_CL_END_FEM: "о"
+ dyn_c_imp_republic_RU_CL_END_UT: "ет"
+
+ #Британский мандат в Палестине - ед.ч., муж.р.
+ dyn_c_isr_british_subject_RU_CL_END_T: "ет"
+ dyn_c_isr_british_subject_RU_CL_END_GUT: "же"
+ dyn_c_isr_british_subject_RU_CL_END: "ий"
+ dyn_c_isr_british_subject_RU_CL_END_FEM: ""
+ dyn_c_isr_british_subject_RU_CL_END_UT: "ет"
+
+ #Британская Индия - ед.ч., жен.р.
+ dyn_c_joi_british_raj_RU_CL_END_T: "ет"
+ dyn_c_joi_british_raj_RU_CL_END_GUT: "же"
+ dyn_c_joi_british_raj_RU_CL_END: "ая"
+ dyn_c_joi_british_raj_RU_CL_END_FEM: "а"
+ dyn_c_joi_british_raj_RU_CL_END_UT: "ет"
+
+ #Индийский доминион - ед.ч., муж.р.
+ dyn_c_british_raj_domination_RU_CL_END_T: "ет"
+ dyn_c_british_raj_domination_RU_CL_END_GUT: "же"
+ dyn_c_british_raj_domination_RU_CL_END: "ий"
+ dyn_c_british_raj_domination_RU_CL_END_FEM: ""
+ dyn_c_british_raj_domination_RU_CL_END_UT: "ет"
+
+ #Республика Индия - ед.ч., жен.р.
+ dyn_c_rpb_india_RU_CL_END_T: "ет"
+ dyn_c_rpb_india_RU_CL_END_GUT: "же"
+ dyn_c_rpb_india_RU_CL_END: "ая"
+ dyn_c_rpb_india_RU_CL_END_FEM: "а"
+ dyn_c_rpb_india_RU_CL_END_UT: "ет"
+
+ #Индийский Союз - ед.ч., муж.р.
+ dyn_c_india_realm_RU_CL_END_T: "ет"
+ dyn_c_india_realm_RU_CL_END_GUT: "же"
+ dyn_c_india_realm_RU_CL_END: "ий"
+ dyn_c_india_realm_RU_CL_END_FEM: ""
+ dyn_c_india_realm_RU_CL_END_UT: "ет"
+ dyn_c_india_realm_monarchy_RU_CL_END_T: "ет"
+ dyn_c_india_realm_monarchy_RU_CL_END_GUT: "же"
+ dyn_c_india_realm_monarchy_RU_CL_END: "ий"
+ dyn_c_india_realm_monarchy_RU_CL_END_FEM: ""
+ dyn_c_india_realm_monarchy_RU_CL_END_UT: "ет"
+
+ #Канадский доминион - ед.ч., муж.р.
+ dyn_c_british_canada_RU_CL_END_T: "ет"
+ dyn_c_british_canada_RU_CL_END_GUT: "же"
+ dyn_c_british_canada_RU_CL_END: "ий"
+ dyn_c_british_canada_RU_CL_END_FEM: ""
+ dyn_c_british_canada_RU_CL_END_UT: "ет"
+
+ #Австралийский доминион - ед.ч., муж.р.
+ dyn_c_british_australia_RU_CL_END_T: "ет"
+ dyn_c_british_australia_RU_CL_END_GUT: "же"
+ dyn_c_british_australia_RU_CL_END: "ий"
+ dyn_c_british_australia_RU_CL_END_FEM: ""
+ dyn_c_british_australia_RU_CL_END_UT: "ет"
+
+ #Южно-Африканский доминион - ед.ч., муж.р.
+ dyn_c_british_south_africa_RU_CL_END_T: "ет"
+ dyn_c_british_south_africa_RU_CL_END_GUT: "же"
+ dyn_c_british_south_africa_RU_CL_END: "ий"
+ dyn_c_british_south_africa_RU_CL_END_FEM: ""
+ dyn_c_british_south_africa_RU_CL_END_UT: "ет"
+
+ #Третий Рим - ед.ч., муж.р.
+ dyn_c_rus_third_rome_RU_CL_END_T: "ет"
+ dyn_c_rus_third_rome_RU_CL_END_GUT: "же"
+ dyn_c_rus_third_rome_RU_CL_END: "ий"
+ dyn_c_rus_third_rome_RU_CL_END_FEM: ""
+ dyn_c_rus_third_rome_RU_CL_END_UT: "ет"
+
+ #Временное Всеросийское правительство - ед.ч., ср.р.
+ dyn_c_sib_white_army_RU_CL_END_T: "ет"
+ dyn_c_sib_white_army_RU_CL_END_GUT: "же"
+ dyn_c_sib_white_army_RU_CL_END: "ое"
+ dyn_c_sib_white_army_RU_CL_END_FEM: "о"
+ dyn_c_sib_white_army_RU_CL_END_UT: "ет"
+
+ #Временное Южно-Русское правительство - ед.ч., ср.р.
+ dyn_c_don_white_army_RU_CL_END_T: "ет"
+ dyn_c_don_white_army_RU_CL_END_GUT: "же"
+ dyn_c_don_white_army_RU_CL_END: "ое"
+ dyn_c_don_white_army_RU_CL_END_FEM: "о"
+ dyn_c_don_white_army_RU_CL_END_UT: "ет"
+
+ #Великая Цин - ед.ч., жен.р.
+ dyn_c_qing_dynasty_RU_CL_END_T: "ет"
+ dyn_c_qing_dynasty_RU_CL_END_GUT: "же"
+ dyn_c_qing_dynasty_RU_CL_END: "ая"
+ dyn_c_qing_dynasty_RU_CL_END_FEM: "а"
+ dyn_c_qing_dynasty_RU_CL_END_UT: "ет"
+
+ #Желтороссия - ед.ч., жен.р.
+ dyn_c_rus_china_RU_CL_END_T: "ет"
+ dyn_c_rus_china_RU_CL_END_GUT: "же"
+ dyn_c_rus_china_RU_CL_END: "ая"
+ dyn_c_rus_china_RU_CL_END_FEM: "а"
+ dyn_c_rus_china_RU_CL_END_UT: "ет"
+
+ #Национальное правительство - ед.ч., ср.р.
+ dyn_c_northern_expedition_RU_CL_END_T: "ет"
+ dyn_c_northern_expedition_RU_CL_END_GUT: "же"
+ dyn_c_northern_expedition_RU_CL_END: "ое"
+ dyn_c_northern_expedition_RU_CL_END_FEM: "о"
+ dyn_c_northern_expedition_RU_CL_END_UT: "ет"
+
+ #Фэнтяньская клика - ед.ч., жен.р.
+ dyn_c_mch_northern_expedition_RU_CL_END_T: "ет"
+ dyn_c_mch_northern_expedition_RU_CL_END_GUT: "же"
+ dyn_c_mch_northern_expedition_RU_CL_END: "ая"
+ dyn_c_mch_northern_expedition_RU_CL_END_FEM: "а"
+ dyn_c_mch_northern_expedition_RU_CL_END_UT: "ет"
+
+ #Чжилийская клика - ед.ч., жен.р.
+ dyn_c_ahu_northern_expedition_RU_CL_END_T: "ет"
+ dyn_c_ahu_northern_expedition_RU_CL_END_GUT: "же"
+ dyn_c_ahu_northern_expedition_RU_CL_END: "ая"
+ dyn_c_ahu_northern_expedition_RU_CL_END_FEM: "а"
+ dyn_c_ahu_northern_expedition_RU_CL_END_UT: "ет"
+
+ #Шаньсийская клика - ед.ч., жен.р.
+ dyn_c_shn_northern_expedition_RU_CL_END_T: "ет"
+ dyn_c_shn_northern_expedition_RU_CL_END_GUT: "же"
+ dyn_c_shn_northern_expedition_RU_CL_END: "ая"
+ dyn_c_shn_northern_expedition_RU_CL_END_FEM: "а"
+ dyn_c_shn_northern_expedition_RU_CL_END_UT: "ет"
+
+ #Синьцзян - ед.ч., муж.р.
+ dyn_c_xin_northern_expedition_RU_CL_END_T: "ет"
+ dyn_c_xin_northern_expedition_RU_CL_END_GUT: "же"
+ dyn_c_xin_northern_expedition_RU_CL_END: "ий"
+ dyn_c_xin_northern_expedition_RU_CL_END_FEM: ""
+ dyn_c_xin_northern_expedition_RU_CL_END_UT: "ет"
+
+ #Китайская Республика - ед.ч., жен.р.
+ dyn_c_chinese_revolution_republic_RU_CL_END_T: "ет"
+ dyn_c_chinese_revolution_republic_RU_CL_END_GUT: "же"
+ dyn_c_chinese_revolution_republic_RU_CL_END: "ая"
+ dyn_c_chinese_revolution_republic_RU_CL_END_FEM: "а"
+ dyn_c_chinese_revolution_republic_RU_CL_END_UT: "ет"
+
+ #Китайская Империя - ед.ч., жен.р.
+ dyn_c_zhi_northern_expedition_RU_CL_END_T: "ет"
+ dyn_c_zhi_northern_expedition_RU_CL_END_GUT: "же"
+ dyn_c_zhi_northern_expedition_RU_CL_END: "ая"
+ dyn_c_zhi_northern_expedition_RU_CL_END_FEM: "а"
+ dyn_c_zhi_northern_expedition_RU_CL_END_UT: "ет"
+
+ #Земли короны Святого Стефана - мн.ч.
+ dyn_c_hun_lander_der_krone_RU_CL_END_T: "ют"
+ dyn_c_hun_lander_der_krone_RU_CL_END_GUT: "гу"
+ dyn_c_hun_lander_der_krone_RU_CL_END: "ие"
+ dyn_c_hun_lander_der_krone_RU_CL_END_FEM: "и"
+ dyn_c_hun_lander_der_krone_RU_CL_END_UT: "ут"
+
+ #Галицийские Земли короны - мн.ч.
+ dyn_c_gal_lander_der_krone_RU_CL_END_T: "ют"
+ dyn_c_gal_lander_der_krone_RU_CL_END_GUT: "гу"
+ dyn_c_gal_lander_der_krone_RU_CL_END: "ие"
+ dyn_c_gal_lander_der_krone_RU_CL_END_FEM: "и"
+ dyn_c_gal_lander_der_krone_RU_CL_END_UT: "ут"
+
+ #Иллирийские Земли короны - мн.ч.
+ dyn_c_cro_lander_der_krone_RU_CL_END_T: "ют"
+ dyn_c_cro_lander_der_krone_RU_CL_END_GUT: "гу"
+ dyn_c_cro_lander_der_krone_RU_CL_END: "ие"
+ dyn_c_cro_lander_der_krone_RU_CL_END_FEM: "и"
+ dyn_c_cro_lander_der_krone_RU_CL_END_UT: "ут"
+
+ #Ломбардские Земли короны - мн.ч.
+ dyn_c_lom_lander_der_krone_RU_CL_END_T: "ют"
+ dyn_c_lom_lander_der_krone_RU_CL_END_GUT: "гу"
+ dyn_c_lom_lander_der_krone_RU_CL_END: "ие"
+ dyn_c_lom_lander_der_krone_RU_CL_END_FEM: "и"
+ dyn_c_lom_lander_der_krone_RU_CL_END_UT: "ут"
+
+ #Римская Империя - ед.ч., жен.р.
+ RME_RU_CL_END_T: "ет"
+ RME_RU_CL_END_GUT: "же"
+ RME_RU_CL_END: "ая"
+ RME_RU_CL_END_FEM: "а"
+ RME_RU_CL_END_UT: "ет"
+
+ RME_dynamic_name_monarchy_RU_CL_END_T: "ет"
+ RME_dynamic_name_monarchy_RU_CL_END_GUT: "же"
+ RME_dynamic_name_monarchy_RU_CL_END: "ая"
+ RME_dynamic_name_monarchy_RU_CL_END_FEM: "а"
+ RME_dynamic_name_monarchy_RU_CL_END_UT: "ет"
+
+ RME_dynamic_name_presidential_RU_CL_END_T: "ет"
+ RME_dynamic_name_presidential_RU_CL_END_GUT: "же"
+ RME_dynamic_name_presidential_RU_CL_END: "ая"
+ RME_dynamic_name_presidential_RU_CL_END_FEM: "а"
+ RME_dynamic_name_presidential_RU_CL_END_UT: "ет"
+
+ RME_dynamic_name_parlement_RU_CL_END_T: "ет"
+ RME_dynamic_name_parlement_RU_CL_END_GUT: "же"
+ RME_dynamic_name_parlement_RU_CL_END: "ая"
+ RME_dynamic_name_parlement_RU_CL_END_FEM: "а"
+ RME_dynamic_name_parlement_RU_CL_END_UT: "ет"
+
+ RME_dynamic_name_theocracy_RU_CL_END_T: "ет"
+ RME_dynamic_name_theocracy_RU_CL_END_GUT: "же"
+ RME_dynamic_name_theocracy_RU_CL_END: "ая"
+ RME_dynamic_name_theocracy_RU_CL_END_FEM: "а"
+ RME_dynamic_name_theocracy_RU_CL_END_UT: "ет"
+
+ RME_dynamic_name_council_RU_CL_END_T: "ет"
+ RME_dynamic_name_council_RU_CL_END_GUT: "же"
+ RME_dynamic_name_council_RU_CL_END: "ий"
+ RME_dynamic_name_council_RU_CL_END_FEM: ""
+ RME_dynamic_name_council_RU_CL_END_UT: "ет"
+
+ #Османские вилайеты - ед.ч., муж.р.
+ dyn_c_per_vilayet_RU_CL_END_T: "ет"
+ dyn_c_per_vilayet_RU_CL_END_GUT: "же"
+ dyn_c_per_vilayet_RU_CL_END: "ий"
+ dyn_c_per_vilayet_RU_CL_END_FEM: ""
+ dyn_c_per_vilayet_RU_CL_END_UT: "ет"
+
+ dyn_c_hun_vilayet_RU_CL_END_T: "ет"
+ dyn_c_hun_vilayet_RU_CL_END_GUT: "же"
+ dyn_c_hun_vilayet_RU_CL_END: "ий"
+ dyn_c_hun_vilayet_RU_CL_END_FEM: ""
+ dyn_c_hun_vilayet_RU_CL_END_UT: "ет"
+
+ dyn_c_trs_vilayet_RU_CL_END_T: "ет"
+ dyn_c_trs_vilayet_RU_CL_END_GUT: "же"
+ dyn_c_trs_vilayet_RU_CL_END: "ий"
+ dyn_c_trs_vilayet_RU_CL_END_FEM: ""
+ dyn_c_trs_vilayet_RU_CL_END_UT: "ет"
+
+ dyn_c_tun_vilayet_RU_CL_END_T: "ет"
+ dyn_c_tun_vilayet_RU_CL_END_GUT: "же"
+ dyn_c_tun_vilayet_RU_CL_END: "ий"
+ dyn_c_tun_vilayet_RU_CL_END_FEM: ""
+ dyn_c_tun_vilayet_RU_CL_END_UT: "ет"
+
+ dyn_c_nca_vilayet_RU_CL_END_T: "ет"
+ dyn_c_nca_vilayet_RU_CL_END_GUT: "же"
+ dyn_c_nca_vilayet_RU_CL_END: "ий"
+ dyn_c_nca_vilayet_RU_CL_END_FEM: ""
+ dyn_c_nca_vilayet_RU_CL_END_UT: "ет"
+
+
+
+
+#Фикс ру локи
+ #Ост-Индская компания
+ company_east_india_company_RU_CL_RP: "Ост-Индской компании"
+ company_east_india_company_RU_CL_DP: "Ост-Индской компании"
+ company_east_india_company_RU_CL_VP: "Ост-Индскую компанию"
+ company_east_india_company_RU_CL_TP: "Ост-Индской компанией"
+ company_east_india_company_RU_CL_PP: "Ост-Индской компании"
+ #Окончания глаголов и прилагательных (женский род)
+ company_east_india_company_RU_CL_END_T: "ет"
+ company_east_india_company_RU_CL_END_GUT: "же"
+ company_east_india_company_RU_CL_END: "ая"
+ company_east_india_company_RU_CL_END_FEM: "а"
+ company_east_india_company_RU_CL_END_UT: "ет"
+
+#Российско-американская компания
+ company_russian_american_company_RU_CL_RP: "Российско-американской компании"
+ company_russian_american_company_RU_CL_DP: "Российско-американской компании"
+ company_russian_american_company_RU_CL_VP: "Российско-американскую компанию"
+ company_russian_american_company_RU_CL_TP: "Российско-американской компанией"
+ company_russian_american_company_RU_CL_PP: "Российско-американской компании"
+#Окончания глаголов и прилагательных (женский род)
+ company_russian_american_company_RU_CL_END_T: "ет"
+ company_russian_american_company_RU_CL_END_GUT: "же"
+ company_russian_american_company_RU_CL_END: "ая"
+ company_russian_american_company_RU_CL_END_FEM: "а"
+ company_russian_american_company_RU_CL_END_UT: "ет"
+
+#Компания Гудзонова залива
+ company_hbc_RU_CL_RP: "Компании Гудзонова залива"
+ company_hbc_RU_CL_DP: "Компании Гудзонова залива"
+ company_hbc_RU_CL_VP: "Компанию Гудзонова залива"
+ company_hbc_RU_CL_TP: "Компанией Гудзонова залива"
+ company_hbc_RU_CL_PP: "Компании Гудзонова залива"
+ #Окончания глаголов и прилагательных (женский род)
+ company_hbc_RU_CL_END_T: "ет"
+ company_hbc_RU_CL_END_GUT: "же"
+ company_hbc_RU_CL_END: "ая"
+ company_hbc_RU_CL_END_FEM: "а"
+ company_hbc_RU_CL_END_UT: "ет"
