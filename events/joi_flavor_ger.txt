@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_ger
+namespace = joi_flavor_ger
 
-joi_flavor_ger.1 = {#帝国的宪法问题
+joi_flavor_ger.1 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.1.t
@@ -96,7 +96,7 @@ joi_flavor_ger.1 = {#帝国的宪法问题
 	}
 }
 
-joi_flavor_ger.2 = {#德意志外交政策
+joi_flavor_ger.2 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.2.t
@@ -158,7 +158,7 @@ joi_flavor_ger.2 = {#德意志外交政策
 	}
 }
 
-joi_flavor_ger.3 = {#帝国议会的常设化
+joi_flavor_ger.3 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.3.t
@@ -198,7 +198,7 @@ joi_flavor_ger.3 = {#帝国议会的常设化
 	}
 }
 
-joi_flavor_ger.4 = {#帝国殖民办公厅
+joi_flavor_ger.4 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.4.t
@@ -241,7 +241,7 @@ joi_flavor_ger.4 = {#帝国殖民办公厅
 	}
 }
 
-joi_flavor_ger.5 = {#德意志的西非领地
+joi_flavor_ger.5 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.5.t
@@ -296,7 +296,7 @@ joi_flavor_ger.5 = {#德意志的西非领地
 	}
 }
 
-joi_flavor_ger.6 = {#德意志纳米比亚公司
+joi_flavor_ger.6 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.6.t
@@ -347,7 +347,7 @@ joi_flavor_ger.6 = {#德意志纳米比亚公司
 	}
 }
 
-joi_flavor_ger.7 = {#德意志的东非领地
+joi_flavor_ger.7 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.7.t
@@ -399,7 +399,7 @@ joi_flavor_ger.7 = {#德意志的东非领地
 	}
 }
 
-joi_flavor_ger.8 = {#新几内亚的港口城市
+joi_flavor_ger.8 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.8.t
@@ -462,7 +462,7 @@ joi_flavor_ger.8 = {#新几内亚的港口城市
 	}
 }
 
-joi_flavor_ger.9 = {#德属东亚殖民地
+joi_flavor_ger.9 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.9.t
@@ -519,7 +519,7 @@ joi_flavor_ger.9 = {#德属东亚殖民地
 	}
 }
 
-joi_flavor_ger.10 = {#西里西亚纺织工会
+joi_flavor_ger.10 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.10.t
@@ -593,7 +593,7 @@ joi_flavor_ger.10 = {#西里西亚纺织工会
 	}
 }
 
-joi_flavor_ger.11 = {#巴伐利亚机车制造厂
+joi_flavor_ger.11 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.11.t
@@ -628,7 +628,7 @@ joi_flavor_ger.11 = {#巴伐利亚机车制造厂
 	}
 }
 
-joi_flavor_ger.12 = {#德意志统治海洋
+joi_flavor_ger.12 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.12.t
@@ -690,7 +690,7 @@ joi_flavor_ger.12 = {#德意志统治海洋
 	}
 }
 
-joi_flavor_ger.13 = {#签署德奥同盟
+joi_flavor_ger.13 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.13.t
@@ -766,7 +766,7 @@ joi_flavor_ger.13 = {#签署德奥同盟
 			binding_period = { years = 99 }
 
 			articles_to_create = {
-				{ # 德奥同盟
+				{ # ????
 					article = alliance
 				}
 				{ # British Portuguese Trade Agreement
@@ -801,7 +801,7 @@ joi_flavor_ger.13 = {#签署德奥同盟
 	}
 }
 
-joi_flavor_ger.14 = {#签署德意同盟
+joi_flavor_ger.14 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.14.t
@@ -862,7 +862,7 @@ joi_flavor_ger.14 = {#签署德意同盟
 	}
 }
 
-joi_flavor_ger.15 = {#西里西亚纺织工人起义
+joi_flavor_ger.15 = {#??????????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.15.t
@@ -910,7 +910,7 @@ joi_flavor_ger.15 = {#西里西亚纺织工人起义
 	}
 }
 
-joi_flavor_ger.16 = {#权力的边境线
+joi_flavor_ger.16 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.16.t
@@ -1017,7 +1017,7 @@ joi_flavor_ger.16 = {#权力的边境线
 	}
 }
 
-joi_flavor_ger.17 = {#向柏林进军
+joi_flavor_ger.17 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.17.t
@@ -1059,7 +1059,7 @@ joi_flavor_ger.17 = {#向柏林进军
 	}
 }
 
-joi_flavor_ger.18 = {#向巴黎进军
+joi_flavor_ger.18 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.18.t
@@ -1101,7 +1101,7 @@ joi_flavor_ger.18 = {#向巴黎进军
 	}
 }
 
-joi_flavor_ger.19 = {#爱丽舍宫条约
+joi_flavor_ger.19 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.19.t
@@ -1143,7 +1143,7 @@ joi_flavor_ger.19 = {#爱丽舍宫条约
 	}
 }
 
-joi_flavor_ger.20 = {#压制性前线
+joi_flavor_ger.20 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_ger.20.t

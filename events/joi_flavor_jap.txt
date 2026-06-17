@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_jap
+namespace = joi_flavor_jap
 
-joi_flavor_jap.1 = {#大政奉还
+joi_flavor_jap.1 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.1.t
@@ -144,7 +144,7 @@ joi_flavor_jap.1 = {#大政奉还
 	}
 }
 
-joi_flavor_jap.2 = {#公武合体
+joi_flavor_jap.2 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.2.t
@@ -266,7 +266,7 @@ joi_flavor_jap.2 = {#公武合体
 	}
 }
 
-joi_flavor_jap.3 = {#安政五国条约
+joi_flavor_jap.3 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.3.t
@@ -348,7 +348,7 @@ joi_flavor_jap.3 = {#安政五国条约
 		text = joi_flavor_jap_3_tt
 		}
 		activate_law = law_type:law_free_trade
-		if = {#安政条约
+		if = {#????
             limit = {
                 exists = c:GBR
             }
@@ -369,7 +369,7 @@ joi_flavor_jap.3 = {#安政五国条约
                 }
             }
         }
-        if = {#安政条约
+        if = {#????
             limit = {
                 exists = c:USA
             }
@@ -390,7 +390,7 @@ joi_flavor_jap.3 = {#安政五国条约
                 }
             }
         }
-        if = {#安政条约
+        if = {#????
             limit = {
                 exists = c:FRA
             }
@@ -411,7 +411,7 @@ joi_flavor_jap.3 = {#安政五国条约
                 }
             }
         }
-        if = {#安政条约
+        if = {#????
             limit = {
                 exists = c:NET
             }
@@ -432,7 +432,7 @@ joi_flavor_jap.3 = {#安政五国条约
                 }
             }
         }
-        if = {#安政条约
+        if = {#????
             limit = {
                 exists = c:RUS
             }
@@ -456,7 +456,7 @@ joi_flavor_jap.3 = {#安政五国条约
 	}
 }
 
-joi_flavor_jap.4 = {#西方学问？
+joi_flavor_jap.4 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.4.t
@@ -500,7 +500,7 @@ joi_flavor_jap.4 = {#西方学问？
 	}
 }
 
-joi_flavor_jap.5 = {#天保大改革
+joi_flavor_jap.5 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.5.t
@@ -558,7 +558,7 @@ joi_flavor_jap.5 = {#天保大改革
 	}
 }
 
-joi_flavor_jap.6 = {#尊王攘夷
+joi_flavor_jap.6 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.6.t
@@ -613,7 +613,7 @@ joi_flavor_jap.6 = {#尊王攘夷
 	}
 }
 
-joi_flavor_jap.7 = {#水户浪人
+joi_flavor_jap.7 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.7.t
@@ -684,7 +684,7 @@ joi_flavor_jap.7 = {#水户浪人
 	}
 }
 
-joi_flavor_jap.8 = {#攘夷亲征
+joi_flavor_jap.8 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.8.t
@@ -754,7 +754,7 @@ joi_flavor_jap.8 = {#攘夷亲征
 	}
 }
 
-joi_flavor_jap.9 = {#安政大狱
+joi_flavor_jap.9 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.9.t
@@ -818,7 +818,7 @@ joi_flavor_jap.9 = {#安政大狱
 	}
 }
 
-joi_flavor_jap.10 = {#xx国商船到访
+joi_flavor_jap.10 = {#xx?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.10.t
@@ -908,7 +908,7 @@ joi_flavor_jap.10 = {#xx国商船到访
 	}
 }
 
-joi_flavor_jap.11 = {#荷兰报告
+joi_flavor_jap.11 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.11.t
@@ -956,7 +956,7 @@ joi_flavor_jap.11 = {#荷兰报告
 	}
 }
 
-joi_flavor_jap.12 = {#鼓吹兰学
+joi_flavor_jap.12 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.12.t
@@ -1027,7 +1027,7 @@ joi_flavor_jap.12 = {#鼓吹兰学
 	}
 }
 
-joi_flavor_jap.13 = {#维新志士
+joi_flavor_jap.13 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.13.t
@@ -1179,7 +1179,7 @@ joi_flavor_jap.13 = {#维新志士
 	}
 }
 
-joi_flavor_jap.14 = {#宪章誓言
+joi_flavor_jap.14 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.14.t
@@ -1225,7 +1225,7 @@ joi_flavor_jap.14 = {#宪章誓言
 	}
 }
 
-joi_flavor_jap.15 = {#禁断令
+joi_flavor_jap.15 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.15.t
@@ -1288,7 +1288,7 @@ joi_flavor_jap.15 = {#禁断令
 	}
 }
 
-joi_flavor_jap.16 = {#血税暴动
+joi_flavor_jap.16 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.16.t
@@ -1344,7 +1344,7 @@ joi_flavor_jap.16 = {#血税暴动
 	}
 }
 
-joi_flavor_jap.17 = {#最后的武士
+joi_flavor_jap.17 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.17.t
@@ -1438,7 +1438,7 @@ joi_flavor_jap.17 = {#最后的武士
 	}
 }
 
-joi_flavor_jap.18 = {#宪法
+joi_flavor_jap.18 = {#??
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.18.t
@@ -1535,7 +1535,7 @@ joi_flavor_jap.18 = {#宪法
 	}
 }
 
-joi_flavor_jap.19 = {#前景黯淡的维新
+joi_flavor_jap.19 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.19.t
@@ -1584,7 +1584,7 @@ joi_flavor_jap.19 = {#前景黯淡的维新
 	}
 }
 
-joi_flavor_jap.20 = {#华族令
+joi_flavor_jap.20 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.20.t
@@ -1729,7 +1729,7 @@ joi_flavor_jap.20 = {#华族令
 	}
 }
 
-joi_flavor_jap.21 = {#江户陷落
+joi_flavor_jap.21 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.21.t
@@ -1792,7 +1792,7 @@ joi_flavor_jap.21 = {#江户陷落
 	}
 }
 
-joi_flavor_jap.22 = {#鸟羽伏见袭击
+joi_flavor_jap.22 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.22.t
@@ -1848,7 +1848,7 @@ joi_flavor_jap.22 = {#鸟羽伏见袭击
 	}
 }
 
-joi_flavor_jap.23 = {#新选组
+joi_flavor_jap.23 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.23.t
@@ -1895,7 +1895,7 @@ joi_flavor_jap.23 = {#新选组
 	}
 }
 
-joi_flavor_jap.24 = {#江户开城
+joi_flavor_jap.24 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.24.t
@@ -1957,7 +1957,7 @@ joi_flavor_jap.24 = {#江户开城
 	}
 }
 
-joi_flavor_jap.25 = {#列藩同盟
+joi_flavor_jap.25 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.25.t
@@ -2016,7 +2016,7 @@ joi_flavor_jap.25 = {#列藩同盟
 	}
 }
 
-joi_flavor_jap.26 = {#标准语
+joi_flavor_jap.26 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.26.t
@@ -2067,7 +2067,7 @@ joi_flavor_jap.26 = {#标准语
 	}
 }
 
-joi_flavor_jap.27 = {#鹿鸣馆
+joi_flavor_jap.27 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.27.t
@@ -2144,7 +2144,7 @@ joi_flavor_jap.27 = {#鹿鸣馆
 	}
 }
 
-joi_flavor_jap.28 = {#参谋本部
+joi_flavor_jap.28 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.28.t
@@ -2196,7 +2196,7 @@ joi_flavor_jap.28 = {#参谋本部
 	}
 }
 
-joi_flavor_jap.29 = {#版籍奉还
+joi_flavor_jap.29 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.29.t
@@ -2249,7 +2249,7 @@ joi_flavor_jap.29 = {#版籍奉还
 	}
 }
 
-joi_flavor_jap.30 = {#秩禄处分
+joi_flavor_jap.30 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.30.t
@@ -2299,7 +2299,7 @@ joi_flavor_jap.30 = {#秩禄处分
 	}
 }
 
-joi_flavor_jap.31 = {#新政时代
+joi_flavor_jap.31 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.31.t
@@ -2354,7 +2354,7 @@ joi_flavor_jap.31 = {#新政时代
 	}
 }
 
-joi_flavor_jap.32 = {#大正民主
+joi_flavor_jap.32 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.32.t
@@ -2469,7 +2469,7 @@ joi_flavor_jap.32 = {#大正民主
 	}
 }
 
-joi_flavor_jap.33 = {#帝国剧场
+joi_flavor_jap.33 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.33.t
@@ -2530,7 +2530,7 @@ joi_flavor_jap.33 = {#帝国剧场
 	}
 }
 
-joi_flavor_jap.34 = {#东京漫画协会
+joi_flavor_jap.34 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.34.t
@@ -2611,7 +2611,7 @@ joi_flavor_jap.34 = {#东京漫画协会
 	}
 }
 
-joi_flavor_jap.35 = {#舞姬
+joi_flavor_jap.35 = {#??
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.35.t
@@ -2682,7 +2682,7 @@ joi_flavor_jap.35 = {#舞姬
 	}
 }
 
-joi_flavor_jap.36 = {#银座文化
+joi_flavor_jap.36 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.36.t
@@ -2753,7 +2753,7 @@ joi_flavor_jap.36 = {#银座文化
 	}
 }
 
-joi_flavor_jap.37 = {#人间失格
+joi_flavor_jap.37 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.37.t
@@ -2816,7 +2816,7 @@ joi_flavor_jap.37 = {#人间失格
 	}
 }
 
-joi_flavor_jap.38 = {#白桦
+joi_flavor_jap.38 = {#??
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.38.t
@@ -2891,7 +2891,7 @@ joi_flavor_jap.38 = {#白桦
 	}
 }
 
-joi_flavor_jap.39 = {#私奔的白莲花
+joi_flavor_jap.39 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.39.t
@@ -3010,7 +3010,7 @@ joi_flavor_jap.39 = {#私奔的白莲花
 	}
 }
 
-joi_flavor_jap.40 = {#春与阿修罗
+joi_flavor_jap.40 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.40.t
@@ -3088,7 +3088,7 @@ joi_flavor_jap.40 = {#春与阿修罗
 	}
 }
 
-joi_flavor_jap.41 = {#护宪运动
+joi_flavor_jap.41 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.41.t
@@ -3164,7 +3164,7 @@ joi_flavor_jap.41 = {#护宪运动
 	}
 }
 
-joi_flavor_jap.42 = {#治安维持法
+joi_flavor_jap.42 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.42.t
@@ -3251,7 +3251,7 @@ joi_flavor_jap.42 = {#治安维持法
 	}
 }
 
-joi_flavor_jap.43 = {#思想犯保护监察法
+joi_flavor_jap.43 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.43.t
@@ -3417,7 +3417,7 @@ joi_flavor_jap.43 = {#思想犯保护监察法
 	}
 }
 
-joi_flavor_jap.44 = {#维新
+joi_flavor_jap.44 = {#??
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.44.t
@@ -3546,7 +3546,7 @@ joi_flavor_jap.44 = {#维新
 	}
 }
 
-joi_flavor_jap.45 = {#雨后阳光
+joi_flavor_jap.45 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.45.t
@@ -3641,7 +3641,7 @@ joi_flavor_jap.45 = {#雨后阳光
 	option = {
 
 		trigger = {
-			var:choose_liberty_in_taisho_roman_var >= 9  #事件大部分选了自由
+			var:choose_liberty_in_taisho_roman_var >= 9  #?????????
 			has_law_or_variant = law_type:law_multicultural
 			has_global_variable = jap_finish_seikanron
 		}
@@ -3774,7 +3774,7 @@ joi_flavor_jap.45 = {#雨后阳光
 	}
 }
 
-joi_flavor_jap.46 = {#征韩论
+joi_flavor_jap.46 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.46.t
@@ -3842,7 +3842,7 @@ joi_flavor_jap.46 = {#征韩论
 	}
 }
 
-joi_flavor_jap.47 = {#满洲铁道局
+joi_flavor_jap.47 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.47.t
@@ -3868,7 +3868,7 @@ joi_flavor_jap.47 = {#满洲铁道局
 		c:RUS = {
 			save_scope_as = RUS_scope
 		}
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = CHI_scope
 		}
 	}
@@ -3894,7 +3894,7 @@ joi_flavor_jap.47 = {#满洲铁道局
 	}
 }
 
-joi_flavor_jap.48 = {#日本社会党
+joi_flavor_jap.48 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.48.t
@@ -3965,7 +3965,7 @@ joi_flavor_jap.48 = {#日本社会党
 	}
 }
 
-joi_flavor_jap.49 = {#英日同盟？
+joi_flavor_jap.49 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.49.t
@@ -4037,7 +4037,7 @@ joi_flavor_jap.49 = {#英日同盟？
             binding_period = { years = 20 }
 
             articles_to_create = {
-                { # 英日同盟
+                { # ????
                     article = alliance
                 }
                 { #
@@ -4061,7 +4061,7 @@ joi_flavor_jap.49 = {#英日同盟？
             binding_period = { years = 20 }
 
             articles_to_create = {
-                { # 英日同盟
+                { # ????
                     article = alliance
                 }
                 { #
@@ -4075,7 +4075,7 @@ joi_flavor_jap.49 = {#英日同盟？
 	}
 }
 
-joi_flavor_jap.50 = {#日韩合并条约
+joi_flavor_jap.50 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.50.t
@@ -4158,7 +4158,7 @@ joi_flavor_jap.50 = {#日韩合并条约
 	}
 }
 
-joi_flavor_jap.51 = {#枪杀伊藤博文
+joi_flavor_jap.51 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.51.t
@@ -4233,7 +4233,7 @@ joi_flavor_jap.51 = {#枪杀伊藤博文
 	}
 }
 
-joi_flavor_jap.52 = {#日满议定书
+joi_flavor_jap.52 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.52.t
@@ -4256,7 +4256,7 @@ joi_flavor_jap.52 = {#日满议定书
 	}
 
 	immediate = {
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = CHI_scope
 		}
 		s:STATE_HINGGAN = {
@@ -4392,7 +4392,7 @@ joi_flavor_jap.52 = {#日满议定书
 	}
 }
 
-joi_flavor_jap.53 = {#马关条约
+joi_flavor_jap.53 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.53.t
@@ -4415,7 +4415,7 @@ joi_flavor_jap.53 = {#马关条约
 	}
 
 	immediate = {
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = CHI_scope
 		}
 		c:JAP = {
@@ -4459,13 +4459,13 @@ joi_flavor_jap.53 = {#马关条约
 				years = -1
 			}
 		}
-		c:CHI = {
+		c:CHI ?= {
 			trigger_event = { id = joi_flavor_jap.53 }
 		}
 		add_modifier = { name = treaty_of_shimonoseki_cash_jap_modifier years = 10 }
 		if = {
 			limit = {
-				c:CHI = {
+				c:CHI ?= {
 					owns_entire_state_region = STATE_SHENGJING
 					}
 				}
@@ -4501,7 +4501,7 @@ joi_flavor_jap.53 = {#马关条约
 			}
 		else_if = {
 			limit = {
-				c:CHI = {
+				c:CHI ?= {
 					NOT = { owns_entire_state_region = STATE_SHENGJING }
 					}
 				}
@@ -4551,7 +4551,7 @@ joi_flavor_jap.53 = {#马关条约
 	}
 }
 
-joi_flavor_jap.54 = {#外国军事顾问
+joi_flavor_jap.54 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.54.t
@@ -4682,7 +4682,7 @@ joi_flavor_jap.54 = {#外国军事顾问
 	}
 }
 
-joi_flavor_jap.55 = {#外国大使馆
+joi_flavor_jap.55 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.55.t
@@ -4830,7 +4830,7 @@ joi_flavor_jap.55 = {#外国大使馆
 	}
 }
 
-joi_flavor_jap.56 = {#外国投资
+joi_flavor_jap.56 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_jap.56.t

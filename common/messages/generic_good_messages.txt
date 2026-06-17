@@ -4,3 +4,59 @@ prestige_goods_fruit_unlocked = {
 
 	notification_type = toast
 }
+
+prestige_goods_dye_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_telephones_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_iron_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_wood_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_engines_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_oil_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_steamers_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_sulfur_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}

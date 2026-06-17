@@ -1,4 +1,4 @@
-﻿namespace = victoria
+namespace = victoria
 
 # For GBR
 victoria.1 = {

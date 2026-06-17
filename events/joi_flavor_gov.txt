@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_gov
+namespace = joi_flavor_gov
 
-joi_flavor_gov.1 = {#官方民族性
+joi_flavor_gov.1 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gov.1.t
@@ -101,7 +101,7 @@ joi_flavor_gov.1 = {#官方民族性
 	}
 }
 
-joi_flavor_gov.2 = {#自由的道德价值
+joi_flavor_gov.2 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gov.2.t
@@ -167,7 +167,7 @@ joi_flavor_gov.2 = {#自由的道德价值
 			multiplier = government_leader_william_gladstone_value
 		}
 		add_loyalists = { value = 0.03 }
-		active_law:lawgroup_trade_policy ?= { # 格莱斯顿式自由主义
+		active_law:lawgroup_trade_policy ?= { # ?????????
 			add_amendment = {
 				type = amendment_gladstone_liberalism_dogmas
 				sponsor = PREV.ig:ig_intelligentsia
@@ -191,7 +191,7 @@ joi_flavor_gov.2 = {#自由的道德价值
 	}
 }
 
-joi_flavor_gov.3 = {#一国保守的崛起
+joi_flavor_gov.3 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gov.3.t
@@ -299,7 +299,7 @@ joi_flavor_gov.3 = {#一国保守的崛起
 	}
 }
 
-joi_flavor_gov.4 = {#保守主义的改良主义
+joi_flavor_gov.4 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gov.4.t
@@ -384,7 +384,7 @@ joi_flavor_gov.4 = {#保守主义的改良主义
 	}
 }
 
-joi_flavor_gov.5 = {#昭昭天命承诺实现
+joi_flavor_gov.5 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gov.5.t

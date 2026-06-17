@@ -611,13 +611,13 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 		}
-		region_state:PAN={
+		region_state:MUG={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:PAN"
+						country="c:MUG"
 						levels=3
 						region="STATE_PASHTUNISTAN"
 					}
@@ -630,7 +630,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:PAN"
+						country="c:MUG"
 						levels=1
 						region="STATE_PASHTUNISTAN"
 					}
@@ -643,7 +643,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:PAN"
+						country="c:MUG"
 						levels=1
 						region="STATE_PASHTUNISTAN"
 					}

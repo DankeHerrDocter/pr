@@ -16,5 +16,9 @@ COUNTRIES = {
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_homesteading
 		
+		add_modifier = {
+			name = pr_ranching_infrastructure_bonus
+		}
+
 	}
 }

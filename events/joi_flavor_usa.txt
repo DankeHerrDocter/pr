@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_usa
+namespace = joi_flavor_usa
 
-joi_flavor_usa.1 = {#第二银行特许权？
+joi_flavor_usa.1 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.1.t
@@ -100,7 +100,7 @@ joi_flavor_usa.1 = {#第二银行特许权？
 	}
 }
 
-joi_flavor_usa.2 = {#听证会
+joi_flavor_usa.2 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.2.t
@@ -162,7 +162,7 @@ joi_flavor_usa.2 = {#听证会
 	}
 }
 
-joi_flavor_usa.3 = {#国会的弹劾辩论
+joi_flavor_usa.3 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.3.t
@@ -222,7 +222,7 @@ joi_flavor_usa.3 = {#国会的弹劾辩论
 	}
 }
 
-joi_flavor_usa.4 = {#第二银行续约
+joi_flavor_usa.4 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.4.t
@@ -257,7 +257,7 @@ joi_flavor_usa.4 = {#第二银行续约
 	}
 }
 
-joi_flavor_usa.5 = {#清算法案
+joi_flavor_usa.5 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.5.t
@@ -302,7 +302,7 @@ joi_flavor_usa.5 = {#清算法案
 	}
 }
 
-joi_flavor_usa.6 = {#南方宣布独立！
+joi_flavor_usa.6 = {#??????!
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.6.t
@@ -508,7 +508,7 @@ joi_flavor_usa.6 = {#南方宣布独立！
 	}
 }
 
-joi_flavor_usa.7 = {#解放奴隶宣言
+joi_flavor_usa.7 = {#??????
 	type = country_event
 	title = joi_flavor_usa.7.t
 	desc = joi_flavor_usa.7.d
@@ -570,7 +570,7 @@ joi_flavor_usa.7 = {#解放奴隶宣言
 	}
 }
 
-joi_flavor_usa.8 = {#葛底斯堡演说
+joi_flavor_usa.8 = {#??????
 	type = country_event
 	title = joi_flavor_usa.8.t
 	desc = joi_flavor_usa.8.d
@@ -610,7 +610,7 @@ joi_flavor_usa.8 = {#葛底斯堡演说
 	}
 }
 
-joi_flavor_usa.9 = {#内战的终结
+joi_flavor_usa.9 = {#?????
 	type = country_event
 	title = joi_flavor_usa.9.t
 	desc = joi_flavor_usa.9.d
@@ -664,7 +664,7 @@ joi_flavor_usa.9 = {#内战的终结
 	}
 }
 
-joi_flavor_usa.10 = {#重建国家
+joi_flavor_usa.10 = {#????
 	type = country_event
 	title = joi_flavor_usa.10.t
 	desc = joi_flavor_usa.10.d
@@ -745,7 +745,7 @@ joi_flavor_usa.10 = {#重建国家
 	}
 }
 
-joi_flavor_usa.11 = {#总统遇刺
+joi_flavor_usa.11 = {#????
 	type = country_event
 	title = joi_flavor_usa.11.t
 	desc = joi_flavor_usa.11.d
@@ -808,7 +808,7 @@ joi_flavor_usa.11 = {#总统遇刺
 	}
 }
 
-joi_flavor_usa.12 = {#科尔法克斯大屠杀
+joi_flavor_usa.12 = {#????????
 	type = country_event
 	title = joi_flavor_usa.12.t
 	desc = joi_flavor_usa.12.d
@@ -866,7 +866,7 @@ joi_flavor_usa.12 = {#科尔法克斯大屠杀
 	}
 }
 
-joi_flavor_usa.13 = {#进步主义
+joi_flavor_usa.13 = {#????
 	type = country_event
 	title = joi_flavor_usa.13.t
 	desc = joi_flavor_usa.13.d
@@ -925,7 +925,7 @@ joi_flavor_usa.13 = {#进步主义
 	}
 }
 
-joi_flavor_usa.14 = {#彭德尔顿法
+joi_flavor_usa.14 = {#?????
 	type = country_event
 	title = joi_flavor_usa.14.t
 	desc = joi_flavor_usa.14.d
@@ -961,7 +961,7 @@ joi_flavor_usa.14 = {#彭德尔顿法
 	}
 }
 
-joi_flavor_usa.15 = {#托拉斯巨头
+joi_flavor_usa.15 = {#?????
 	type = country_event
 	title = joi_flavor_usa.15.t
 	desc = joi_flavor_usa.15.d
@@ -1010,7 +1010,7 @@ joi_flavor_usa.15 = {#托拉斯巨头
 	}
 }
 
-joi_flavor_usa.16 = {#新兴的中产阶级
+joi_flavor_usa.16 = {#???????
 	type = country_event
 	title = joi_flavor_usa.16.t
 	desc = joi_flavor_usa.16.d
@@ -1080,7 +1080,7 @@ joi_flavor_usa.16 = {#新兴的中产阶级
 	}
 }
 
-joi_flavor_usa.17 = {#新的移民潮
+joi_flavor_usa.17 = {#?????
 	type = country_event
 	title = joi_flavor_usa.17.t
 	desc = joi_flavor_usa.17.d
@@ -1161,7 +1161,7 @@ joi_flavor_usa.17 = {#新的移民潮
 	}
 }
 
-joi_flavor_usa.18 = {#自由灯塔
+joi_flavor_usa.18 = {#????
 	type = country_event
 	title = joi_flavor_usa.18.t
 	desc = joi_flavor_usa.18.d
@@ -1190,7 +1190,7 @@ joi_flavor_usa.18 = {#自由灯塔
 		default_option = yes
 
 		remove_modifier = usa_dream_of_liberity
-		add_modifier = {#自由的国度，勇敢的家园
+		add_modifier = {#?????,?????
 			name = usa_free_beacon
 			months = -1
 			}
@@ -1198,7 +1198,7 @@ joi_flavor_usa.18 = {#自由灯塔
 	}
 }
 
-joi_flavor_usa.19 = {#马丁路德金
+joi_flavor_usa.19 = {#?????
 	type = country_event
 	title = joi_flavor_usa.19.t
 	desc = joi_flavor_usa.19.d
@@ -1259,7 +1259,7 @@ joi_flavor_usa.19 = {#马丁路德金
 	}
 }
 
-joi_flavor_usa.20 = {#公共交通上的种族隔离
+joi_flavor_usa.20 = {#??????????
 	type = country_event
 	title = joi_flavor_usa.20.t
 	desc = joi_flavor_usa.20.d
@@ -1312,7 +1312,7 @@ joi_flavor_usa.20 = {#公共交通上的种族隔离
 	}
 }
 
-joi_flavor_usa.21 = {#自此至彼相隔万里
+joi_flavor_usa.21 = {#????????
 	type = country_event
 	title = joi_flavor_usa.21.t
 	desc = joi_flavor_usa.21.d
@@ -1345,7 +1345,7 @@ joi_flavor_usa.21 = {#自此至彼相隔万里
 	}
 }
 
-joi_flavor_usa.22 = {#墨西哥
+joi_flavor_usa.22 = {#???
 	type = country_event
 	title = joi_flavor_usa.22.t
 	desc = joi_flavor_usa.22.d
@@ -1393,7 +1393,7 @@ joi_flavor_usa.22 = {#墨西哥
 	}
 }
 
-joi_flavor_usa.23 = {#边境战争
+joi_flavor_usa.23 = {#????
 	type = country_event
 	title = joi_flavor_usa.23.t
 	desc = joi_flavor_usa.23.d
@@ -1459,7 +1459,7 @@ joi_flavor_usa.23 = {#边境战争
 	}
 }
 
-joi_flavor_usa.24 = {#普拉特修正案
+joi_flavor_usa.24 = {#??????
 	type = country_event
 	title = joi_flavor_usa.24.t
 	desc = joi_flavor_usa.24.d
@@ -1543,7 +1543,7 @@ joi_flavor_usa.24 = {#普拉特修正案
 	}
 }
 
-joi_flavor_usa.25 = {#商业繁荣
+joi_flavor_usa.25 = {#????
 	type = country_event
 	title = joi_flavor_usa.25.t
 	desc = joi_flavor_usa.25.d
@@ -1592,7 +1592,7 @@ joi_flavor_usa.25 = {#商业繁荣
 	}
 }
 
-joi_flavor_usa.26 = {#禁酒主义运动
+joi_flavor_usa.26 = {#??????
 	type = country_event
 	title = joi_flavor_usa.26.t
 	desc = joi_flavor_usa.26.d
@@ -1635,7 +1635,7 @@ joi_flavor_usa.26 = {#禁酒主义运动
 	}
 }
 
-joi_flavor_usa.27 = {#钢铁之都
+joi_flavor_usa.27 = {#????
 	type = country_event
 	title = joi_flavor_usa.27.t
 	desc = joi_flavor_usa.27.d
@@ -1667,7 +1667,7 @@ joi_flavor_usa.27 = {#钢铁之都
 	}
 }
 
-joi_flavor_usa.28 = {#波洛克诉农民贷款信托公司
+joi_flavor_usa.28 = {#????????????
 	type = country_event
 	title = joi_flavor_usa.28.t
 	desc = joi_flavor_usa.28.d
@@ -1712,7 +1712,7 @@ joi_flavor_usa.28 = {#波洛克诉农民贷款信托公司
 	}
 }
 
-joi_flavor_usa.29 = {#参议院改革法
+joi_flavor_usa.29 = {#??????
 	type = country_event
 	title = joi_flavor_usa.29.t
 	desc = joi_flavor_usa.29.d
@@ -1757,7 +1757,7 @@ joi_flavor_usa.29 = {#参议院改革法
 	}
 }
 
-joi_flavor_usa.30 = {#米诺尔诉哈珀塞特案
+joi_flavor_usa.30 = {#?????????
 	type = country_event
 	title = joi_flavor_usa.30.t
 	desc = joi_flavor_usa.30.d
@@ -1803,7 +1803,7 @@ joi_flavor_usa.30 = {#米诺尔诉哈珀塞特案
 	}
 }
 
-joi_flavor_usa.31 = {#布莱恩法案,取消禁酒令
+joi_flavor_usa.31 = {#?????,?????
 	type = country_event
 	title = joi_flavor_usa.31.t
 	desc = joi_flavor_usa.31.d
@@ -1850,7 +1850,7 @@ joi_flavor_usa.31 = {#布莱恩法案,取消禁酒令
 	}
 }
 
-joi_flavor_usa.32 = {#爱尔兰移民
+joi_flavor_usa.32 = {#?????
 	type = country_event
 	title = joi_flavor_usa.32.t
 	desc = joi_flavor_usa.32.d
@@ -1909,7 +1909,7 @@ joi_flavor_usa.32 = {#爱尔兰移民
 	}
 }
 
-joi_flavor_usa.33 = {#南德移民
+joi_flavor_usa.33 = {#????
 	type = country_event
 	title = joi_flavor_usa.33.t
 	desc = joi_flavor_usa.33.d
@@ -1977,7 +1977,7 @@ joi_flavor_usa.33 = {#南德移民
 	}
 }
 
-joi_flavor_usa.34 = {#俄罗斯移民
+joi_flavor_usa.34 = {#?????
 	type = country_event
 	title = joi_flavor_usa.34.t
 	desc = joi_flavor_usa.34.d
@@ -2048,7 +2048,7 @@ joi_flavor_usa.34 = {#俄罗斯移民
 	}
 }
 
-joi_flavor_usa.35 = {#意大利移民
+joi_flavor_usa.35 = {#?????
 	type = country_event
 	title = joi_flavor_usa.35.t
 	desc = joi_flavor_usa.35.d
@@ -2111,7 +2111,7 @@ joi_flavor_usa.35 = {#意大利移民
 	}
 }
 
-joi_flavor_usa.36 = {#法兰西移民
+joi_flavor_usa.36 = {#?????
 	type = country_event
 	title = joi_flavor_usa.36.t
 	desc = joi_flavor_usa.36.d
@@ -2186,7 +2186,7 @@ joi_flavor_usa.36 = {#法兰西移民
 	}
 }
 
-joi_flavor_usa.37 = {#西班牙移民
+joi_flavor_usa.37 = {#?????
 	type = country_event
 	title = joi_flavor_usa.37.t
 	desc = joi_flavor_usa.37.d
@@ -2252,7 +2252,7 @@ joi_flavor_usa.37 = {#西班牙移民
 	}
 }
 
-joi_flavor_usa.38 = {#土耳其移民
+joi_flavor_usa.38 = {#?????
 	type = country_event
 	title = joi_flavor_usa.38.t
 	desc = joi_flavor_usa.38.d
@@ -2326,7 +2326,7 @@ joi_flavor_usa.38 = {#土耳其移民
 	}
 }
 
-joi_flavor_usa.39 = {#华人移民
+joi_flavor_usa.39 = {#????
 	type = country_event
 	title = joi_flavor_usa.39.t
 	desc = joi_flavor_usa.39.d
@@ -2409,7 +2409,7 @@ joi_flavor_usa.39 = {#华人移民
 	}
 }
 
-joi_flavor_usa.40 = {#美国请求贷款
+joi_flavor_usa.40 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_usa.40.t

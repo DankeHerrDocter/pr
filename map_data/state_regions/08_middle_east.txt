@@ -945,7 +945,7 @@ STATE_ANKARA = {
     farm = "x0BD6EC"
     mine = "x25499A"
     wood = "xCAF12B"
-    arable_land = 107
+    arable_land = 207
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 27
@@ -953,7 +953,12 @@ STATE_ANKARA = {
     resource = {
         type = "building_iron_mine"
         undiscovered_amount = 20
-        discovered_amount = 30
+        discovered_amount = 50
+    }
+    resource = {
+        type = "building_coal_mine"
+        undiscovered_amount = 20
+        discovered_amount = 25
     }
     resource = {
         type = "building_lead_mine"

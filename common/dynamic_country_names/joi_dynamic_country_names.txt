@@ -1,4 +1,4 @@
-﻿REPLACE_OR_CREATE:IMP = { #帝国联邦
+REPLACE_OR_CREATE:IMP = { #????
 	dynamic_country_name = {
 		name =  dyn_c_imp_socialist_republic
 		adjective = dyn_c_imp_socialist_republic_ADJ
@@ -98,7 +98,7 @@ REPLACE_OR_CREATE:RME = {
 	}
 }
 
-REPLACE_OR_CREATE:ISR = { #以色列
+REPLACE_OR_CREATE:ISR = { #???
 	dynamic_country_name = {
 		name =  dyn_c_isr_british_subject
 		adjective = dyn_c_isr_british_subject_ADJ
@@ -114,7 +114,7 @@ REPLACE_OR_CREATE:ISR = { #以色列
 	}
 }
 
-REPLACE_OR_CREATE:BIC = { #东印度
+REPLACE_OR_CREATE:BIC = { #???
 	dynamic_country_name = {
 		name = dyn_c_joi_british_raj
 		adjective = dyn_c_joi_british_raj_adj
@@ -230,7 +230,7 @@ REPLACE_OR_CREATE:BIC = { #东印度
 	}
 }
 
-REPLACE_OR_CREATE:BHT = { #印度
+REPLACE_OR_CREATE:BHT = { #??
 	dynamic_country_name = {
 		name = dyn_c_rpb_india
 		adjective = dyn_c_rpb_india_adj
@@ -277,7 +277,7 @@ REPLACE_OR_CREATE:BHT = { #印度
 	}
 }
 
-REPLACE_OR_CREATE:CAN = { #加拿大
+REPLACE_OR_CREATE:CAN = { #???
 	dynamic_country_name = {
 		name = dyn_c_british_canada
 		adjective = dyn_c_british_canada_adj
@@ -332,7 +332,7 @@ REPLACE_OR_CREATE:CAN = { #加拿大
 	}
 }
 	
-REPLACE_OR_CREATE:AST = { #澳大利亚
+REPLACE_OR_CREATE:AST = { #????
 	dynamic_country_name = {
 		name = dyn_c_british_australia
 		adjective = dyn_c_british_australia_adj
@@ -387,7 +387,7 @@ REPLACE_OR_CREATE:AST = { #澳大利亚
 	}
 }
 
-REPLACE_OR_CREATE:SAF = { #南非
+REPLACE_OR_CREATE:SAF = { #??
 	dynamic_country_name = {
 		name = dyn_c_south_africa
 		adjective = dyn_c_south_africa_adj
@@ -460,7 +460,7 @@ REPLACE_OR_CREATE:SAF = { #南非
 	}
 }
 
-TRY_INJECT:RUS = {#俄罗斯
+TRY_INJECT:RUS = {#???
 	dynamic_country_name = {
 		name = dyn_c_soviet_union
 		adjective = dyn_c_soviet_union_adj
@@ -501,7 +501,7 @@ TRY_INJECT:RUS = {#俄罗斯
 	}	
 }
 
-REPLACE_OR_CREATE:SIB = {#西伯利亚
+REPLACE_OR_CREATE:SIB = {#????
 	dynamic_country_name = {
 		name = dyn_c_sib_white_army
 		adjective = dyn_c_sib_white_army_adj
@@ -518,7 +518,7 @@ REPLACE_OR_CREATE:SIB = {#西伯利亚
 	}
 }
 
-REPLACE_OR_CREATE:DON = {#西伯利亚
+REPLACE_OR_CREATE:DON = {#????
 	dynamic_country_name = {
 		name = dyn_c_don_white_army
 		adjective = dyn_c_don_white_army_adj
@@ -535,7 +535,7 @@ REPLACE_OR_CREATE:DON = {#西伯利亚
 	}
 }
 
-REPLACE_OR_CREATE:MCH = {#满洲
+REPLACE_OR_CREATE:MCH = {#??
 	dynamic_country_name = {
 		name = dyn_c_qing_dynasty
 		adjective = dyn_c_qing_dynasty_adj
@@ -631,7 +631,7 @@ TRY_INJECT:CHI = { # China
 		priority = 10000
 		
 		trigger = {
-			c:CHI = {
+			c:CHI ?= {
 				has_variable = northern_expedition_name_var
 			}
 		}
@@ -644,14 +644,14 @@ TRY_INJECT:CHI = { # China
 		priority = 10000
 		
 		trigger = {
-			c:CHI = {
+			c:CHI ?= {
 				has_variable = chinese_revolution_republic_name_var
 			}
 		}
 	}
 }
 
-REPLACE_OR_CREATE:AHU = {#直系
+REPLACE_OR_CREATE:AHU = {#??
 	dynamic_country_name = {
 		name = dyn_c_ahu_northern_expedition
 		adjective = dyn_c_ahu_northern_expedition_adj
@@ -668,7 +668,7 @@ REPLACE_OR_CREATE:AHU = {#直系
 	}
 }
 
-REPLACE_OR_CREATE:ZHI = {#中华帝国
+REPLACE_OR_CREATE:ZHI = {#????
 	dynamic_country_name = {
 		name = dyn_c_zhi_northern_expedition
 		adjective = dyn_c_zhi_northern_expedition_adj
@@ -685,7 +685,7 @@ REPLACE_OR_CREATE:ZHI = {#中华帝国
 	}
 }
 
-REPLACE_OR_CREATE:SHN = {#晋系
+REPLACE_OR_CREATE:SHN = {#??
 	dynamic_country_name = {
 		name = dyn_c_shn_northern_expedition
 		adjective = dyn_c_shn_northern_expedition_adj
@@ -702,7 +702,7 @@ REPLACE_OR_CREATE:SHN = {#晋系
 	}
 }
 
-REPLACE_OR_CREATE:XIN = {#新疆
+REPLACE_OR_CREATE:XIN = {#??
 	dynamic_country_name = {
 		name = dyn_c_xin_northern_expedition
 		adjective = dyn_c_xin_northern_expedition_adj
@@ -719,7 +719,7 @@ REPLACE_OR_CREATE:XIN = {#新疆
 	}
 }
 
-REPLACE_OR_CREATE:HUN = {#匈牙利
+REPLACE_OR_CREATE:HUN = {#???
 	dynamic_country_name = {
 		name = dyn_c_hun_lander_der_krone
 		adjective = dyn_c_hun_lander_der_krone_adj
@@ -751,7 +751,7 @@ REPLACE_OR_CREATE:HUN = {#匈牙利
 	}
 }
 
-REPLACE_OR_CREATE:GAL = {#波兰
+REPLACE_OR_CREATE:GAL = {#??
 	dynamic_country_name = {
 		name = dyn_c_gal_lander_der_krone
 		adjective = dyn_c_gal_lander_der_krone_adj
@@ -768,7 +768,7 @@ REPLACE_OR_CREATE:GAL = {#波兰
 	}
 }
 
-REPLACE_OR_CREATE:CRO = {#克罗地亚
+REPLACE_OR_CREATE:CRO = {#????
 	dynamic_country_name = {
 		name = dyn_c_cro_lander_der_krone
 		adjective = dyn_c_cro_lander_der_krone_adj
@@ -785,7 +785,7 @@ REPLACE_OR_CREATE:CRO = {#克罗地亚
 	}
 }
 
-REPLACE_OR_CREATE:LOM = {#伦巴底
+REPLACE_OR_CREATE:LOM = {#???
 	dynamic_country_name = {
 		name = dyn_c_lom_lander_der_krone
 		adjective = dyn_c_lom_lander_der_krone_adj

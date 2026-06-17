@@ -1,4 +1,4 @@
-﻿namespace = holy_wars
+namespace = holy_wars
 
 holy_wars.1 = {
 	type = country_event

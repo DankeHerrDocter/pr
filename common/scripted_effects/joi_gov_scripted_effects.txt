@@ -27,7 +27,7 @@ government_leader_nicholas_i_effect = {
 	}
 	if = {
 		limit = {
-			literacy_rate < 0.15
+			literacy_rate < 0.27
 			bureaucracy >= 1000 
 		}
 		change_variable = { name = government_leader_nicholas_i_counter add = 1 }

@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_raj
+namespace = joi_flavor_raj
 
-joi_flavor_raj.1 = {#公司股息赎回法
+joi_flavor_raj.1 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.1.t
@@ -54,7 +54,7 @@ joi_flavor_raj.1 = {#公司股息赎回法
 		c:BIC = {
 			set_variable = doctrine_of_lapse_ended
 			activate_law = law_type:law_colonial_administration
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 					add_amendment = {
 						type = amendment_westminster_system_amendment
 						sponsor = PREV.ig:ig_intelligentsia
@@ -119,7 +119,7 @@ joi_flavor_raj.1 = {#公司股息赎回法
 			ig:ig_industrialists = {
 				set_interest_group_name = ig_government_of_india
 			}
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 					add_amendment = {
 						type = amendment_westminster_system_amendment
 						sponsor = PREV.ig:ig_intelligentsia
@@ -130,7 +130,7 @@ joi_flavor_raj.1 = {#公司股息赎回法
 	}
 }
 
-joi_flavor_raj.2 = {#1813宪章法案之修改案
+joi_flavor_raj.2 = {#1813????????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.2.t
@@ -156,7 +156,7 @@ joi_flavor_raj.2 = {#1813宪章法案之修改案
         c:GBR = {
             save_scope_as = GBR_scope
         }
-        c:CHI = {
+        c:CHI ?= {
             save_scope_as = CHI_scope
         }
 	}
@@ -166,7 +166,7 @@ joi_flavor_raj.2 = {#1813宪章法案之修改案
 		name = joi_flavor_raj.2.a
 
 		add_modifier = { name = monopoly_privilege years = 30 }
-		active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+		active_law:lawgroup_governance_principles ?= { # ???????
 			add_amendment = {
 				type = amendment_westminster_system_amendment
 				sponsor = PREV.ig:ig_intelligentsia
@@ -179,7 +179,7 @@ joi_flavor_raj.2 = {#1813宪章法案之修改案
 		name = joi_flavor_raj.2.b
 		default_option = yes
 
-		active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+		active_law:lawgroup_governance_principles ?= { # ???????
 			add_amendment = {
 				type = amendment_westminster_system_amendment
 				sponsor = PREV.ig:ig_intelligentsia
@@ -206,7 +206,7 @@ joi_flavor_raj.2 = {#1813宪章法案之修改案
 	}
 }
 
-joi_flavor_raj.3 = {#皇家特许状
+joi_flavor_raj.3 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.3.t
@@ -267,7 +267,7 @@ joi_flavor_raj.3 = {#皇家特许状
 		}
 }
 
-joi_flavor_raj.4 = {#公司债务清偿法
+joi_flavor_raj.4 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.4.t
@@ -313,7 +313,7 @@ joi_flavor_raj.4 = {#公司债务清偿法
 		}
 }
 
-joi_flavor_raj.5 = {#东印度股权赎卖法
+joi_flavor_raj.5 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.5.t
@@ -370,7 +370,7 @@ joi_flavor_raj.5 = {#东印度股权赎卖法
 	}
 }
 
-joi_flavor_raj.6 = {#征服缅甸
+joi_flavor_raj.6 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.6.t
@@ -396,7 +396,7 @@ joi_flavor_raj.6 = {#征服缅甸
 		c:GBR = {
             save_scope_as = GBR_scope
         }
-        c:CHI = {
+        c:CHI ?= {
             save_scope_as = CHI_scope
         }
 	}
@@ -518,7 +518,7 @@ joi_flavor_raj.6 = {#征服缅甸
 	}
 }
 
-joi_flavor_raj.7 = {#信德总督？
+joi_flavor_raj.7 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.7.t
@@ -575,7 +575,7 @@ joi_flavor_raj.7 = {#信德总督？
 		}
 }
 
-joi_flavor_raj.8 = {#杜尔巴的终结
+joi_flavor_raj.8 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.8.t
@@ -623,7 +623,7 @@ joi_flavor_raj.8 = {#杜尔巴的终结
 	}
 }
 
-joi_flavor_raj.9 = {#甘达马克条约
+joi_flavor_raj.9 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.9.t
@@ -667,7 +667,7 @@ joi_flavor_raj.9 = {#甘达马克条约
 	}
 }
 
-joi_flavor_raj.10 = {#喀布尔条约
+joi_flavor_raj.10 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.10.t
@@ -787,7 +787,7 @@ joi_flavor_raj.10 = {#喀布尔条约
 	}
 }
 
-joi_flavor_raj.11 = {#印度帝国
+joi_flavor_raj.11 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.11.t
@@ -857,7 +857,7 @@ joi_flavor_raj.11 = {#印度帝国
 	}
 }
 
-joi_flavor_raj.12 = {#英藏条约
+joi_flavor_raj.12 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.12.t
@@ -883,7 +883,7 @@ joi_flavor_raj.12 = {#英藏条约
 		c:GBR = {
             save_scope_as = GBR_scope
         }
-        c:CHI = {
+        c:CHI ?= {
             save_scope_as = CHI_scope
         }
         c:BIC = {
@@ -948,7 +948,7 @@ joi_flavor_raj.12 = {#英藏条约
 	}
 }
 
-joi_flavor_raj.13 = {#印藏条约
+joi_flavor_raj.13 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.13.t
@@ -971,7 +971,7 @@ joi_flavor_raj.13 = {#印藏条约
 	}
 
 	immediate = {
-        c:CHI = {
+        c:CHI ?= {
             save_scope_as = CHI_scope
         }
 	}
@@ -1029,7 +1029,7 @@ joi_flavor_raj.13 = {#印藏条约
 	}
 }
 
-joi_flavor_raj.14 = {#总督名改革
+joi_flavor_raj.14 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.14.t
@@ -1079,7 +1079,7 @@ joi_flavor_raj.14 = {#总督名改革
 	}
 }
 
-joi_flavor_raj.15 = {#印度议会法案
+joi_flavor_raj.15 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.15.t
@@ -1165,7 +1165,7 @@ joi_flavor_raj.15 = {#印度议会法案
 	}
 }
 
-joi_flavor_raj.16 = {#经济政策
+joi_flavor_raj.16 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.16.t
@@ -1230,13 +1230,13 @@ joi_flavor_raj.16 = {#经济政策
 		add_modifier = indian_agro_policy
 		activate_law = law_type:law_gram_swaraj
 		activate_law = law_type:law_commercialized_agriculture
-		active_law:lawgroup_economic_system ?= { # 普通法
+		active_law:lawgroup_economic_system ?= { # ???
 			add_amendment = {
 				type = amendment_common_law
 				sponsor = PREV.ig:ig_industrialists
 			}
 		}
-		active_law:lawgroup_land_reform ?= { # 永久地租
+		active_law:lawgroup_land_reform ?= { # ????
 			add_amendment = {
 				type = amendment_1793_permanent_settlement
 				sponsor = PREV.ig:ig_industrialists
@@ -1246,7 +1246,7 @@ joi_flavor_raj.16 = {#经济政策
 	}
 }
 
-joi_flavor_raj.17 = {#印度军队法案
+joi_flavor_raj.17 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.17.t
@@ -1285,7 +1285,7 @@ joi_flavor_raj.17 = {#印度军队法案
 		name = joi_flavor_raj.17.b
 
 		ROOT = {
-			create_character = {#帕特里克 格兰特 印度军队指挥官
+			create_character = {#???? ??? ???????
 			is_general = yes
 			first_name = Patrick
 			last_name = Grant
@@ -1323,7 +1323,7 @@ joi_flavor_raj.17 = {#印度军队法案
 	}
 }
 
-joi_flavor_raj.18 = {#自治谈判
+joi_flavor_raj.18 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.18.t
@@ -1362,7 +1362,7 @@ joi_flavor_raj.18 = {#自治谈判
 		text = bic_autonomy_negotiation_1_tt
 		}
 		scope:GBR_scope = {
-			trigger_event = { id = joi_flavor_raj.23 }#印度要求自治
+			trigger_event = { id = joi_flavor_raj.23 }#??????
 		}
 	}
 
@@ -1379,12 +1379,12 @@ joi_flavor_raj.18 = {#自治谈判
 		text = bic_autonomy_negotiation_2_tt
 		}
 		scope:GBR_scope = {
-			trigger_event = { id = joi_flavor_raj.24 }#印度要求高度自治
+			trigger_event = { id = joi_flavor_raj.24 }#????????
 		}
 	}
 }
 
-joi_flavor_raj.19 = {#永恒的光荣
+joi_flavor_raj.19 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.19.t
@@ -1427,7 +1427,7 @@ joi_flavor_raj.19 = {#永恒的光荣
 			limit = {
 				NOT = { has_global_variable = raj_has_westminster_system }
 			}
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -1447,7 +1447,7 @@ joi_flavor_raj.19 = {#永恒的光荣
 			limit = {
 				NOT = { has_global_variable = raj_has_westminster_system }
 			}
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -1543,7 +1543,7 @@ joi_flavor_raj.19 = {#永恒的光荣
 			limit = {
 				NOT = { has_global_variable = raj_has_westminster_system }
 			}
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -1628,7 +1628,7 @@ joi_flavor_raj.19 = {#永恒的光荣
 	}
 }
 
-joi_flavor_raj.20 = {#治理恒河
+joi_flavor_raj.20 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.20.t
@@ -1672,7 +1672,7 @@ joi_flavor_raj.20 = {#治理恒河
 	}
 }
 
-joi_flavor_raj.21 = {#独立宣言
+joi_flavor_raj.21 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.21.t
@@ -1708,7 +1708,7 @@ joi_flavor_raj.21 = {#独立宣言
 		default_option = yes
 
 		activate_law = law_type:law_presidential_republic
-		active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+		active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -1831,7 +1831,7 @@ joi_flavor_raj.21 = {#独立宣言
 			}
 		}
 		remove_primary_culture = cu:british
-		if = {#移除国有化东印度
+		if = {#????????
 			limit = {
 				has_modifier = sepcial_loyal_charter
 			}
@@ -1847,7 +1847,7 @@ joi_flavor_raj.21 = {#独立宣言
 				remove_modifier = master_of_india_gbr
 			}
 		}
-		if = {#移除帝国传统或自治传统
+		if = {#???????????
 			limit = {
 				has_modifier = consolidation_of_colonial_rule
 			}
@@ -1859,43 +1859,43 @@ joi_flavor_raj.21 = {#独立宣言
 			}
 			remove_modifier = reformation_of_colonial_rule
 		}
-		if = {#移除总督委员会
+		if = {#???????
 			limit = {
 				has_modifier = governor_general_in_council
 			}
 			remove_modifier = governor_general_in_council
 		}
-		if = {#移除印度总督
+		if = {#??????
 			limit = {
 				has_modifier = master_of_india
 			}
 			remove_modifier = master_of_india
 		}
-		if = {#移除永久特许状
+		if = {#???????
 			limit = {
 				has_modifier = master_of_india
 			}
 			remove_modifier = master_of_india
 		}
-		if = {#移除自治特许令
+		if = {#???????
 			limit = {
 				has_modifier = raj_autonomous_charter
 			}
 			remove_modifier = raj_autonomous_charter
 		}
-		if = {#移除二级自治特许令
+		if = {#?????????
 			limit = {
 				has_modifier = raj_high_autonomous_charter
 			}
 			remove_modifier = raj_high_autonomous_charter
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_company_rule
 			}
 			remove_modifier = modifier_india_company_rule
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_crown_rule
 			}
@@ -1914,7 +1914,7 @@ joi_flavor_raj.21 = {#独立宣言
 
 		add_modifier = { name = governer_of_india years = -1 }
 		activate_law = law_type:law_monarchy
-		active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+		active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -2049,25 +2049,25 @@ joi_flavor_raj.21 = {#独立宣言
 			}
 		}
 		remove_primary_culture = cu:british
-		if = {#移除总督委员会
+		if = {#???????
 			limit = {
 				has_modifier = governor_general_in_council
 			}
 			remove_modifier = governor_general_in_council
 		}
-		if = {#移除印度总督
+		if = {#??????
 			limit = {
 				has_modifier = master_of_india
 			}
 			remove_modifier = master_of_india
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_company_rule
 			}
 			remove_modifier = modifier_india_company_rule
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_crown_rule
 			}
@@ -2076,7 +2076,7 @@ joi_flavor_raj.21 = {#独立宣言
 	}
 }
 
-joi_flavor_raj.22 = {#xxx方案
+joi_flavor_raj.22 = {#xxx??
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.22.t
@@ -2111,7 +2111,7 @@ joi_flavor_raj.22 = {#xxx方案
 		name = joi_flavor_raj.22.a
 
 		activate_law = law_type:law_presidential_republic
-		active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+		active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -2230,13 +2230,13 @@ joi_flavor_raj.22 = {#xxx方案
 			}
 		}
 		remove_primary_culture = cu:british
-		if = {#移除国有化东印度
+		if = {#????????
 			limit = {
 				has_modifier = sepcial_loyal_charter
 			}
 			remove_modifier = sepcial_loyal_charter
 		}
-		if = {#移除次大陆之主
+		if = {#???????
 			limit = {
 				has_modifier = master_of_india_bic
 			}
@@ -2252,7 +2252,7 @@ joi_flavor_raj.22 = {#xxx方案
 				remove_modifier = master_of_india_gbr
 			}
 		}
-		if = {#移除帝国传统或自治传统
+		if = {#???????????
 			limit = {
 				has_modifier = consolidation_of_colonial_rule
 			}
@@ -2264,43 +2264,43 @@ joi_flavor_raj.22 = {#xxx方案
 			}
 			remove_modifier = reformation_of_colonial_rule
 		}
-		if = {#移除总督委员会
+		if = {#???????
 			limit = {
 				has_modifier = governor_general_in_council
 			}
 			remove_modifier = governor_general_in_council
 		}
-		if = {#移除印度总督
+		if = {#??????
 			limit = {
 				has_modifier = master_of_india
 			}
 			remove_modifier = master_of_india
 		}
-		if = {#移除永久特许状
+		if = {#???????
 			limit = {
 				has_modifier = master_of_india
 			}
 			remove_modifier = master_of_india
 		}
-		if = {#移除自治特许令
+		if = {#???????
 			limit = {
 				has_modifier = raj_autonomous_charter
 			}
 			remove_modifier = raj_autonomous_charter
 		}
-		if = {#移除二级自治特许令
+		if = {#?????????
 			limit = {
 				has_modifier = raj_high_autonomous_charter
 			}
 			remove_modifier = raj_high_autonomous_charter
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_company_rule
 			}
 			remove_modifier = modifier_india_company_rule
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_crown_rule
 			}
@@ -2343,7 +2343,7 @@ joi_flavor_raj.22 = {#xxx方案
 		default_option = yes
 
 		activate_law = law_type:law_monarchy
-		active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+		active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -2475,37 +2475,37 @@ joi_flavor_raj.22 = {#xxx方案
 			}
 		}
 		remove_primary_culture = cu:british
-		if = {#移除总督委员会
+		if = {#???????
 			limit = {
 				has_modifier = governor_general_in_council
 			}
 			remove_modifier = governor_general_in_council
 		}
-		if = {#移除印度总督
+		if = {#??????
 			limit = {
 				has_modifier = master_of_india
 			}
 			remove_modifier = master_of_india
 		}
-		if = {#移除自治特许令
+		if = {#???????
 			limit = {
 				has_modifier = raj_autonomous_charter
 			}
 			remove_modifier = raj_autonomous_charter
 		}
-		if = {#移除二级自治特许令
+		if = {#?????????
 			limit = {
 				has_modifier = raj_high_autonomous_charter
 			}
 			remove_modifier = raj_high_autonomous_charter
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_company_rule
 			}
 			remove_modifier = modifier_india_company_rule
 		}
-		if = {#移除公司统治和王室统治
+		if = {#???????????
 			limit = {
 				has_modifier = modifier_india_crown_rule
 			}
@@ -2554,7 +2554,7 @@ joi_flavor_raj.22 = {#xxx方案
 	}
 }
 
-joi_flavor_raj.23 = {#印度要求自治
+joi_flavor_raj.23 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.23.t
@@ -2619,7 +2619,7 @@ joi_flavor_raj.23 = {#印度要求自治
 	}
 }
 
-joi_flavor_raj.24 = {#印度要求高度自治
+joi_flavor_raj.24 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.24.t
@@ -2684,7 +2684,7 @@ joi_flavor_raj.24 = {#印度要求高度自治
 	}
 }
 
-joi_flavor_raj.25 = {#进口替代？
+joi_flavor_raj.25 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.25.t
@@ -2728,7 +2728,7 @@ joi_flavor_raj.25 = {#进口替代？
 	}
 }
 
-joi_flavor_raj.26 = {#印度自治法案
+joi_flavor_raj.26 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.26.t
@@ -2792,7 +2792,7 @@ joi_flavor_raj.26 = {#印度自治法案
 			limit = {
 				NOT = { has_global_variable = raj_has_westminster_system }
 			}
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -2876,7 +2876,7 @@ joi_flavor_raj.26 = {#印度自治法案
 			limit = {
 				NOT = { has_global_variable = raj_has_westminster_system }
 			}
-			active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+			active_law:lawgroup_governance_principles ?= { # ???????
 						add_amendment = {
 							type = amendment_westminster_system_amendment
 							sponsor = PREV.ig:ig_intelligentsia
@@ -2938,7 +2938,7 @@ joi_flavor_raj.26 = {#印度自治法案
 	}
 }
 
-joi_flavor_raj.27 = {#印度政府请求政府改革
+joi_flavor_raj.27 = {#??????????
 	type = country_event
 	placement = root
 	title = joi_flavor_raj.27.t
@@ -3099,7 +3099,7 @@ joi_flavor_raj.27 = {#印度政府请求政府改革
 	}
 }
 
-joi_flavor_raj.28 = {#英属印度的终结
+joi_flavor_raj.28 = {#???????
 	type = country_event
 	placement = root
 	

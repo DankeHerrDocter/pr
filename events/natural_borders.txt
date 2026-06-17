@@ -1,4 +1,4 @@
-﻿namespace = natural_borders
+namespace = natural_borders
 
 # start event
 natural_borders.1 = {

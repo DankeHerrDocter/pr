@@ -1,4 +1,4 @@
-﻿namespace = princely_state_creation
+namespace = princely_state_creation
 
 # Baluchistan
 princely_state_creation.1 = {

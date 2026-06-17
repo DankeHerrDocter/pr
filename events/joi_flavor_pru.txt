@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_pru
+namespace = joi_flavor_pru
 
-joi_flavor_pru.1 = {#德意志统一方案
+joi_flavor_pru.1 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.1.t
@@ -90,7 +90,7 @@ joi_flavor_pru.1 = {#德意志统一方案
 	}
 }
 
-joi_flavor_pru.2 = {#莱茵兰的工业巨头
+joi_flavor_pru.2 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.2.t
@@ -228,7 +228,7 @@ joi_flavor_pru.2 = {#莱茵兰的工业巨头
 		}
 	}
 
-joi_flavor_pru.3 = {#义务教育法
+joi_flavor_pru.3 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.3.t
@@ -264,7 +264,7 @@ joi_flavor_pru.3 = {#义务教育法
 	}
 }
 
-joi_flavor_pru.4 = {#伟大的军事改革
+joi_flavor_pru.4 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.4.t
@@ -305,7 +305,7 @@ joi_flavor_pru.4 = {#伟大的军事改革
 	}
 }
 
-joi_flavor_pru.5 = {#守望莱茵
+joi_flavor_pru.5 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.5.t
@@ -432,7 +432,7 @@ joi_flavor_pru.5 = {#守望莱茵
 	}
 }
 
-joi_flavor_pru.6 = {#最高主教
+joi_flavor_pru.6 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.6.t
@@ -532,7 +532,7 @@ joi_flavor_pru.6 = {#最高主教
 	}
 }
 
-joi_flavor_pru.7 = {#莱茵市政法典
+joi_flavor_pru.7 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.7.t
@@ -592,7 +592,7 @@ joi_flavor_pru.7 = {#莱茵市政法典
 	}
 }
 
-joi_flavor_pru.8 = {#帝国市政法典
+joi_flavor_pru.8 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.8.t
@@ -637,7 +637,7 @@ joi_flavor_pru.8 = {#帝国市政法典
 	}
 }
 
-joi_flavor_pru.9 = {#王位上的浪漫主义者
+joi_flavor_pru.9 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.9.t
@@ -688,7 +688,7 @@ joi_flavor_pru.9 = {#王位上的浪漫主义者
 	}
 }
 
-joi_flavor_pru.10 = {#退位
+joi_flavor_pru.10 = {#??
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.10.t
@@ -736,7 +736,7 @@ joi_flavor_pru.10 = {#退位
 	}
 }
 
-joi_flavor_pru.11 = {#基督教国家
+joi_flavor_pru.11 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.11.t
@@ -786,7 +786,7 @@ joi_flavor_pru.11 = {#基督教国家
 	}
 }
 
-joi_flavor_pru.12 = {#王室法令
+joi_flavor_pru.12 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.12.t
@@ -839,7 +839,7 @@ joi_flavor_pru.12 = {#王室法令
 	}
 }
 
-joi_flavor_pru.13 = {#普鲁士工业法典
+joi_flavor_pru.13 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.13.t
@@ -897,7 +897,7 @@ joi_flavor_pru.13 = {#普鲁士工业法典
 	}
 }
 
-joi_flavor_pru.14 = {#1248年的回响
+joi_flavor_pru.14 = {#1248????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.14.t
@@ -940,7 +940,7 @@ joi_flavor_pru.14 = {#1248年的回响
 	}
 }
 
-joi_flavor_pru.15 = {#普鲁士美德
+joi_flavor_pru.15 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_pru.15.t

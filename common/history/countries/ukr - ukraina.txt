@@ -14,7 +14,13 @@ COUNTRIES = {
 		activate_law = law_type:law_land_based_taxation
 	
 		activate_law = law_type:law_private_schools
-		
+
+		every_scope_state = {
+			add_modifier = {
+				name = is_reforming_obshchina
+				months = -1
+			}
+		}
 	}
 	
 }

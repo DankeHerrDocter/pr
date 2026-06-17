@@ -1,4 +1,4 @@
-﻿edo_period = {#江户时代
+edo_period = {#????
 	icon = "gfx/interface/icons/law_icons/chiefdom.dds"
 
 	group = je_group_the_shogunate
@@ -218,7 +218,7 @@ REPLACE_OR_CREATE:je_sakoku = { # I am in Spain, without the Spain
 
     on_complete = {
         trigger_event = { id = ep2_sakoku.4 }
-        trigger_event = { id = joi_flavor_jap.3 }#安政五国条约
+        trigger_event = { id = joi_flavor_jap.3 }#??????
     }
 
     event_outcome_completed_effect_desc = {
@@ -283,7 +283,7 @@ REPLACE_OR_CREATE:je_sakoku = { # I am in Spain, without the Spain
     should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-edo_rangaku = {#兰学
+edo_rangaku = {#??
 	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
 
 	group = je_group_the_shogunate
@@ -328,7 +328,7 @@ edo_rangaku = {#兰学
 	}
 
 	on_complete = {
-		trigger_event = { id = joi_flavor_jap.4 }#西方学问？
+		trigger_event = { id = joi_flavor_jap.4 }#?????
 		if = {
 			limit = { has_modifier = suppress_rangaku }
 			remove_modifier = suppress_rangaku
@@ -486,7 +486,7 @@ REPLACE_OR_CREATE:je_tenpo_crisis = {
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-tenpo_famine = {#天保饥荒
+tenpo_famine = {#????
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	group = je_group_crises
@@ -545,7 +545,7 @@ tenpo_famine = {#天保饥荒
 	on_complete = {
 		set_global_variable = tenpo_famine_ended
 		trigger_event = {
-			id = joi_flavor_jap.5#天保改革
+			id = joi_flavor_jap.5#????
 		}
 		every_scope_state = {
 			limit = {
@@ -562,7 +562,7 @@ tenpo_famine = {#天保饥荒
 		set_global_variable = tenpo_famine_ended
 		}
 		trigger_event = {
-			id = joi_flavor_jap.5#天保改革
+			id = joi_flavor_jap.5#????
 		}
 	}
 
@@ -590,7 +590,7 @@ tenpo_famine = {#天保饥荒
 }
 
 
-tenpo_reform = {#天保改革
+tenpo_reform = {#????
 	icon = "gfx/interface/icons/law_icons/agrarianism.dds"
 
 	group = je_group_the_shogunate
@@ -629,7 +629,7 @@ tenpo_reform = {#天保改革
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-REPLACE_OR_CREATE:meiji_restoration = {#明治维新
+REPLACE_OR_CREATE:meiji_restoration = {#????
 	icon = "gfx/interface/icons/faction_icons/faction_japan_imperial_house.dds"
 
 	group = je_group_meiji_restoration
@@ -756,7 +756,7 @@ REPLACE_OR_CREATE:meiji_restoration = {#明治维新
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-REPLACE_OR_CREATE:je_meiji_restoration = {#御一新
+REPLACE_OR_CREATE:je_meiji_restoration = {#???
 	icon = "gfx/interface/icons/faction_icons/faction_japan_imperial_house.dds"
 
 	group = je_group_meiji_restoration
@@ -1225,7 +1225,7 @@ REPLACE_OR_CREATE:je_meiji_restoration = {#御一新
 }
 
 
-meiji_boshin_war = {#王政复古 没用了，留作纪念
+meiji_boshin_war = {#???? ???,????
 	icon = "gfx/interface/icons/law_icons/autocracy.dds"
 
 	group = je_group_meiji_restoration
@@ -1302,7 +1302,7 @@ meiji_boshin_war = {#王政复古 没用了，留作纪念
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-meiji_restoration_mil = {#维新：富国强兵
+meiji_restoration_mil = {#??:????
 	icon = "gfx/interface/icons/invention_icons/percussion_cap.dds"
 
 	group = je_group_meiji_restoration
@@ -1359,7 +1359,7 @@ meiji_restoration_mil = {#维新：富国强兵
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-meiji_restoration_dip = {#维新：巩固主权
+meiji_restoration_dip = {#??:????
 	icon = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
 
 	group = je_group_meiji_restoration
@@ -1396,7 +1396,7 @@ meiji_restoration_dip = {#维新：巩固主权
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-meiji_restoration_eco = {#维新：殖产兴业
+meiji_restoration_eco = {#??:????
 	icon = "gfx/interface/icons/invention_icons/watertube_boiler.dds"
 
 	group = je_group_meiji_restoration
@@ -1454,7 +1454,7 @@ meiji_restoration_eco = {#维新：殖产兴业
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-meiji_restoration_law = {#维新：废藩置县
+meiji_restoration_law = {#??:????
 	icon = "gfx/interface/icons/invention_icons/egalitarianism.dds"
 
 	group = je_group_meiji_restoration
@@ -1499,7 +1499,7 @@ meiji_restoration_law = {#维新：废藩置县
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-meiji_restoration_lad = {#维新：土地改革
+meiji_restoration_lad = {#??:????
 	icon = "gfx/interface/icons/invention_icons/corporate_charters.dds"
 
 	group = je_group_meiji_restoration
@@ -1536,7 +1536,7 @@ meiji_restoration_lad = {#维新：土地改革
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-meiji_restoration_ray = {#维新：建立铁路
+meiji_restoration_ray = {#??:????
 	icon = "gfx/interface/icons/invention_icons/railways.dds"
 
 	group = je_group_meiji_restoration
@@ -1583,7 +1583,7 @@ meiji_restoration_ray = {#维新：建立铁路
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-bansei_ikkei = {#万世一系
+bansei_ikkei = {#????
 	icon = "gfx/interface/icons/joi_icons/bansei_ikkei.png"
 
 	group = je_group_political_institutions
@@ -1598,7 +1598,7 @@ bansei_ikkei = {#万世一系
 					ruler = { has_variable = komei_emperor_should_die_var }
 					year >= 1860
 				}
-				ruler = { remove_character_role = ruler }#使得孝明天皇会在1860之后挂掉
+				ruler = { remove_character_role = ruler }#????????1860????
 			}
 		}
 	}
@@ -1621,7 +1621,7 @@ bansei_ikkei = {#万世一系
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
+japanese_sanbo_honbu = {#????Sanbo Honbu
 	icon = "gfx/interface/icons/joi_icons/japanese_sanbo_honbu.png"
 
 	group = je_group_military_institutions
@@ -1648,11 +1648,11 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     on_monthly_pulse = {
     	effect = {
     		define_highest_sanbo_honbu_resources = yes
-    		change_variable = { name = sanbo_honbu_navy_resources_var add = root.navy_size }#海军规模
+    		change_variable = { name = sanbo_honbu_navy_resources_var add = root.navy_size }#????
 			change_variable = { name = sanbo_honbu_navy_resources_var subtract = root.army_size }
-			change_variable = { name = sanbo_honbu_army_resources_var add = root.army_size }#陆军规模
+			change_variable = { name = sanbo_honbu_army_resources_var add = root.army_size }#????
 			change_variable = { name = sanbo_honbu_army_resources_var subtract = root.navy_size }
-			if = {#均衡
+			if = {#??
     			limit = {
     				je:japanese_sanbo_honbu = {
 						"scripted_bar_progress(japanese_sanbo_honbu_progress_bar)" = "2500"
@@ -1664,10 +1664,10 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_balance
     		}
-    		if = {#海军
+    		if = {#??
     			limit = {
     				je:japanese_sanbo_honbu = {
 						"scripted_bar_progress(japanese_sanbo_honbu_progress_bar)" > "2500"
@@ -1680,7 +1680,7 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_1_navy
     		}
     		if = {
@@ -1696,7 +1696,7 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_2_navy
     		}
     		if = {
@@ -1711,10 +1711,10 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_3_navy
     		}
-    		if = {#陆军
+    		if = {#??
     			limit = {
     				je:japanese_sanbo_honbu = {
 						"scripted_bar_progress(japanese_sanbo_honbu_progress_bar)" < "2500"
@@ -1727,7 +1727,7 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_1_army
     		}
     		if = {
@@ -1743,7 +1743,7 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_2_army
     		}
     		if = {
@@ -1758,7 +1758,7 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
     			remove_modifier = japanese_sanbo_honbu_strong_3_army
     			remove_modifier = japanese_sanbo_honbu_strong_1_navy
     			remove_modifier = japanese_sanbo_honbu_strong_2_navy
-    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#移除额外修正
+    			remove_modifier = japanese_sanbo_honbu_strong_3_navy#??????
     			add_modifier = japanese_sanbo_honbu_strong_3_army
     		}
     	}
@@ -1766,9 +1766,9 @@ japanese_sanbo_honbu = {#参谋本部Sanbo Honbu
 
     on_yearly_pulse = {
     	effect = {
-    		change_variable = { name = sanbo_honbu_navy_resources_var add = root.navy_size }#海军规模
+    		change_variable = { name = sanbo_honbu_navy_resources_var add = root.navy_size }#????
 			change_variable = { name = sanbo_honbu_navy_resources_var subtract = root.army_size }
-			change_variable = { name = sanbo_honbu_army_resources_var add = root.army_size }#陆军规模
+			change_variable = { name = sanbo_honbu_army_resources_var add = root.army_size }#????
 			change_variable = { name = sanbo_honbu_army_resources_var subtract = root.navy_size }
     	}
     }
@@ -1850,7 +1850,7 @@ shogunate_restoration_display = {
 	}
 }
 
-shogunate_restoration = {#幕府新政
+shogunate_restoration = {#????
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
 	group = je_group_the_shogunate
@@ -1932,7 +1932,7 @@ shogunate_restoration = {#幕府新政
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-shogunate_restoration_mil = {#新政：改革武士
+shogunate_restoration_mil = {#??:????
 	icon = "gfx/interface/icons/law_icons/professional_army.dds"
 
 	group = je_group_the_shogunate
@@ -1986,7 +1986,7 @@ shogunate_restoration_mil = {#新政：改革武士
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-shogunate_restoration_adm = {#新政：版籍革令
+shogunate_restoration_adm = {#??:????
 	icon = "gfx/interface/icons/law_icons/freeholders.dds"
 
 	group = je_group_the_shogunate
@@ -2031,7 +2031,7 @@ shogunate_restoration_adm = {#新政：版籍革令
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-shogunate_restoration_gov = {#新政：维护幕藩
+shogunate_restoration_gov = {#??:????
 	icon = "gfx/interface/icons/law_icons/oligarchy.dds"
 
 	group = je_group_the_shogunate
@@ -2102,7 +2102,7 @@ taisho_roman_display = {
 	}
 }
 
-taisho_roman = {#大正浪漫
+taisho_roman = {#????
 	icon = "gfx/interface/icons/joi_icons/taisho_roman.png"
 
 	group = je_group_movement_for_democracy
@@ -2223,7 +2223,7 @@ taisho_roman = {#大正浪漫
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-kenseiyougoundo_movement = {#护宪运动
+kenseiyougoundo_movement = {#????
 	icon = "gfx/interface/icons/event_icons/event_protest.dds"
 
 	group = je_group_movement_for_democracy
@@ -2374,7 +2374,7 @@ kenseiyougoundo_movement = {#护宪运动
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-anglo_japanese_alliance = {#英日同盟
+anglo_japanese_alliance = {#????
 	icon = "gfx/interface/icons/invention_icons/navigation.dds"
 
 	group = je_group_foreign_affairs
@@ -2559,7 +2559,7 @@ anglo_japanese_alliance = {#英日同盟
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-seikanron_conqueror_korea = {#征韩论
+seikanron_conqueror_korea = {#???
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_japan_expansion
@@ -2622,7 +2622,7 @@ seikanron_conqueror_korea = {#征韩论
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-seikanron_korean_adm = {#不稳定的朝鲜统治
+seikanron_korean_adm = {#????????
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	group = je_group_japan_expansion
@@ -2633,7 +2633,7 @@ seikanron_korean_adm = {#不稳定的朝鲜统治
 		c:USA = {
 			save_scope_as = USA_scope
 		}
-		c:CHI = {
+		c:CHI ?= {
             save_scope_as = CHI_scope
         }
 	}
@@ -2641,7 +2641,7 @@ seikanron_korean_adm = {#不稳定的朝鲜统治
 	on_monthly_pulse = {
 		random_events = {
 			100 = 0
-			1 = joi_flavor_jap.51#刺杀伊藤博文
+			1 = joi_flavor_jap.51#??????
 		}
 		effect = {
 			seikanron_korean_adm_effect = yes
@@ -2708,7 +2708,7 @@ seikanron_korean_adm = {#不稳定的朝鲜统治
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-jap_conqueror_manchuria = {#征服满洲
+jap_conqueror_manchuria = {#????
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_japan_expansion
@@ -2738,7 +2738,7 @@ jap_conqueror_manchuria = {#征服满洲
 
 	immediate = {
 		set_variable = { name = jap_conqueror_manchuria_je_var months = 1 }
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = CHI_scope
 		}
 		c:RUS = {
@@ -2777,7 +2777,7 @@ jap_conqueror_manchuria = {#征服满洲
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-jap_conqueror_taiwan = {#征服台湾
+jap_conqueror_taiwan = {#????
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_japan_expansion
@@ -2797,7 +2797,7 @@ jap_conqueror_taiwan = {#征服台湾
 	}
 
 	immediate = {
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = CHI_scope
 		}
 		set_variable = { name = has_jap_conqueror_taiwan_je_var months = 1 }
@@ -2827,7 +2827,7 @@ jap_conqueror_taiwan = {#征服台湾
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-japan_industrialize = {#日本列岛工业化
+japan_industrialize = {#???????
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	group = je_group_industrialization
@@ -2999,7 +2999,7 @@ japan_industrialize = {#日本列岛工业化
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-tohoku_industrialize = {#东北的军工开发
+tohoku_industrialize = {#???????
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	group = je_group_industrialization
@@ -3097,7 +3097,7 @@ tohoku_industrialize = {#东北的军工开发
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-manchuria_industrialize = {#满洲工业化
+manchuria_industrialize = {#?????
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	group = je_group_industrialization
@@ -3151,7 +3151,7 @@ manchuria_industrialize = {#满洲工业化
 				months = -1
 			}
 		}
-		c:CHI = {
+		c:CHI ?= {
             save_scope_as = GBR_scope
         }
 		g:coal = {
@@ -3229,13 +3229,13 @@ manchuria_industrialize = {#满洲工业化
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-manchuria_railway_bureau = {#满洲铁路局
+manchuria_railway_bureau = {#?????
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/japanese_mantetsu.dds"
 
 	group = je_group_commercial_interests
 
 	immediate = {
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = CHI_scope
 		}
 	}
@@ -3260,7 +3260,7 @@ manchuria_railway_bureau = {#满洲铁路局
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
-combined_fleet_shipbuilding_plan = {#联合舰队造舰计划
+combined_fleet_shipbuilding_plan = {#????????
 	icon = "gfx/interface/icons/invention_icons/dreadnought.dds"
 
 	group = je_group_military_institutions

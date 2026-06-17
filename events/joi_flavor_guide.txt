@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_guide
+namespace = joi_flavor_guide
 
-joi_flavor_guide.1 = {#重设法律
+joi_flavor_guide.1 = {#????
 	type = country_event
 	hidden = yes
 	placement = root

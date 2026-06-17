@@ -13,3 +13,115 @@
  notification_prestige_goods_fruit_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_fruit! #b $prestige_good_generic_fruit$#!"
  notification_prestige_goods_fruit_unlocked_tooltip: "#header $notification_prestige_goods_fruit_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_fruit_unlocked_desc$"
 
+ prestige_good_generic_dye: "High-grade Dye"
+ je_prestige_goods_dye: "$prestige_good_generic_dye$"
+ je_prestige_goods_dye_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_dye! #b $prestige_good_generic_dye$#!. If successful, it will be able to expand its competitiveness within the global @dye! #b $dye$#! market."
+ je_prestige_goods_dye_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_dye_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_dye_complete_tt: "Has completed the #b $je_prestige_goods_dye$#! [concept_journal_entry]"
+ je_prestige_goods_dye_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_dye! #b $prestige_good_generic_dye$#!"
+
+ not_prestige_good_generic_dye_var_tt: "Has #b not#! already developed @prestige_good_generic_dye! #b $prestige_good_generic_dye$#!"
+
+ notification_prestige_goods_dye_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_dye! #b $prestige_good_generic_dye$#!"
+ notification_prestige_goods_dye_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_dye! #b $prestige_good_generic_dye$#!"
+ notification_prestige_goods_dye_unlocked_tooltip: "#header $notification_prestige_goods_dye_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_dye_unlocked_desc$"
+
+ prestige_good_generic_telephones: "High-grade Telephones"
+ je_prestige_goods_telephones: "$prestige_good_generic_telephones$"
+ je_prestige_goods_telephones_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_telephones! #b $prestige_good_generic_telephones$#!. If successful, it will be able to expand its competitiveness within the global @telephones! #b $telephones$#! market."
+ je_prestige_goods_telephones_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_telephones_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_telephones_complete_tt: "Has completed the #b $je_prestige_goods_telephones$#! [concept_journal_entry]"
+ je_prestige_goods_telephones_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_telephones! #b $prestige_good_generic_telephones$#!"
+
+ not_prestige_good_generic_telephones_var_tt: "Has #b not#! already developed @prestige_good_generic_telephones! #b $prestige_good_generic_telephones$#!"
+
+ notification_prestige_goods_telephones_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_telephones! #b $prestige_good_generic_telephones$#!"
+ notification_prestige_goods_telephones_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_telephones! #b $prestige_good_generic_telephones$#!"
+ notification_prestige_goods_telephones_unlocked_tooltip: "#header $notification_prestige_goods_telephones_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_telephones_unlocked_desc$"
+
+ prestige_good_generic_iron: "High-grade Iron"
+ je_prestige_goods_iron: "$prestige_good_generic_iron$"
+ je_prestige_goods_iron_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_iron! #b $prestige_good_generic_iron$#!. If successful, it will be able to expand its competitiveness within the global @iron! #b $iron$#! market."
+ je_prestige_goods_iron_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_iron_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_iron_complete_tt: "Has completed the #b $je_prestige_goods_iron$#! [concept_journal_entry]"
+ je_prestige_goods_iron_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_iron! #b $prestige_good_generic_iron$#!"
+
+ not_prestige_good_generic_iron_var_tt: "Has #b not#! already developed @prestige_good_generic_iron! #b $prestige_good_generic_iron$#!"
+
+ notification_prestige_goods_iron_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_iron! #b $prestige_good_generic_iron$#!"
+ notification_prestige_goods_iron_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_iron! #b $prestige_good_generic_iron$#!"
+ notification_prestige_goods_iron_unlocked_tooltip: "#header $notification_prestige_goods_iron_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_iron_unlocked_desc$"
+
+ prestige_good_generic_wood: "High-grade Wood"
+ je_prestige_goods_wood: "$prestige_good_generic_wood$"
+ je_prestige_goods_wood_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_wood! #b $prestige_good_generic_wood$#!. If successful, it will be able to expand its competitiveness within the global @wood! #b $wood$#! market."
+ je_prestige_goods_wood_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_wood_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_wood_complete_tt: "Has completed the #b $je_prestige_goods_wood$#! [concept_journal_entry]"
+ je_prestige_goods_wood_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_wood! #b $prestige_good_generic_wood$#!"
+
+ not_prestige_good_generic_wood_var_tt: "Has #b not#! already developed @prestige_good_generic_wood! #b $prestige_good_generic_wood$#!"
+
+ notification_prestige_goods_wood_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_wood! #b $prestige_good_generic_wood$#!"
+ notification_prestige_goods_wood_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_wood! #b $prestige_good_generic_wood$#!"
+ notification_prestige_goods_wood_unlocked_tooltip: "#header $notification_prestige_goods_wood_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_wood_unlocked_desc$"
+
+ prestige_good_generic_engines: "High-grade Engines"
+ je_prestige_goods_engines: "$prestige_good_generic_engines$"
+ je_prestige_goods_engines_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_engines! #b $prestige_good_generic_engines$#!. If successful, it will be able to expand its competitiveness within the global @engines! #b $engines$#! market."
+ je_prestige_goods_engines_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_engines_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_engines_complete_tt: "Has completed the #b $je_prestige_goods_engines$#! [concept_journal_entry]"
+ je_prestige_goods_engines_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_engines! #b $prestige_good_generic_engines$#!"
+
+ not_prestige_good_generic_engines_var_tt: "Has #b not#! already developed @prestige_good_generic_engines! #b $prestige_good_generic_engines$#!"
+
+ notification_prestige_goods_engines_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_engines! #b $prestige_good_generic_engines$#!"
+ notification_prestige_goods_engines_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_engines! #b $prestige_good_generic_engines$#!"
+ notification_prestige_goods_engines_unlocked_tooltip: "#header $notification_prestige_goods_engines_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_engines_unlocked_desc$"
+
+ prestige_good_generic_oil: "High-grade Oil"
+ je_prestige_goods_oil: "$prestige_good_generic_oil$"
+ je_prestige_goods_oil_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_oil! #b $prestige_good_generic_oil$#!. If successful, it will be able to expand its competitiveness within the global @oil! #b $oil$#! market."
+ je_prestige_goods_oil_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_oil_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_oil_complete_tt: "Has completed the #b $je_prestige_goods_oil$#! [concept_journal_entry]"
+ je_prestige_goods_oil_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_oil! #b $prestige_good_generic_oil$#!"
+
+ not_prestige_good_generic_oil_var_tt: "Has #b not#! already developed @prestige_good_generic_oil! #b $prestige_good_generic_oil$#!"
+
+ notification_prestige_goods_oil_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_oil! #b $prestige_good_generic_oil$#!"
+ notification_prestige_goods_oil_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_oil! #b $prestige_good_generic_oil$#!"
+ notification_prestige_goods_oil_unlocked_tooltip: "#header $notification_prestige_goods_oil_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_oil_unlocked_desc$"
+
+ prestige_good_generic_steamers: "High-grade Steamers"
+ je_prestige_goods_steamers: "$prestige_good_generic_steamers$"
+ je_prestige_goods_steamers_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_steamers! #b $prestige_good_generic_steamers$#!. If successful, it will be able to expand its competitiveness within the global @steamers! #b $steamers$#! market."
+ je_prestige_goods_steamers_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_steamers_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_steamers_complete_tt: "Has completed the #b $je_prestige_goods_steamers$#! [concept_journal_entry]"
+ je_prestige_goods_steamers_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_steamers! #b $prestige_good_generic_steamers$#!"
+
+ not_prestige_good_generic_steamers_var_tt: "Has #b not#! already developed @prestige_good_generic_steamers! #b $prestige_good_generic_steamers$#!"
+
+ notification_prestige_goods_steamers_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_steamers! #b $prestige_good_generic_steamers$#!"
+ notification_prestige_goods_steamers_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_steamers! #b $prestige_good_generic_steamers$#!"
+ notification_prestige_goods_steamers_unlocked_tooltip: "#header $notification_prestige_goods_steamers_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_steamers_unlocked_desc$"
+
+ prestige_good_generic_sulfur: "High-grade Sulfur"
+ je_prestige_goods_sulfur: "$prestige_good_generic_sulfur$"
+ je_prestige_goods_sulfur_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!. If successful, it will be able to expand its competitiveness within the global @sulfur! #b $sulfur$#! market."
+ je_prestige_goods_sulfur_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_sulfur_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_sulfur_complete_tt: "Has completed the #b $je_prestige_goods_sulfur$#! [concept_journal_entry]"
+ je_prestige_goods_sulfur_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+
+ not_prestige_good_generic_sulfur_var_tt: "Has #b not#! already developed @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+
+ notification_prestige_goods_sulfur_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+ notification_prestige_goods_sulfur_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+ notification_prestige_goods_sulfur_unlocked_tooltip: "#header $notification_prestige_goods_sulfur_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_sulfur_unlocked_desc$"
+

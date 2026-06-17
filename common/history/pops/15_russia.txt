@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_VILNIUS = { #DONE
-		region_state:BYE = {
+		region_state:POL = {
 			create_pop = { # Most Lithuanian aristocrats identified as Polish
 				culture = polish
 				pop_type = aristocrats
@@ -181,8 +181,8 @@
 				culture = lithuanian
 				size = 4118
 			}
-		}
-		region_state:RUS = {
+		
+		
 			create_pop = {
 				culture = latvian
 				size = 96273
@@ -348,7 +348,7 @@
 		}
 	}
 	s:STATE_UUSIMAA = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = swedish
 				size = 101334
@@ -360,7 +360,7 @@
 		}
 	}
 	s:STATE_WEST_KARELIA = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 221799
@@ -381,7 +381,7 @@
 		}
 	}
 	s:STATE_ALAND = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = swedish
 				size = 25800
@@ -393,7 +393,7 @@
 		}
 	}
 	s:STATE_OSTROBOTHNIA = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 135542
@@ -405,7 +405,7 @@
 		}
 	}
 	s:STATE_OULU = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 116250
@@ -421,7 +421,7 @@
 		}
 	}
 	s:STATE_KUOPIO = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 301794
@@ -506,10 +506,10 @@
 		}
 	}
 	s:STATE_BREST = { #DONE
-		region_state:BYE = {
+		region_state:POL = {
 			create_pop = {
 				culture = byelorussian
-				size = 512334
+				size = 1512334
 			}
 			create_pop = {
 				culture = lithuanian
@@ -541,7 +541,7 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 569714
+				size = 1569714
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -561,7 +561,7 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 514176
+				size = 1514176
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -581,7 +581,7 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 317823
+				size = 1317823
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -968,8 +968,8 @@
 	s:STATE_PSKOV = { #DONE
 		region_state:BYE = {
 			create_pop = {
-				culture = russian
-				size = 680165
+				culture = byelorussian
+				size = 1680165
 			}
 			create_pop = {
 				culture = estonian
@@ -991,10 +991,7 @@
 				culture = finnish
 				size = 2513
 			}
-			create_pop = {
-				culture = byelorussian
-				size = 2298
-			}
+			
 		}
 	}
 	s:STATE_YAROSLAVL = { #DONE

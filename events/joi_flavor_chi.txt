@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_chi
+namespace = joi_flavor_chi
 
-joi_flavor_chi.1 = {#《条陈自强大计折》
+joi_flavor_chi.1 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.1.t
@@ -64,7 +64,7 @@ joi_flavor_chi.1 = {#《条陈自强大计折》
 	}
 }
 
-joi_flavor_chi.2 = {#中体西用？
+joi_flavor_chi.2 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.2.t
@@ -124,7 +124,7 @@ joi_flavor_chi.2 = {#中体西用？
 	}
 }
 
-joi_flavor_chi.3 = {#洋务派的失败
+joi_flavor_chi.3 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.3.t
@@ -165,7 +165,7 @@ joi_flavor_chi.3 = {#洋务派的失败
 	}
 }
 
-joi_flavor_chi.4 = {#守旧派朝臣反对西学
+joi_flavor_chi.4 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.4.t
@@ -246,7 +246,7 @@ joi_flavor_chi.4 = {#守旧派朝臣反对西学
 	}
 }
 
-joi_flavor_chi.5 = {#儒学的地位
+joi_flavor_chi.5 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.5.t
@@ -297,7 +297,7 @@ joi_flavor_chi.5 = {#儒学的地位
 	}
 }
 
-joi_flavor_chi.6 = {#保守派占据朝堂
+joi_flavor_chi.6 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.6.t
@@ -330,7 +330,7 @@ joi_flavor_chi.6 = {#保守派占据朝堂
 	}
 }
 
-joi_flavor_chi.7 = {#科举制度的终结
+joi_flavor_chi.7 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.7.t
@@ -373,7 +373,7 @@ joi_flavor_chi.7 = {#科举制度的终结
 	}
 }
 
-joi_flavor_chi.8 = {#军机处的结束
+joi_flavor_chi.8 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.8.t
@@ -450,7 +450,7 @@ joi_flavor_chi.8 = {#军机处的结束
 	}
 }
 
-joi_flavor_chi.9 = {#总税务司
+joi_flavor_chi.9 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.9.t
@@ -512,7 +512,7 @@ joi_flavor_chi.9 = {#总税务司
 	}
 }
 
-joi_flavor_chi.10 = {#九国公约会议
+joi_flavor_chi.10 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.10.t
@@ -538,7 +538,7 @@ joi_flavor_chi.10 = {#九国公约会议
 		c:GBR = {
             save_scope_as = GBR_scope
         }
-        c:CHI = {
+        c:CHI ?= {
             save_scope_as = CHI_scope
         }
         c:USA = {
@@ -590,12 +590,12 @@ joi_flavor_chi.10 = {#九国公约会议
 		binding_period = { years = 99 } # 10 years Treaty of London
 
 		articles_to_create = {
-				{ #保障独立
+				{ #????
 				article = guarantee_independence
 				source_country = ROOT
 				target_country = c:CHI
 				}
-				{ #贸易特权
+				{ #????
 				article = trade_privilege
 				source_country = c:CHI
 				target_country = ROOT
@@ -610,7 +610,7 @@ joi_flavor_chi.10 = {#九国公约会议
 	}
 }
 
-joi_flavor_chi.11 = {#清朝请求海关官员
+joi_flavor_chi.11 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.11.t
@@ -633,7 +633,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 	}
 
 	immediate = {
-		c:CHI = {
+		c:CHI ?= {
             save_scope_as = CHI_scope
         }
 	}
@@ -663,7 +663,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 					}
 				}
 			}
-			c:CHI = {
+			c:CHI ?= {
 			remove_variable = select_gbr_reform_chinese_customs_var
 			}
 		}
@@ -672,7 +672,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 				exists = c:FRA
 				ROOT ?= c:FRA
 			}
-			c:CHI = {
+			c:CHI ?= {
 			remove_variable = select_fra_reform_chinese_customs_var
 			}
 		}
@@ -681,7 +681,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 				exists = c:USA
 				ROOT ?= c:USA
 			}
-			c:CHI = {
+			c:CHI ?= {
 			remove_variable = select_usa_reform_chinese_customs_var
 			}
 		}
@@ -690,7 +690,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 				exists = c:GER
 				ROOT ?= c:GER
 			}
-			c:CHI = {
+			c:CHI ?= {
 			remove_variable = select_ger_reform_chinese_customs_var
 			}
 		}
@@ -719,7 +719,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 					}
 				}
 			}
-			c:CHI = {
+			c:CHI ?= {
 			add_modifier = { name = china_is_reforming_customs months = -1 }
 			set_variable = heed_in_invented_form_england_var
 			}
@@ -729,7 +729,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 				exists = c:FRA
 				ROOT ?= c:FRA
 			}
-			c:CHI = {
+			c:CHI ?= {
 			set_variable = heed_in_invented_form_france_var
 			}
 		}
@@ -738,7 +738,7 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 				exists = c:USA
 				ROOT ?= c:USA
 			}
-			c:CHI = {
+			c:CHI ?= {
 			set_variable = heed_in_invented_form_us_var
 			}
 		}
@@ -747,14 +747,14 @@ joi_flavor_chi.11 = {#清朝请求海关官员
 				exists = c:GER
 				ROOT ?= c:GER
 			}
-			c:CHI = {
+			c:CHI ?= {
 			set_variable = heed_in_invented_form_germany_var
 			}
 		}
 	}
 }
 
-joi_flavor_chi.12 = {#清帝退位
+joi_flavor_chi.12 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.12.t
@@ -816,7 +816,7 @@ joi_flavor_chi.12 = {#清帝退位
 	}
 }
 
-joi_flavor_chi.13 = {#拜谒明孝陵
+joi_flavor_chi.13 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.13.t
@@ -852,7 +852,7 @@ joi_flavor_chi.13 = {#拜谒明孝陵
 	}
 }
 
-joi_flavor_chi.14 = {#辫子军政变
+joi_flavor_chi.14 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.14.t
@@ -908,7 +908,7 @@ joi_flavor_chi.14 = {#辫子军政变
 					}
 				}
 			}
-			c:CHI = {
+			c:CHI ?= {
 			create_diplomatic_play = {
 				name = war_of_protect_republic
 		
@@ -927,7 +927,7 @@ joi_flavor_chi.14 = {#辫子军政变
 	}
 }
 
-joi_flavor_chi.15 = {#复辟帝制！
+joi_flavor_chi.15 = {#????!
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.15.t
@@ -999,7 +999,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1009,7 +1009,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1019,7 +1019,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1029,7 +1029,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1039,7 +1039,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1049,7 +1049,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1059,7 +1059,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1069,7 +1069,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1079,7 +1079,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1089,7 +1089,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1099,7 +1099,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1109,7 +1109,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1119,7 +1119,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1129,7 +1129,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1139,7 +1139,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1149,7 +1149,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:ZHI
@@ -1173,7 +1173,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 		}
 		custom_tooltip = {
 		text = war_of_huguo_event_1_tt
-		c:ZHI = {#北伐
+		c:ZHI = {#??
 			create_diplomatic_play = {
 				name = war_of_protect_republic
 		
@@ -1206,7 +1206,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 		}
 		custom_tooltip = {
 		text = war_of_huguo_event_2_tt
-		c:CHI = {
+		c:CHI ?= {
 			create_diplomatic_play = {
 				name = war_of_protect_republic
 		
@@ -1227,7 +1227,7 @@ joi_flavor_chi.15 = {#复辟帝制！
 	}
 }
 
-joi_flavor_chi.16 = {#北洋政变
+joi_flavor_chi.16 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.16.t
@@ -1271,7 +1271,7 @@ joi_flavor_chi.16 = {#北洋政变
 		}
 		custom_tooltip = {
 		text = china_become_broken_tt
-		if = {#北洋军阀
+		if = {#????
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_BEIJING
@@ -1307,7 +1307,7 @@ joi_flavor_chi.16 = {#北洋政变
 					}
 				}
 			}
-			c:CHI = {
+			c:CHI ?= {
 			create_diplomatic_play = {
 				name = war_of_protect_republic
 		
@@ -1328,7 +1328,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
@@ -1338,7 +1338,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
@@ -1348,7 +1348,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
@@ -1358,7 +1358,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
@@ -1368,7 +1368,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
@@ -1378,7 +1378,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
@@ -1388,14 +1388,14 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MCH
 				}
 			}
 		}
-		if = {#孙传芳（直系军阀）
+		if = {#???(????)
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_NANJING
@@ -1431,7 +1431,7 @@ joi_flavor_chi.16 = {#北洋政变
 					}
 				}
 			}
-			c:CHI = {
+			c:CHI ?= {
 			create_diplomatic_play = {
 				name = war_of_protect_republic
 		
@@ -1452,7 +1452,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:AHU
@@ -1462,7 +1462,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:AHU
@@ -1472,7 +1472,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:AHU
@@ -1482,7 +1482,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:AHU
@@ -1492,7 +1492,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:AHU
@@ -1502,14 +1502,14 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:AHU
 				}
 			}
 		}
-		if = {#晋系军阀
+		if = {#????
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_SHANXI
@@ -1544,7 +1544,7 @@ joi_flavor_chi.16 = {#北洋政变
 					}
 				}
 			}
-			c:CHI = {
+			c:CHI ?= {
 			create_diplomatic_play = {
 				name = war_of_protect_republic
 		
@@ -1565,7 +1565,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:SHN
@@ -1575,7 +1575,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:SHN
@@ -1585,14 +1585,14 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:SHN
 				}
 			}
 		}
-		if = {#四川军阀
+		if = {#????
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_SICHUAN
@@ -1611,7 +1611,7 @@ joi_flavor_chi.16 = {#北洋政变
 				}
 			}
 		}
-		if = {#云南军阀
+		if = {#????
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_YUNNAN
@@ -1629,7 +1629,7 @@ joi_flavor_chi.16 = {#北洋政变
 				}
 			}
 		}
-		if = {#西北军阀
+		if = {#????
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_XIAN
@@ -1651,7 +1651,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIB
@@ -1661,7 +1661,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIB
@@ -1671,7 +1671,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIB
@@ -1681,14 +1681,14 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIB
 				}
 			}
 		}
-		if = {#西藏
+		if = {#??
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_LHASA
@@ -1708,14 +1708,14 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:TIB
 				}
 			}
 		}
-		if = {#新疆
+		if = {#??
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_DZUNGARIA
@@ -1735,7 +1735,7 @@ joi_flavor_chi.16 = {#北洋政变
 			}
 			if = {
 				limit = {
-					c:CHI = { is_country_type = recognized }
+					c:CHI ?= { is_country_type = recognized }
 				}
 				create_diplomatic_pact = {
 				country = c:XIN
@@ -1744,7 +1744,7 @@ joi_flavor_chi.16 = {#北洋政变
 			}
 			if = {
 				limit = {
-					c:CHI = { is_country_type = unrecognized }
+					c:CHI ?= { is_country_type = unrecognized }
 				}
 				create_diplomatic_pact = {
 				country = c:XIN
@@ -1755,7 +1755,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIN
@@ -1765,7 +1765,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIN
@@ -1775,14 +1775,14 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:XIN
 				}
 			}
 		}
-		if = {#蒙古
+		if = {#??
 			limit = {
 				any_scope_state = {	
 					state_region = s:STATE_URGA
@@ -1806,7 +1806,7 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MGL
@@ -1816,16 +1816,16 @@ joi_flavor_chi.16 = {#北洋政变
 			random_scope_state = {
 				limit = {
 					owner = {
-							c:CHI = THIS
+							c:CHI ?= THIS
 						}
 					}
 				set_state_owner = c:MGL
 					}
 				}
 			}
-			if = {#西北
+			if = {#??
 				limit = {
-					c:CHI = { is_country_type = recognized }
+					c:CHI ?= { is_country_type = recognized }
 				}
 				create_diplomatic_pact = {
 				country = c:XIB
@@ -1834,16 +1834,16 @@ joi_flavor_chi.16 = {#北洋政变
 			}
 			if = {
 				limit = {
-					c:CHI = { is_country_type = unrecognized }
+					c:CHI ?= { is_country_type = unrecognized }
 				}
 				create_diplomatic_pact = {
 				country = c:XIB
 				type = vassal
 				}
 			}
-			if = {#蒙古
+			if = {#??
 				limit = {
-					c:CHI = { is_country_type = recognized }
+					c:CHI ?= { is_country_type = recognized }
 				}
 				create_diplomatic_pact = {
 				country = c:MGL
@@ -1852,16 +1852,16 @@ joi_flavor_chi.16 = {#北洋政变
 			}
 			if = {
 				limit = {
-					c:CHI = { is_country_type = unrecognized }
+					c:CHI ?= { is_country_type = unrecognized }
 				}
 				create_diplomatic_pact = {
 				country = c:XIN
 				type = tributary
 				}
 			}
-			if = {#云南
+			if = {#??
 				limit = {
-					c:CHI = { is_country_type = recognized }
+					c:CHI ?= { is_country_type = recognized }
 				}
 				create_diplomatic_pact = {
 				country = c:YUN
@@ -1870,16 +1870,16 @@ joi_flavor_chi.16 = {#北洋政变
 			}
 			if = {
 				limit = {
-					c:CHI = { is_country_type = unrecognized }
+					c:CHI ?= { is_country_type = unrecognized }
 				}
 				create_diplomatic_pact = {
 				country = c:YUN
 				type = vassal
 				}
 			}
-			if = {#四川
+			if = {#??
 				limit = {
-					c:CHI = { is_country_type = recognized }
+					c:CHI ?= { is_country_type = recognized }
 				}
 				create_diplomatic_pact = {
 				country = c:SIH
@@ -1888,7 +1888,7 @@ joi_flavor_chi.16 = {#北洋政变
 			}
 			if = {
 				limit = {
-					c:CHI = { is_country_type = unrecognized }
+					c:CHI ?= { is_country_type = unrecognized }
 				}
 				create_diplomatic_pact = {
 				country = c:SIH
@@ -1899,7 +1899,7 @@ joi_flavor_chi.16 = {#北洋政变
 	}
 }
 
-joi_flavor_chi.17 = {#建国方略
+joi_flavor_chi.17 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.17.t
@@ -1939,7 +1939,7 @@ joi_flavor_chi.17 = {#建国方略
 	}
 }
 
-joi_flavor_chi.18 = {#陆军士官学院？
+joi_flavor_chi.18 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.18.t
@@ -1980,7 +1980,7 @@ joi_flavor_chi.18 = {#陆军士官学院？
 	}
 }
 
-joi_flavor_chi.19 = {#杰出学员
+joi_flavor_chi.19 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.19.t
@@ -2047,7 +2047,7 @@ joi_flavor_chi.19 = {#杰出学员
 	}
 }
 
-joi_flavor_chi.20 = {#实战培训
+joi_flavor_chi.20 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.20.t
@@ -2092,7 +2092,7 @@ joi_flavor_chi.20 = {#实战培训
 	}
 }
 
-joi_flavor_chi.21 = {#新农业体制
+joi_flavor_chi.21 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.21.t
@@ -2126,7 +2126,7 @@ joi_flavor_chi.21 = {#新农业体制
 	}
 }
 
-joi_flavor_chi.22 = {#人民公社运动
+joi_flavor_chi.22 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.22.t
@@ -2161,7 +2161,7 @@ joi_flavor_chi.22 = {#人民公社运动
 	}
 }
 
-joi_flavor_chi.23 = {#新青年
+joi_flavor_chi.23 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.23.t
@@ -2213,7 +2213,7 @@ joi_flavor_chi.23 = {#新青年
 	}
 }
 
-joi_flavor_chi.24 = {#文学改良刍议
+joi_flavor_chi.24 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.24.t
@@ -2267,7 +2267,7 @@ joi_flavor_chi.24 = {#文学改良刍议
 	}
 }
 
-joi_flavor_chi.25 = {#新任总理遇刺
+joi_flavor_chi.25 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.25.t
@@ -2313,7 +2313,7 @@ joi_flavor_chi.25 = {#新任总理遇刺
 	}
 }
 
-joi_flavor_chi.26 = {#拒绝宣誓
+joi_flavor_chi.26 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.26.t
@@ -2363,7 +2363,7 @@ joi_flavor_chi.26 = {#拒绝宣誓
 	}
 }
 
-joi_flavor_chi.27 = {#国旗和党旗？
+joi_flavor_chi.27 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.27.t
@@ -2413,7 +2413,7 @@ joi_flavor_chi.27 = {#国旗和党旗？
 	}
 }
 
-joi_flavor_chi.28 = {#中华民国宪法
+joi_flavor_chi.28 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.28.t
@@ -2448,7 +2448,7 @@ joi_flavor_chi.28 = {#中华民国宪法
 	}
 }
 
-joi_flavor_chi.29 = {#与中国的劳工合同
+joi_flavor_chi.29 = {#????????
 	type = country_event
 	title = joi_flavor_chi.29.t
 	desc = joi_flavor_chi.29.d
@@ -2468,7 +2468,7 @@ joi_flavor_chi.29 = {#与中国的劳工合同
 	}
 
 	immediate = {
-		c:CHI = {
+		c:CHI ?= {
 			save_scope_as = chinese_labor_country
 		}
 		ordered_scope_state = {
@@ -2506,7 +2506,7 @@ joi_flavor_chi.29 = {#与中国的劳工合同
 			}
 		}
 		add_modifier = { name = accept_labor_agreement_modifier years = 5 }
-		c:CHI = {
+		c:CHI ?= {
 			add_modifier = { name = benifits_labor_agreement_modifier years = 5 }
 		}
 	}
@@ -2522,7 +2522,7 @@ joi_flavor_chi.29 = {#与中国的劳工合同
 	}
 }
 
-joi_flavor_chi.30 = {#南京条约
+joi_flavor_chi.30 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_chi.30.t
@@ -2579,7 +2579,7 @@ joi_flavor_chi.30 = {#南京条约
 				target = c:GBR
 			}
 		}
-		if = {#南京条约，香港条约港，贸易特权和投资权
+		if = {#????,?????,????????
             limit = {
                 exists = c:GBR
             }
@@ -2620,7 +2620,7 @@ joi_flavor_chi.30 = {#南京条约
 	}
 }
 
-joi_flavor_chi.31 = {#铜瓦厢决口
+joi_flavor_chi.31 = {#?????
 	type = country_event
 	placement = scope:burst_state
 	title = joi_flavor_chi.31.t
@@ -2730,7 +2730,7 @@ joi_flavor_chi.31 = {#铜瓦厢决口
 	}
 }
 
-joi_flavor_chi.32 = {#黄河入海
+joi_flavor_chi.32 = {#????
 	type = country_event
 	placement = scope:yellow_3_scope
 	title = joi_flavor_chi.32.t
@@ -2819,7 +2819,7 @@ joi_flavor_chi.32 = {#黄河入海
 	}
 }
 
-joi_flavor_chi.33 = {#民族奇迹
+joi_flavor_chi.33 = {#????
 	type = country_event
 	placement = scope:yellow_river_scope
 	title = joi_flavor_chi.33.t
@@ -2896,7 +2896,7 @@ joi_flavor_chi.33 = {#民族奇迹
 	}
 }
 
-joi_flavor_chi.34 = {#xx年黄河泛滥
+joi_flavor_chi.34 = {#xx?????
 	type = country_event
 	placement = scope:burst_state
 	title = joi_flavor_chi.34.t

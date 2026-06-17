@@ -167,3 +167,51 @@ prestige_good_generic_fruit = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/prestige_goods/generic_fruit_prestige.png"
 }
+
+prestige_good_generic_dye = {
+	base_good = dye
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_dye_prestige.png"
+}
+
+prestige_good_generic_telephones = {
+	base_good = telephones
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_telephones_prestige.png"
+}
+
+prestige_good_generic_iron = {
+	base_good = iron
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_iron_prestige.png"
+}
+
+prestige_good_generic_wood = {
+	base_good = wood
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_wood_prestige.png"
+}
+
+prestige_good_generic_engines = {
+	base_good = engines
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_engines_prestige.png"
+}
+
+prestige_good_generic_oil = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_oil_prestige.png"
+}
+
+prestige_good_generic_steamers = {
+	base_good = steamers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_steamers_prestige.png"
+}
+
+prestige_good_generic_sulfur = {
+	base_good = sulfur
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_sulfur_prestige.png"
+}

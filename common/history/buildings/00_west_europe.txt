@@ -1050,7 +1050,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=15
+						levels=5
 						region="STATE_HOME_COUNTIES"
 					}
 				}
@@ -1170,7 +1170,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=8
+						levels=1
 						region="STATE_HOME_COUNTIES"
 					}
 					building={
@@ -1188,7 +1188,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=3
+						levels=15
 					}
 				}
 				reserves=1
@@ -1222,25 +1222,25 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=5
+						levels=1
 						region="STATE_LANCASHIRE"
 					}
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=10
+						levels=1
 						region="STATE_HOME_COUNTIES"
 					}
 					building={
 						type="building_manor_house"
 						country="c:GBR"
-						levels=5
+						levels=1
 						region="STATE_LANCASHIRE"
 					}
 					building={
 						type="building_coal_mine"
 						country="c:GBR"
-						levels=5
+						levels=1
 						region="STATE_LANCASHIRE"
 					}
 				}
@@ -1440,13 +1440,13 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=5
+						levels=1
 						region="STATE_HOME_COUNTIES"
 					}
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=10
+						levels=1
 						region="STATE_YORKSHIRE"
 					}
 				}
@@ -1527,12 +1527,12 @@
 					building={
 						type="building_coal_mine"
 						country="c:GBR"
-						levels=10
+						levels=1
 						region="STATE_YORKSHIRE"
 					}
 					country={
 						country="c:GBR"
-						levels=10
+						levels=1
 					}
 				}
 				reserves=1
@@ -2453,6 +2453,19 @@
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:IRE"
+						levels=10
+						region="STATE_ULSTER"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2482,7 +2495,7 @@
 					building={
 						type="building_financial_district"
 						country="c:IRE"
-						levels=5
+						levels=10
 						region="STATE_ULSTER"
 					}
 				}
@@ -2518,6 +2531,19 @@
 				activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" "pm_potatoes" }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:IRE"
+						levels=10
+						region="STATE_ULSTER"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2548,11 +2574,24 @@
 				add_ownership={
 					country={
 						country="c:IRE"
-						levels=6
+						levels=10
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:IRE"
+						levels=4
+						region="STATE_LEINSTER"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_government_administration"
@@ -2572,7 +2611,7 @@
 					building={
 						type="building_financial_district"
 						country="c:IRE"
-						levels=4
+						levels=10
 						region="STATE_HOME_COUNTIES"
 					}
 				}
@@ -2646,6 +2685,33 @@
 				activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" "pm_potatoes" }
 			}
 			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					building={
+						type="building_textile_mill"
+						country="c:IRE"
+						levels=5
+						region="STATE_CONNAUGHT"
+					}
+					
+				}
+				reserves=1
+				activate_production_methods={ "pm_dye_workshops"  "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:IRE"
+						levels=10
+						region="STATE_CONNAUGHT"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2678,7 +2744,7 @@
 					building={
 						type="building_financial_district"
 						country="c:FRA"
-						levels=5
+						levels=15
 						region="STATE_ILE_DE_FRANCE"
 					}
 				}
@@ -2702,7 +2768,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=5
+						levels=15
 					}
 				}
 				reserves=1

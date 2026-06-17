@@ -678,8 +678,8 @@ POPS = {
 			culture = platinean
 			size = 164658
 		}
+	  }
 	}
-}
 	s:STATE_CORRIENTES = {
 		region_state:ARG = {
 			create_pop = {
@@ -1013,7 +1013,7 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 205392
+				size = 2205392
 			}
 			create_pop = {
 				pop_type = slaves

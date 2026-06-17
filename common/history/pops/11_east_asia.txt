@@ -1686,8 +1686,7 @@
 				culture = siberian
 				size = 3462
 			}			
-		}
-		region_state:AIN = {
+		
 			create_pop = {
 				culture = ainu
 				size = 95
@@ -1705,8 +1704,7 @@
 				culture = siberian
 				size = 3060
 			}
-		}
-		region_state:AIN = {
+		
 			create_pop = {
 				culture = ainu
 				size = 2184
@@ -1724,8 +1722,7 @@
 				culture = siberian
 				size = 486
 			}
-		}
-		region_state:ALK = {
+		
 			create_pop = {
 				culture = ainu
 				religion = orthodox
@@ -1749,8 +1746,7 @@
 				religion = orthodox
 				size = 101
 			}
-		}
-		region_state:EZO = {
+		
 			create_pop = {
 				culture = ainu
 				size = 601

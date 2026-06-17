@@ -1,0 +1,11 @@
+pr_ranching_infrastructure_bonus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_group_bg_ranching_infrastructure_usage_mult = -0.75
+}
+
+modifier_joi_force_privatization = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_force_privatization_bool = yes
+}
+
+

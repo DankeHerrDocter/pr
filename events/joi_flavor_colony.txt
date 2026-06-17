@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_colony
+namespace = joi_flavor_colony
 
-joi_flavor_colony.1 = {#柏林会议
+joi_flavor_colony.1 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.1.t
@@ -53,7 +53,7 @@ joi_flavor_colony.1 = {#柏林会议
 	}		
 }
 
-joi_flavor_colony.2 = {#柏林条约
+joi_flavor_colony.2 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.2.t
@@ -267,7 +267,7 @@ joi_flavor_colony.2 = {#柏林条约
 	}
 }
 
-joi_flavor_colony.3 = {#阿尔及尔章程
+joi_flavor_colony.3 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.3.t
@@ -367,7 +367,7 @@ joi_flavor_colony.3 = {#阿尔及尔章程
 	}	
 }
 
-joi_flavor_colony.4 = {#西非章程
+joi_flavor_colony.4 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.4.t
@@ -475,7 +475,7 @@ joi_flavor_colony.4 = {#西非章程
 	}	
 }
 
-joi_flavor_colony.5 = {#中非章程
+joi_flavor_colony.5 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.5.t
@@ -575,7 +575,7 @@ joi_flavor_colony.5 = {#中非章程
 	}	
 }
 
-joi_flavor_colony.6 = {#喀麦隆章程
+joi_flavor_colony.6 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.6.t
@@ -671,7 +671,7 @@ joi_flavor_colony.6 = {#喀麦隆章程
 	}	
 }
 
-joi_flavor_colony.7 = {#尼日尔章程
+joi_flavor_colony.7 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.7.t
@@ -774,7 +774,7 @@ joi_flavor_colony.7 = {#尼日尔章程
 	}	
 }
 
-joi_flavor_colony.8 = {#多哥章程
+joi_flavor_colony.8 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.8.t
@@ -869,7 +869,7 @@ joi_flavor_colony.8 = {#多哥章程
 	}	
 }
 
-joi_flavor_colony.9 = {#刚果章程
+joi_flavor_colony.9 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.9.t
@@ -969,7 +969,7 @@ joi_flavor_colony.9 = {#刚果章程
 	}	
 }
 
-joi_flavor_colony.10 = {#安哥拉章程
+joi_flavor_colony.10 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.10.t
@@ -1067,7 +1067,7 @@ joi_flavor_colony.10 = {#安哥拉章程
 	}	
 }
 
-joi_flavor_colony.11 = {#莫桑比克章程
+joi_flavor_colony.11 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.11.t
@@ -1165,7 +1165,7 @@ joi_flavor_colony.11 = {#莫桑比克章程
 	}	
 }
 
-joi_flavor_colony.12 = {#纳米比亚章程
+joi_flavor_colony.12 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.12.t
@@ -1261,7 +1261,7 @@ joi_flavor_colony.12 = {#纳米比亚章程
 	}	
 }
 
-joi_flavor_colony.13 = {#东非章程
+joi_flavor_colony.13 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.13.t
@@ -1359,7 +1359,7 @@ joi_flavor_colony.13 = {#东非章程
 	}	
 }
 
-joi_flavor_colony.14 = {#肯尼亚章程
+joi_flavor_colony.14 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.14.t
@@ -1456,7 +1456,7 @@ joi_flavor_colony.14 = {#肯尼亚章程
 	}	
 }
 
-joi_flavor_colony.15 = {#南非章程
+joi_flavor_colony.15 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.15.t
@@ -1559,7 +1559,7 @@ joi_flavor_colony.15 = {#南非章程
 	}	
 }
 
-joi_flavor_colony.16 = {#赞比亚章程
+joi_flavor_colony.16 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.16.t
@@ -1655,7 +1655,7 @@ joi_flavor_colony.16 = {#赞比亚章程
 	}	
 }
 
-joi_flavor_colony.17 = {#利比亚章程
+joi_flavor_colony.17 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_colony.17.t

@@ -35,12 +35,7 @@
 		activate_law = law_type:law_secret_police
 		activate_law = law_type:law_guild_system # Heavily restricted, but still extant until 1859
 
-		active_law:lawgroup_distribution_of_power ?= { # Autocracy
-			add_amendment = {
-				type = amendment_geheime_staatskonferenz
-				sponsor = PREV.ig:ig_landowners # Franz was a Landowner, I suppose
-			}
-		}
+		
 
 		active_law:lawgroup_taxation ?= { #门窗税
 			add_amendment = {

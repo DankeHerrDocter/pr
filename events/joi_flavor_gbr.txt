@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_gbr
+namespace = joi_flavor_gbr
 
-joi_flavor_gbr.1 = {#不列颠治世
+joi_flavor_gbr.1 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.1.t
@@ -52,13 +52,13 @@ joi_flavor_gbr.1 = {#不列颠治世
 					}
 					NOT = { c:BIC ?= THIS }
 				}
-				active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+				active_law:lawgroup_governance_principles ?= { # ???????
 					add_amendment = {
 						type = amendment_westminster_system_amendment
 						sponsor = PREV.ig:ig_intelligentsia
 					}
 				}
-				active_law:lawgroup_economic_system ?= { # 普通法
+				active_law:lawgroup_economic_system ?= { # ???
 					add_amendment = {
 						type = amendment_common_law
 						sponsor = PREV.ig:ig_rural_folk
@@ -69,7 +69,7 @@ joi_flavor_gbr.1 = {#不列颠治世
 	}
 }
 
-joi_flavor_gbr.2 = {#联合法案
+joi_flavor_gbr.2 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.2.t
@@ -118,7 +118,7 @@ joi_flavor_gbr.2 = {#联合法案
 	}
 }
 
-joi_flavor_gbr.3 = {#1887殖民地会议
+joi_flavor_gbr.3 = {#1887?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.3.t
@@ -301,7 +301,7 @@ joi_flavor_gbr.3 = {#1887殖民地会议
 				}
 			}
 		}
-	s:STATE_EASTERN_CAPE = {#南非
+	s:STATE_EASTERN_CAPE = {#??
 			random_scope_state = {
 				limit = {
 					owner = {
@@ -379,7 +379,7 @@ joi_flavor_gbr.3 = {#1887殖民地会议
 				set_state_owner = c:SAF
 			}
 	}
-	s:STATE_ONTARIO = {#加拿大
+	s:STATE_ONTARIO = {#???
 			random_scope_state = {
 				limit = {
 					owner = {
@@ -509,7 +509,7 @@ joi_flavor_gbr.3 = {#1887殖民地会议
 				set_state_owner = c:CAN
 			}
 	}
-	s:STATE_NEW_SOUTH_WALES = {#澳大利亚
+	s:STATE_NEW_SOUTH_WALES = {#????
 			random_scope_state = {
 				limit = {
 					owner = {
@@ -626,7 +626,7 @@ joi_flavor_gbr.3 = {#1887殖民地会议
 				set_state_owner = c:AST
 			}
 	}
-	s:STATE_KASHMIR = {#印度
+	s:STATE_KASHMIR = {#??
 			random_scope_state = {
 				limit = {
 					owner = {
@@ -1084,7 +1084,7 @@ joi_flavor_gbr.3 = {#1887殖民地会议
 	}
 }
 
-joi_flavor_gbr.4 = {#加拿大成功
+joi_flavor_gbr.4 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.4.t
@@ -1145,7 +1145,7 @@ joi_flavor_gbr.4 = {#加拿大成功
 	}
 }
 
-joi_flavor_gbr.5 = {#加拿大失败
+joi_flavor_gbr.5 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.5.t
@@ -1199,7 +1199,7 @@ joi_flavor_gbr.5 = {#加拿大失败
 	}
 }
 
-joi_flavor_gbr.6 = {#澳大利亚成功
+joi_flavor_gbr.6 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.6.t
@@ -1258,7 +1258,7 @@ joi_flavor_gbr.6 = {#澳大利亚成功
 	}
 }
 
-joi_flavor_gbr.7 = {#澳大利亚失败
+joi_flavor_gbr.7 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.7.t
@@ -1310,7 +1310,7 @@ joi_flavor_gbr.7 = {#澳大利亚失败
 	}
 }
 
-joi_flavor_gbr.8 = {#南非成功
+joi_flavor_gbr.8 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.8.t
@@ -1353,7 +1353,7 @@ joi_flavor_gbr.8 = {#南非成功
 	}
 }
 
-joi_flavor_gbr.9 = {#南非失败
+joi_flavor_gbr.9 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.9.t
@@ -1395,7 +1395,7 @@ joi_flavor_gbr.9 = {#南非失败
 	}
 }
 
-joi_flavor_gbr.10 = {#爱尔兰成功
+joi_flavor_gbr.10 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.10.t
@@ -1442,7 +1442,7 @@ joi_flavor_gbr.10 = {#爱尔兰成功
 	}
 }
 
-joi_flavor_gbr.11 = {#爱尔兰大饥荒
+joi_flavor_gbr.11 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.11.t
@@ -1505,7 +1505,7 @@ joi_flavor_gbr.11 = {#爱尔兰大饥荒
 	}
 }
 
-joi_flavor_gbr.12 = {#印度事务法
+joi_flavor_gbr.12 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.12.t
@@ -1607,7 +1607,7 @@ joi_flavor_gbr.12 = {#印度事务法
 		    	add_journal_entry = {
 					type = indian_major_railway
 				}
-				active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+				active_law:lawgroup_governance_principles ?= { # ???????
 					add_amendment = {
 						type = amendment_westminster_system_amendment
 						sponsor = PREV.ig:ig_intelligentsia
@@ -1713,7 +1713,7 @@ joi_flavor_gbr.12 = {#印度事务法
 	}
 }
 
-joi_flavor_gbr.13 = {#印度失败
+joi_flavor_gbr.13 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.13.t
@@ -1796,7 +1796,7 @@ joi_flavor_gbr.13 = {#印度失败
 	}
 }
 
-joi_flavor_gbr.14 = {#爱尔兰饥荒：治理完成
+joi_flavor_gbr.14 = {#?????:????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.14.t
@@ -1860,7 +1860,7 @@ joi_flavor_gbr.14 = {#爱尔兰饥荒：治理完成
 	}
 }
 
-joi_flavor_gbr.15 = {#爱尔兰饥荒：不治理
+joi_flavor_gbr.15 = {#?????:???
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.15.t
@@ -1921,7 +1921,7 @@ joi_flavor_gbr.15 = {#爱尔兰饥荒：不治理
 	}
 }
 
-joi_flavor_gbr.16 = {#征服缅甸
+joi_flavor_gbr.16 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.16.t
@@ -2063,7 +2063,7 @@ joi_flavor_gbr.16 = {#征服缅甸
 	}
 }
 
-joi_flavor_gbr.17 = {#征服埃及
+joi_flavor_gbr.17 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.17.t
@@ -2142,7 +2142,7 @@ joi_flavor_gbr.17 = {#征服埃及
 	}
 }
 
-joi_flavor_gbr.18 = {#从开罗到开普敦
+joi_flavor_gbr.18 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.18.t
@@ -2179,8 +2179,8 @@ joi_flavor_gbr.18 = {#从开罗到开普敦
 		}
 	}
 
-joi_flavor_gbr.19 = {#大印度半岛铁路
-	type = country_event·
+joi_flavor_gbr.19 = {#???????
+	type = country_event�
 	placement = root
 	title = joi_flavor_gbr.19.t
 	desc = joi_flavor_gbr.19.d
@@ -2232,7 +2232,7 @@ joi_flavor_gbr.19 = {#大印度半岛铁路
 	}
 }
 
-joi_flavor_gbr.20 = {#英美同盟
+joi_flavor_gbr.20 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.20.t
@@ -2301,7 +2301,7 @@ joi_flavor_gbr.20 = {#英美同盟
             binding_period = { years = 99 }
 
             articles_to_create = {
-                { # 英美同盟
+                { # ????
                     article = alliance
                 }
                 { 
@@ -2330,7 +2330,7 @@ joi_flavor_gbr.20 = {#英美同盟
             binding_period = { years = 99 }
 
             articles_to_create = {
-                { # 英美同盟
+                { # ????
                     article = alliance
                 }
                 { 
@@ -2470,7 +2470,7 @@ joi_flavor_gbr.20 = {#英美同盟
 		}
 	}
 
-joi_flavor_gbr.21 = {#在美投资大获成功
+joi_flavor_gbr.21 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.21.t
@@ -2516,7 +2516,7 @@ joi_flavor_gbr.21 = {#在美投资大获成功
 	}
 }
 
-joi_flavor_gbr.22 = {#在美投资遭受失败
+joi_flavor_gbr.22 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.22.t
@@ -2562,7 +2562,7 @@ joi_flavor_gbr.22 = {#在美投资遭受失败
 		}
 	}
 
-joi_flavor_gbr.23 = {#英国请求贷款
+joi_flavor_gbr.23 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.23.t
@@ -2656,7 +2656,7 @@ joi_flavor_gbr.23 = {#英国请求贷款
 	}
 }
 
-joi_flavor_gbr.24 = {#印度教士兵暴动
+joi_flavor_gbr.24 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.24.t
@@ -2721,7 +2721,7 @@ joi_flavor_gbr.24 = {#印度教士兵暴动
 	}
 }
 
-joi_flavor_gbr.25 = {#土邦议会请愿
+joi_flavor_gbr.25 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.25.t
@@ -2796,7 +2796,7 @@ joi_flavor_gbr.25 = {#土邦议会请愿
 		}
 	}
 
-joi_flavor_gbr.26 = {#杰出官员
+joi_flavor_gbr.26 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.26.t
@@ -2913,7 +2913,7 @@ joi_flavor_gbr.26 = {#杰出官员
 	}
 }
 
-joi_flavor_gbr.27 = {#粮食短缺
+joi_flavor_gbr.27 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.27.t
@@ -3039,7 +3039,7 @@ joi_flavor_gbr.27 = {#粮食短缺
 	}
 }
 
-joi_flavor_gbr.28 = {#英属印度政府
+joi_flavor_gbr.28 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.28.t
@@ -3111,7 +3111,7 @@ joi_flavor_gbr.28 = {#英属印度政府
 		    	add_journal_entry = {
 					type = indian_major_railway
 				}
-				active_law:lawgroup_governance_principles ?= { # 威斯敏斯特体系
+				active_law:lawgroup_governance_principles ?= { # ???????
 					add_amendment = {
 						type = amendment_westminster_system_amendment
 						sponsor = PREV.ig:ig_intelligentsia
@@ -3123,7 +3123,7 @@ joi_flavor_gbr.28 = {#英属印度政府
 				country = c:BIC
 				type = dominion
 			}
-	s:STATE_KASHMIR = {#印度
+	s:STATE_KASHMIR = {#??
 			random_scope_state = {
 				limit = {
 					owner = {
@@ -3581,7 +3581,7 @@ joi_flavor_gbr.28 = {#英属印度政府
 	}
 }
 
-joi_flavor_gbr.29 = {#印度事务大臣的任命
+joi_flavor_gbr.29 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.29.t
@@ -3622,7 +3622,7 @@ joi_flavor_gbr.29 = {#印度事务大臣的任命
 	}
 }
 
-joi_flavor_gbr.30 = {#英美同盟(美国方)
+joi_flavor_gbr.30 = {#????(???)
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.30.t
@@ -3756,7 +3756,7 @@ joi_flavor_gbr.30 = {#英美同盟(美国方)
 	}
 }
 
-joi_flavor_gbr.31 = {#帝国会议
+joi_flavor_gbr.31 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.31.t
@@ -3814,7 +3814,7 @@ joi_flavor_gbr.31 = {#帝国会议
 	}
 }
 
-joi_flavor_gbr.32 = {#Royal Regatta 英格兰皇家赛艇大赛
+joi_flavor_gbr.32 = {#Royal Regatta ?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.32.t
@@ -3870,7 +3870,7 @@ joi_flavor_gbr.32 = {#Royal Regatta 英格兰皇家赛艇大赛
 	}
 }
 
-joi_flavor_gbr.33 = {#英属北美法令
+joi_flavor_gbr.33 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.33.t
@@ -3916,7 +3916,7 @@ joi_flavor_gbr.33 = {#英属北美法令
 	}
 }
 
-joi_flavor_gbr.34 = {#澳大利亚政府法令
+joi_flavor_gbr.34 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.34.t
@@ -3963,7 +3963,7 @@ joi_flavor_gbr.34 = {#澳大利亚政府法令
 	}
 }
 
-joi_flavor_gbr.35 = {#南非联邦法令
+joi_flavor_gbr.35 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.35.t
@@ -4012,7 +4012,7 @@ joi_flavor_gbr.35 = {#南非联邦法令
 	}
 }
 
-joi_flavor_gbr.36 = {#英属印度事务法
+joi_flavor_gbr.36 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.36.t
@@ -4074,7 +4074,7 @@ joi_flavor_gbr.36 = {#英属印度事务法
 	}
 }
 
-joi_flavor_gbr.37 = {#威斯敏斯特法令
+joi_flavor_gbr.37 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.37.t
@@ -4122,7 +4122,7 @@ joi_flavor_gbr.37 = {#威斯敏斯特法令
 	}
 }
 
-joi_flavor_gbr.38 = {#爱尔兰叛乱！
+joi_flavor_gbr.38 = {#?????!
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.38.t
@@ -4223,7 +4223,7 @@ joi_flavor_gbr.38 = {#爱尔兰叛乱！
 	}
 }
 
-joi_flavor_gbr.39 = {#叛乱的结束
+joi_flavor_gbr.39 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.39.t
@@ -4260,7 +4260,7 @@ joi_flavor_gbr.39 = {#叛乱的结束
 	}
 }
 
-joi_flavor_gbr.40 = {#爱尔兰问题？
+joi_flavor_gbr.40 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.40.t
@@ -4314,7 +4314,7 @@ joi_flavor_gbr.40 = {#爱尔兰问题？
 	}
 }
 
-joi_flavor_gbr.41 = {#珀金爵士
+joi_flavor_gbr.41 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.41.t
@@ -4352,7 +4352,7 @@ joi_flavor_gbr.41 = {#珀金爵士
 	}
 }
 
-joi_flavor_gbr.42 = {#君主的生日
+joi_flavor_gbr.42 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.42.t
@@ -4448,7 +4448,7 @@ joi_flavor_gbr.42 = {#君主的生日
 	}
 }
 
-joi_flavor_gbr.43 = {#帝国日
+joi_flavor_gbr.43 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.43.t
@@ -4526,7 +4526,7 @@ joi_flavor_gbr.43 = {#帝国日
 	}
 }
 
-joi_flavor_gbr.44 = {#威斯敏斯特宫
+joi_flavor_gbr.44 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.44.t
@@ -4568,7 +4568,7 @@ joi_flavor_gbr.44 = {#威斯敏斯特宫
 	}
 }
 
-joi_flavor_gbr.45 = {#石匠罢工
+joi_flavor_gbr.45 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.45.t
@@ -4621,7 +4621,7 @@ joi_flavor_gbr.45 = {#石匠罢工
 	}
 }
 
-joi_flavor_gbr.46 = {#预算辩论
+joi_flavor_gbr.46 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.46.t
@@ -4910,7 +4910,7 @@ joi_flavor_gbr.46 = {#预算辩论
 	}
 }
 
-joi_flavor_gbr.47 = {#紧急议会
+joi_flavor_gbr.47 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.47.t
@@ -4998,7 +4998,7 @@ joi_flavor_gbr.47 = {#紧急议会
 	}
 }
 
-joi_flavor_gbr.48 = {#不信任投票
+joi_flavor_gbr.48 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.48.t
@@ -5078,7 +5078,7 @@ joi_flavor_gbr.48 = {#不信任投票
 	}
 }
 
-joi_flavor_gbr.49 = {#皇家公告
+joi_flavor_gbr.49 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.49.t
@@ -5162,7 +5162,7 @@ joi_flavor_gbr.49 = {#皇家公告
 	}
 }
 
-joi_flavor_gbr.50 = {#殖民主义政策
+joi_flavor_gbr.50 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.50.t
@@ -5356,7 +5356,7 @@ joi_flavor_gbr.50 = {#殖民主义政策
 	}
 }
 
-joi_flavor_gbr.51 = {#帝国战时内阁
+joi_flavor_gbr.51 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.51.t
@@ -5468,7 +5468,7 @@ joi_flavor_gbr.51 = {#帝国战时内阁
 	}
 }
 
-joi_flavor_gbr.52 = {#保王党人起义
+joi_flavor_gbr.52 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.52.t
@@ -5508,7 +5508,7 @@ joi_flavor_gbr.52 = {#保王党人起义
 	}
 }
 
-joi_flavor_gbr.53 = {#议会派宣布废黜君主
+joi_flavor_gbr.53 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.53.t
@@ -5547,7 +5547,7 @@ joi_flavor_gbr.53 = {#议会派宣布废黜君主
 	}
 }
 
-joi_flavor_gbr.54 = {#1867改革法案
+joi_flavor_gbr.54 = {#1867????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.54.t
@@ -5624,7 +5624,7 @@ joi_flavor_gbr.54 = {#1867改革法案
 	}
 }
 
-joi_flavor_gbr.55 = {#1918人民代表法案
+joi_flavor_gbr.55 = {#1918??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.55.t
@@ -5721,7 +5721,7 @@ joi_flavor_gbr.55 = {#1918人民代表法案
 	}
 }
 
-joi_flavor_gbr.56 = {#1922人民代表法案
+joi_flavor_gbr.56 = {#1922??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.56.t
@@ -5788,7 +5788,7 @@ joi_flavor_gbr.56 = {#1922人民代表法案
 	}
 }
 
-joi_flavor_gbr.57 = {#谷物法废除法案
+joi_flavor_gbr.57 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.57.t
@@ -5858,7 +5858,7 @@ joi_flavor_gbr.57 = {#谷物法废除法案
 	}
 }
 
-joi_flavor_gbr.58 = {#航海法案
+joi_flavor_gbr.58 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.58.t
@@ -5931,7 +5931,7 @@ joi_flavor_gbr.58 = {#航海法案
 	}
 }
 
-joi_flavor_gbr.59 = {#理查德-柯布登 反谷物法联盟
+joi_flavor_gbr.59 = {#???-??? ??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.59.t
@@ -5990,7 +5990,7 @@ joi_flavor_gbr.59 = {#理查德-柯布登 反谷物法联盟
 	}
 }
 
-joi_flavor_gbr.60 = {#中央农业保护协会
+joi_flavor_gbr.60 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.60.t
@@ -6073,7 +6073,7 @@ joi_flavor_gbr.60 = {#中央农业保护协会
 	}
 }
 
-joi_flavor_gbr.61 = {#皇家海军阅舰式
+joi_flavor_gbr.61 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.61.t
@@ -6176,7 +6176,7 @@ joi_flavor_gbr.61 = {#皇家海军阅舰式
 	}
 }
 
-joi_flavor_gbr.62 = {#威灵顿公爵去世
+joi_flavor_gbr.62 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.62.t
@@ -6227,7 +6227,7 @@ joi_flavor_gbr.62 = {#威灵顿公爵去世
 	}
 }
 
-joi_flavor_gbr.63 = {#初等教育法
+joi_flavor_gbr.63 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.63.t
@@ -6276,7 +6276,7 @@ joi_flavor_gbr.63 = {#初等教育法
 	}
 }
 
-joi_flavor_gbr.64 = {#国家援助法
+joi_flavor_gbr.64 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.64.t
@@ -6349,7 +6349,7 @@ joi_flavor_gbr.64 = {#国家援助法
 	}
 }
 
-joi_flavor_gbr.65 = {#雇佣合同法
+joi_flavor_gbr.65 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.65.t
@@ -6394,7 +6394,7 @@ joi_flavor_gbr.65 = {#雇佣合同法
 	}
 }
 
-joi_flavor_gbr.66 = {#劳动法
+joi_flavor_gbr.66 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.66.t
@@ -6439,7 +6439,7 @@ joi_flavor_gbr.66 = {#劳动法
 	}
 }
 
-joi_flavor_gbr.67 = {#火柴女工罢工
+joi_flavor_gbr.67 = {#??????
 	type = country_event
 	placement = scope:labor_law_strike_scope
 	title = joi_flavor_gbr.67.t
@@ -6502,7 +6502,7 @@ joi_flavor_gbr.67 = {#火柴女工罢工
 	}
 }
 
-joi_flavor_gbr.68 = {#码头工人罢工
+joi_flavor_gbr.68 = {#??????
 	type = country_event
 	placement = scope:labor_law_strike_scope
 	title = joi_flavor_gbr.68.t
@@ -6566,7 +6566,7 @@ joi_flavor_gbr.68 = {#码头工人罢工
 	}
 }
 
-joi_flavor_gbr.69 = {#工人攻占[城名]工厂
+joi_flavor_gbr.69 = {#????[??]??
 	type = country_event
 	placement = scope:labor_law_strike_scope
 	title = joi_flavor_gbr.69.t
@@ -6648,7 +6648,7 @@ joi_flavor_gbr.69 = {#工人攻占[城名]工厂
 	}
 }
 
-joi_flavor_gbr.70 = {#流血星期日
+joi_flavor_gbr.70 = {#?????
 	type = country_event
 	placement = scope:labor_law_strike_scope
 	title = joi_flavor_gbr.70.t
@@ -6785,7 +6785,7 @@ joi_flavor_gbr.70 = {#流血星期日
 	}
 }
 
-joi_flavor_gbr.71 = {#干草市场暴乱
+joi_flavor_gbr.71 = {#??????
 	type = country_event
 	placement = scope:labor_law_strike_scope
 	title = joi_flavor_gbr.71.t
@@ -6890,7 +6890,7 @@ joi_flavor_gbr.71 = {#干草市场暴乱
 	}
 }
 
-joi_flavor_gbr.72 = {#全国铁路工人大罢工
+joi_flavor_gbr.72 = {#?????????
 	type = country_event
 	placement = scope:labor_law_strike_scope
 	title = joi_flavor_gbr.72.t
@@ -6955,7 +6955,7 @@ joi_flavor_gbr.72 = {#全国铁路工人大罢工
 	}
 }
 
-joi_flavor_gbr.73 = {#济贫院状况报告书
+joi_flavor_gbr.73 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.73.t
@@ -7008,7 +7008,7 @@ joi_flavor_gbr.73 = {#济贫院状况报告书
 	}
 }
 
-joi_flavor_gbr.74 = {#济贫院状况报告书
+joi_flavor_gbr.74 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.74.t
@@ -7053,7 +7053,7 @@ joi_flavor_gbr.74 = {#济贫院状况报告书
 	}
 }
 
-joi_flavor_gbr.75 = {#人民宪章
+joi_flavor_gbr.75 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.75.t
@@ -7164,7 +7164,7 @@ joi_flavor_gbr.75 = {#人民宪章
 	}
 }
 
-joi_flavor_gbr.76 = {#全国宪章大会
+joi_flavor_gbr.76 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.76.t
@@ -7246,7 +7246,7 @@ joi_flavor_gbr.76 = {#全国宪章大会
 	}
 }
 
-joi_flavor_gbr.77 = {#斗牛场暴动
+joi_flavor_gbr.77 = {#?????
 	type = country_event
 	placement = scope:chartism_movement_state
 	title = joi_flavor_gbr.77.t
@@ -7330,7 +7330,7 @@ joi_flavor_gbr.77 = {#斗牛场暴动
 	}
 }
 
-joi_flavor_gbr.78 = {#newport起义
+joi_flavor_gbr.78 = {#newport??
 	type = country_event
 	placement = scope:chartism_movement_state
 	title = joi_flavor_gbr.78.t
@@ -7437,7 +7437,7 @@ joi_flavor_gbr.78 = {#newport起义
 			}
 			add_modifier = { name = newport_rising_1_modifier years = 3 multiplier = 0.5 }
 		}
-		trigger_event = { id = historical_agitators.22 }#审判弗罗斯特
+		trigger_event = { id = historical_agitators.22 }#??????
 		every_political_movement = {
 			limit = {
 				is_political_movement_type = movement_labor 
@@ -7460,7 +7460,7 @@ joi_flavor_gbr.78 = {#newport起义
 	}
 }
 
-joi_flavor_gbr.79 = {#总罢工
+joi_flavor_gbr.79 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.79.t
@@ -7528,7 +7528,7 @@ joi_flavor_gbr.79 = {#总罢工
 	}
 }
 
-joi_flavor_gbr.80 = {#肯宁顿公园集会
+joi_flavor_gbr.80 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.80.t
@@ -7603,7 +7603,7 @@ joi_flavor_gbr.80 = {#肯宁顿公园集会
 	}
 }
 
-joi_flavor_gbr.81 = {#宪章法案
+joi_flavor_gbr.81 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.81.t
@@ -7640,7 +7640,7 @@ joi_flavor_gbr.81 = {#宪章法案
 	}
 }
 
-joi_flavor_gbr.82 = {#北极星报停刊
+joi_flavor_gbr.82 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.82.t
@@ -7727,7 +7727,7 @@ joi_flavor_gbr.82 = {#北极星报停刊
 	}
 }
 
-joi_flavor_gbr.83 = {#恐怖周
+joi_flavor_gbr.83 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.83.t
@@ -7782,7 +7782,7 @@ joi_flavor_gbr.83 = {#恐怖周
 	}
 }
 
-joi_flavor_gbr.84 = {#黑色星期一
+joi_flavor_gbr.84 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.84.t
@@ -8109,7 +8109,7 @@ joi_flavor_gbr.84 = {#黑色星期一
 	}
 }
 
-joi_flavor_gbr.85 = {#关税争议
+joi_flavor_gbr.85 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.85.t
@@ -8224,7 +8224,7 @@ joi_flavor_gbr.85 = {#关税争议
 	}
 }
 
-joi_flavor_gbr.86 = {#信用危机
+joi_flavor_gbr.86 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.86.t
@@ -8336,7 +8336,7 @@ joi_flavor_gbr.86 = {#信用危机
 	}
 }
 
-joi_flavor_gbr.87 = {#银行破产
+joi_flavor_gbr.87 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.87.t
@@ -8433,7 +8433,7 @@ joi_flavor_gbr.87 = {#银行破产
 	}
 }
 
-joi_flavor_gbr.88 = {#赤字危机
+joi_flavor_gbr.88 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.88.t
@@ -8551,7 +8551,7 @@ joi_flavor_gbr.88 = {#赤字危机
 	}
 }
 
-joi_flavor_gbr.89 = {#农民困境
+joi_flavor_gbr.89 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.89.t
@@ -8647,7 +8647,7 @@ joi_flavor_gbr.89 = {#农民困境
 	}
 }
 
-joi_flavor_gbr.90 = {#啤酒馆暴动
+joi_flavor_gbr.90 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.90.t
@@ -8747,7 +8747,7 @@ joi_flavor_gbr.90 = {#啤酒馆暴动
 	}
 }
 
-joi_flavor_gbr.91 = {#雄心勃勃的铁路投资者
+joi_flavor_gbr.91 = {#??????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.91.t
@@ -8804,7 +8804,7 @@ joi_flavor_gbr.91 = {#雄心勃勃的铁路投资者
 	}
 }
 
-joi_flavor_gbr.92 = {#皇家海军撤离
+joi_flavor_gbr.92 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.92.t
@@ -9136,7 +9136,7 @@ joi_flavor_gbr.92 = {#皇家海军撤离
 	}
 }
 
-joi_flavor_gbr.93 = {#保王党人抵达
+joi_flavor_gbr.93 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.93.t
@@ -9179,7 +9179,7 @@ joi_flavor_gbr.93 = {#保王党人抵达
 	}
 }
 
-joi_flavor_gbr.94 = {#进步时代
+joi_flavor_gbr.94 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.94.t
@@ -9235,7 +9235,7 @@ joi_flavor_gbr.94 = {#进步时代
 	}
 }
 
-joi_flavor_gbr.95 = {#反奴隶制道德
+joi_flavor_gbr.95 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.95.t
@@ -9367,7 +9367,7 @@ joi_flavor_gbr.95 = {#反奴隶制道德
 	}
 }
 
-joi_flavor_gbr.96 = {#虐待动物的残忍行为
+joi_flavor_gbr.96 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.96.t
@@ -9416,7 +9416,7 @@ joi_flavor_gbr.96 = {#虐待动物的残忍行为
 	}
 }
 
-joi_flavor_gbr.97 = {#生活在罪恶中
+joi_flavor_gbr.97 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.97.t
@@ -9462,7 +9462,7 @@ joi_flavor_gbr.97 = {#生活在罪恶中
 	}
 }
 
-joi_flavor_gbr.98 = {#淫荡之国
+joi_flavor_gbr.98 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.98.t
@@ -9519,7 +9519,7 @@ joi_flavor_gbr.98 = {#淫荡之国
 	}
 }
 
-joi_flavor_gbr.99 = {#英国绅士
+joi_flavor_gbr.99 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.99.t
@@ -9586,7 +9586,7 @@ joi_flavor_gbr.99 = {#英国绅士
 	}
 }
 
-joi_flavor_gbr.100 = {#英式下午茶
+joi_flavor_gbr.100 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.100.t
@@ -9646,7 +9646,7 @@ joi_flavor_gbr.100 = {#英式下午茶
 	}
 }
 
-joi_flavor_gbr.101 = {#不道德的童工
+joi_flavor_gbr.101 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.101.t
@@ -9724,7 +9724,7 @@ joi_flavor_gbr.101 = {#不道德的童工
 	}
 }
 
-joi_flavor_gbr.102 = {#公务员
+joi_flavor_gbr.102 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.102.t
@@ -9767,7 +9767,7 @@ joi_flavor_gbr.102 = {#公务员
 	}
 }
 
-joi_flavor_gbr.103 = {#考拉议员
+joi_flavor_gbr.103 = {#????
 	type = country_event
 	placement = scope:MPs_state
 	title = joi_flavor_gbr.103.t
@@ -9828,7 +9828,7 @@ joi_flavor_gbr.103 = {#考拉议员
 	}
 }
 
-joi_flavor_gbr.104 = {#荒唐的隆重
+joi_flavor_gbr.104 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.104.t
@@ -9879,7 +9879,7 @@ joi_flavor_gbr.104 = {#荒唐的隆重
 	}
 }
 
-joi_flavor_gbr.105 = {#投机丑闻
+joi_flavor_gbr.105 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.105.t
@@ -9985,7 +9985,7 @@ joi_flavor_gbr.105 = {#投机丑闻
 	}
 }
 
-joi_flavor_gbr.106 = {#傻瓜委员会
+joi_flavor_gbr.106 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.106.t
@@ -10063,7 +10063,7 @@ joi_flavor_gbr.106 = {#傻瓜委员会
 	}
 }
 
-joi_flavor_gbr.107 = {#缺席表决
+joi_flavor_gbr.107 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.107.t
@@ -10133,7 +10133,7 @@ joi_flavor_gbr.107 = {#缺席表决
 	}
 }
 
-joi_flavor_gbr.108 = {#上院的阻挠
+joi_flavor_gbr.108 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.108.t
@@ -10234,7 +10234,7 @@ joi_flavor_gbr.108 = {#上院的阻挠
 	}
 }
 
-joi_flavor_gbr.109 = {#肃静
+joi_flavor_gbr.109 = {#??
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.109.t
@@ -10308,7 +10308,7 @@ joi_flavor_gbr.109 = {#肃静
 	}
 }
 
-joi_flavor_gbr.110 = {#缺乏进展的改革
+joi_flavor_gbr.110 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.110.t
@@ -10377,7 +10377,7 @@ joi_flavor_gbr.110 = {#缺乏进展的改革
 	}
 }
 
-joi_flavor_gbr.111 = {#透明政府？
+joi_flavor_gbr.111 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.111.t
@@ -10457,7 +10457,7 @@ joi_flavor_gbr.111 = {#透明政府？
 	}
 }
 
-joi_flavor_gbr.112 = {#经济驱动
+joi_flavor_gbr.112 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.112.t
@@ -10552,7 +10552,7 @@ joi_flavor_gbr.112 = {#经济驱动
 	}
 }
 
-joi_flavor_gbr.113 = {#离校年龄
+joi_flavor_gbr.113 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.113.t
@@ -10645,7 +10645,7 @@ joi_flavor_gbr.113 = {#离校年龄
 	}
 }
 
-joi_flavor_gbr.114 = {#首相的宏伟设计
+joi_flavor_gbr.114 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.114.t
@@ -10733,7 +10733,7 @@ joi_flavor_gbr.114 = {#首相的宏伟设计
 	}
 }
 
-joi_flavor_gbr.115 = {#谁读报纸？
+joi_flavor_gbr.115 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.115.t
@@ -10824,7 +10824,7 @@ joi_flavor_gbr.115 = {#谁读报纸？
 	}
 }
 
-joi_flavor_gbr.116 = {#锄强扶弱
+joi_flavor_gbr.116 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.116.t
@@ -10974,7 +10974,7 @@ joi_flavor_gbr.116 = {#锄强扶弱
 	}
 }
 
-joi_flavor_gbr.117 = {#四阶段治国
+joi_flavor_gbr.117 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.117.t
@@ -11086,7 +11086,7 @@ joi_flavor_gbr.117 = {#四阶段治国
 	}
 }
 
-joi_flavor_gbr.118 = {#很好的计划，但不是现在
+joi_flavor_gbr.118 = {#?????,?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.118.t
@@ -11192,7 +11192,7 @@ joi_flavor_gbr.118 = {#很好的计划，但不是现在
 	}
 }
 
-joi_flavor_gbr.119 = {#国家的恩人
+joi_flavor_gbr.119 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.119.t
@@ -11286,7 +11286,7 @@ joi_flavor_gbr.119 = {#国家的恩人
 	}
 }
 
-joi_flavor_gbr.120 = {#我们中的一员
+joi_flavor_gbr.120 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.120.t
@@ -11388,7 +11388,7 @@ joi_flavor_gbr.120 = {#我们中的一员
 	}
 }
 
-joi_flavor_gbr.121 = {#共同利益
+joi_flavor_gbr.121 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.121.t
@@ -11449,7 +11449,7 @@ joi_flavor_gbr.121 = {#共同利益
 	}
 }
 
-joi_flavor_gbr.122 = {#帝国特惠制
+joi_flavor_gbr.122 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.122.t
@@ -11524,7 +11524,7 @@ joi_flavor_gbr.122 = {#帝国特惠制
 	}
 }
 
-joi_flavor_gbr.123 = {#女王的婚姻
+joi_flavor_gbr.123 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.123.t
@@ -11691,7 +11691,7 @@ joi_flavor_gbr.123 = {#女王的婚姻
 	}
 }
 
-joi_flavor_gbr.124 = {#友好访问
+joi_flavor_gbr.124 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.124.t
@@ -11786,7 +11786,7 @@ joi_flavor_gbr.124 = {#友好访问
 	}
 }
 
-joi_flavor_gbr.125 = {#奇妙冒险
+joi_flavor_gbr.125 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.125.t
@@ -11940,7 +11940,7 @@ joi_flavor_gbr.125 = {#奇妙冒险
 	}
 }
 
-joi_flavor_gbr.126 = {#世纪婚礼
+joi_flavor_gbr.126 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.126.t
@@ -12164,7 +12164,7 @@ joi_flavor_gbr.127 = { #Accession of George V
 	}
 }
 
-joi_flavor_gbr.128 = { #康斯坦丁二世
+joi_flavor_gbr.128 = { #??????
 	type = country_event
 	placement = root
 
@@ -12232,7 +12232,7 @@ joi_flavor_gbr.128 = { #康斯坦丁二世
 	}
 }
 
-joi_flavor_gbr.129 = { #亚二去世
+joi_flavor_gbr.129 = { #????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.129.t
@@ -12283,7 +12283,7 @@ joi_flavor_gbr.129 = { #亚二去世
 	}
 }
 
-joi_flavor_gbr.130 = { #阿尔伯特亲王去世
+joi_flavor_gbr.130 = { #????????
 	type = country_event
 	placement = root
 	title = joi_flavor_gbr.130.t

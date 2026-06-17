@@ -7,7 +7,7 @@
 					building={
 						type="building_manor_house"
 						country="c:POL"
-						levels=4
+						levels=6
 						region="STATE_MAZOVIA"
 					}
 				}
@@ -20,7 +20,7 @@
 					building={
 						type="building_tooling_workshop"
 						country="c:POL"
-						levels=3
+						levels=7
 						region="STATE_MAZOVIA"
 					}
 				}
@@ -42,19 +42,19 @@
 		}
 	}
 	s:STATE_BREST={
-		region_state:BYE={
+		region_state:POL={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:BYE"
+						country="c:POL"
 						levels=4
 						region="STATE_BREST"
 					}
 					building={
 						type="building_financial_district"
-						country="c:BYE"
+						country="c:POL"
 						levels=1
 						region="STATE_BREST"
 					}
@@ -240,7 +240,7 @@
 					building={
 						type="building_textile_mill"
 						country="c:POL"
-						levels=4
+						levels=6
 						region="STATE_GREATER_POLAND"
 					}
 				}
@@ -252,7 +252,7 @@
 				add_ownership={
 					country={
 						country="c:POL"
-						levels=13
+						levels=15
 					}
 				}
 				reserves=1
@@ -265,7 +265,7 @@
 					building={
 						type="building_financial_district"
 						country="c:POL"
-						levels=3
+						levels=13
 						region="STATE_GREATER_POLAND"
 					}
 				}
@@ -1308,7 +1308,7 @@
 					building={
 						type="building_manor_house"
 						country="c:WAL"
-						levels=1
+						levels=11
 						region="STATE_MOLDAVIA"
 					}
 				}
@@ -1321,7 +1321,7 @@
 					building={
 						type="building_manor_house"
 						country="c:WAL"
-						levels=1
+						levels=12
 						region="STATE_MOLDAVIA"
 					}
 					building={
@@ -1353,7 +1353,7 @@
 					building={
 						type="building_logging_camp"
 						country="c:WAL"
-						levels=1
+						levels=3
 						region="STATE_MOLDAVIA"
 					}
 				}
@@ -1369,11 +1369,23 @@
 				add_ownership={
 					country={
 						country="c:WAL"
-						levels=1
+						levels=10
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_religious_bureaucrats" "pm_hereditary_bureaucrats" "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_trade_center"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:WAL"
+						levels=10
+						region="STATE_WALLACHIA"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_food_industry"
@@ -1381,7 +1393,7 @@
 					building={
 						type="building_food_industry"
 						country="c:WAL"
-						levels=1
+						levels=3
 						region="STATE_WALLACHIA"
 					}
 				}
@@ -1407,7 +1419,7 @@
 					building={
 						type="building_silk_plantation"
 						country="c:WAL"
-						levels=2
+						levels=4
 						region="STATE_WALLACHIA"
 					}
 				}
@@ -1458,7 +1470,7 @@
 					building={
 						type="building_sulfur_mine"
 						country="c:WAL"
-						levels=1
+						levels=10
 						region="STATE_WALLACHIA"
 					}
 				}
@@ -1471,7 +1483,7 @@
 					building={
 						type="building_manor_house"
 						country="c:WAL"
-						levels=9
+						levels=19
 						region="STATE_WALLACHIA"
 					}
 				}
@@ -1507,7 +1519,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:UKR"
-						levels=1
+						levels=10
 						region="STATE_BESSARABIA"
 					}
 				}

@@ -352,7 +352,7 @@ bic_company_debts = {#公司的债务清偿
         c:GBR = {
             save_scope_as = GBR_scope
         }
-        c:CHI = {
+        c:CHI ?= {
             save_scope_as = CHI_scope
         }
         if = {

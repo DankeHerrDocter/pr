@@ -1,6 +1,6 @@
-﻿namespace = joi_flavor_aus
+namespace = joi_flavor_aus
 
-joi_flavor_aus.1 = {#进军布达佩斯
+joi_flavor_aus.1 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.1.t
@@ -164,7 +164,7 @@ joi_flavor_aus.1 = {#进军布达佩斯
 	}
 }
 
-joi_flavor_aus.2 = {#民族解决方案
+joi_flavor_aus.2 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.2.t
@@ -227,7 +227,7 @@ joi_flavor_aus.2 = {#民族解决方案
 	}
 }
 
-joi_flavor_aus.3 = {#二元君主国
+joi_flavor_aus.3 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.3.t
@@ -270,7 +270,7 @@ joi_flavor_aus.3 = {#二元君主国
 	}
 }
 
-joi_flavor_aus.4 = {#匈牙利领地？
+joi_flavor_aus.4 = {#??????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.4.t
@@ -364,7 +364,7 @@ joi_flavor_aus.4 = {#匈牙利领地？
 	}
 }
 
-joi_flavor_aus.5 = {#贵族统治的结束
+joi_flavor_aus.5 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.5.t
@@ -442,7 +442,7 @@ joi_flavor_aus.5 = {#贵族统治的结束
 	}
 }
 
-joi_flavor_aus.6 = {#匈牙利屈服
+joi_flavor_aus.6 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.6.t
@@ -484,7 +484,7 @@ joi_flavor_aus.6 = {#匈牙利屈服
 	}
 }
 
-joi_flavor_aus.7 = {#捷克领地？
+joi_flavor_aus.7 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.7.t
@@ -567,7 +567,7 @@ joi_flavor_aus.7 = {#捷克领地？
 	}
 }
 
-joi_flavor_aus.8 = {#加利西亚领地？
+joi_flavor_aus.8 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.8.t
@@ -654,7 +654,7 @@ joi_flavor_aus.8 = {#加利西亚领地？
 	}
 }
 
-joi_flavor_aus.9 = {#伊利里亚领地？
+joi_flavor_aus.9 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.9.t
@@ -735,7 +735,7 @@ joi_flavor_aus.9 = {#伊利里亚领地？
 	}
 }
 
-joi_flavor_aus.10 = {#铁王冠之争
+joi_flavor_aus.10 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.10.t
@@ -820,7 +820,7 @@ joi_flavor_aus.10 = {#铁王冠之争
 	}
 }
 
-joi_flavor_aus.11 = {#威尼斯领地
+joi_flavor_aus.11 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.11.t
@@ -899,7 +899,7 @@ joi_flavor_aus.11 = {#威尼斯领地
 	}
 }
 
-joi_flavor_aus.12 = {#奥地利帝国联邦化
+joi_flavor_aus.12 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.12.t
@@ -955,7 +955,7 @@ joi_flavor_aus.12 = {#奥地利帝国联邦化
 	}
 }
 
-joi_flavor_aus.13 = {#激进主义者包围维也纳
+joi_flavor_aus.13 = {#??????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.13.t
@@ -1047,7 +1047,7 @@ joi_flavor_aus.13 = {#激进主义者包围维也纳
 	}
 }
 
-joi_flavor_aus.14 = {#皮勒斯多夫宪法
+joi_flavor_aus.14 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.14.t
@@ -1102,7 +1102,7 @@ joi_flavor_aus.14 = {#皮勒斯多夫宪法
 	}
 }
 
-joi_flavor_aus.15 = {#匈牙利叛乱
+joi_flavor_aus.15 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.15.t
@@ -1177,7 +1177,7 @@ joi_flavor_aus.15 = {#匈牙利叛乱
 	}
 }
 
-joi_flavor_aus.16 = {#联邦议会的设立
+joi_flavor_aus.16 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.16.t
@@ -1217,7 +1217,7 @@ joi_flavor_aus.16 = {#联邦议会的设立
 	}
 }
 
-joi_flavor_aus.17 = {#帝国的毁灭
+joi_flavor_aus.17 = {#?????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.17.t
@@ -1423,7 +1423,7 @@ joi_flavor_aus.17 = {#帝国的毁灭
 	}
 }
 
-joi_flavor_aus.18 = {#卡尔大公的葬礼
+joi_flavor_aus.18 = {#???????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.18.t
@@ -1481,7 +1481,7 @@ joi_flavor_aus.18 = {#卡尔大公的葬礼
 	}
 }
 
-joi_flavor_aus.19 = {#茜茜公主
+joi_flavor_aus.19 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.19.t
@@ -1542,7 +1542,7 @@ joi_flavor_aus.19 = {#茜茜公主
 	}
 }
 
-joi_flavor_aus.20 = {#佩斯大洪水！
+joi_flavor_aus.20 = {#?????!
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.20.t
@@ -1592,7 +1592,7 @@ joi_flavor_aus.20 = {#佩斯大洪水！
 	}
 }
 
-joi_flavor_aus.21 = {#重建佩斯
+joi_flavor_aus.21 = {#????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.21.t
@@ -1670,7 +1670,7 @@ joi_flavor_aus.21 = {#重建佩斯
 	}
 }
 
-joi_flavor_aus.22 = {#旧秩序
+joi_flavor_aus.22 = {#???
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.22.t
@@ -1747,7 +1747,7 @@ joi_flavor_aus.22 = {#旧秩序
 	}
 }
 
-joi_flavor_aus.23 = {#新时代的天主教君主
+joi_flavor_aus.23 = {#?????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.23.t
@@ -1803,7 +1803,7 @@ joi_flavor_aus.23 = {#新时代的天主教君主
 	}
 }
 
-joi_flavor_aus.24 = {#旧时代的王冠公国
+joi_flavor_aus.24 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.24.t
@@ -1865,7 +1865,7 @@ joi_flavor_aus.24 = {#旧时代的王冠公国
 	}
 }
 
-joi_flavor_aus.25 = {#旧时代的帝国封地
+joi_flavor_aus.25 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.25.t
@@ -2015,7 +2015,7 @@ joi_flavor_aus.25 = {#旧时代的帝国封地
 	}
 }
 
-joi_flavor_aus.26 = {#旧时代的灯塔权杖
+joi_flavor_aus.26 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.26.t
@@ -2151,7 +2151,7 @@ joi_flavor_aus.26 = {#旧时代的灯塔权杖
 	}
 }
 
-joi_flavor_aus.27 = {#旧时代的黄金王冠
+joi_flavor_aus.27 = {#????????
 	type = country_event
 	placement = root
 	title = joi_flavor_aus.27.t

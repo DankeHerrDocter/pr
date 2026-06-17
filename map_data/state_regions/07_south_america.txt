@@ -586,6 +586,9 @@ STATE_JUJUY = {
     capped_resources = {
         building_logging_camp = 24
         building_gold_mine = 3
+        building_iron_mine = 25
+        building_lead_mine = 25
+        building_coal_mine = 3
     }
     resource = {
         type = "building_gold_field"
@@ -809,6 +812,7 @@ STATE_SANTIAGO = {
         building_gold_mine = 5
         building_logging_camp = 18
         building_whaling_station = 84
+        building_sulfur_mine = 36
         building_fishing_wharf = 82
     }
     resource = {
@@ -1275,6 +1279,8 @@ STATE_CEARA = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_logging_camp = 21
+        building_iron_mine = 18
+        building_coal_mine = 5
         building_fishing_wharf = 9
     }
     resource = {

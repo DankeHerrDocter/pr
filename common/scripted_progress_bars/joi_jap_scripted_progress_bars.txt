@@ -1,4 +1,4 @@
-﻿ jap_anti_bakufu_progress_bar = {#倒幕派
+ jap_anti_bakufu_progress_bar = {#???
 	name = "jap_anti_bakufu_progress_bar"
 	desc = "jap_anti_bakufu_progress_bar_desc"
 
@@ -45,7 +45,7 @@
 		}
 		if = {
 			limit = {
-				c:CHI = { has_modifier = opium_wars_lost }
+				c:CHI ?= { has_modifier = opium_wars_lost }
 			}
 			add = {
 				desc = "jap_anti_bakufu_progress_bar_4_tt"
@@ -186,7 +186,7 @@
 
  }
 
-jap_shogunate_progress_bar = {#佐幕派
+jap_shogunate_progress_bar = {#???
 	name = "jap_shogunate_progress_bar"
 	desc = "jap_shogunate_progress_bar_desc"
 
@@ -332,7 +332,7 @@ jap_shogunate_progress_bar = {#佐幕派
 
  }
 
- meiji_boshin_war_progress_bar = {#幕府势力
+ meiji_boshin_war_progress_bar = {#????
 	name = "meiji_boshin_war_progress_bar"
 	desc = "meiji_boshin_war_progress_bar_desc"
 
@@ -528,7 +528,7 @@ jap_shogunate_progress_bar = {#佐幕派
 	
  }
 
- japanese_sanbo_honbu_progress_bar = {#参谋本部
+ japanese_sanbo_honbu_progress_bar = {#????
  	name = "japanese_sanbo_honbu_progress_bar_name"
  	desc = "japanese_sanbo_honbu_progress_bar_navy_desc"
  	second_desc = "japanese_sanbo_honbu_progress_bar_army_desc"
@@ -596,11 +596,11 @@ jap_shogunate_progress_bar = {#佐幕派
 			   value = -100
 		    }
 		}
-		add = {#海军规模
+		add = {#????
 			desc = "japanese_sanbo_honbu_navy_4_progress"
 			value = root.navy_size
 		}
-		subtract = {#陆军规模
+		subtract = {#????
 			desc = "japanese_sanbo_honbu_army_4_progress"
 			value = root.army_size
 		}
@@ -611,7 +611,7 @@ jap_shogunate_progress_bar = {#佐幕派
  	max_value = 5000
 }
 
- taisho_roman_liberty_progress_bar = {#自由主义影响
+ taisho_roman_liberty_progress_bar = {#??????
 	name = "taisho_roman_liberty_progress_bar"
 	desc = "taisho_roman_liberty_progress_bar_desc"
 
@@ -912,7 +912,7 @@ jap_shogunate_progress_bar = {#佐幕派
 
  }
 
- taisho_roman_monarchy_progress_bar = {#专制主义影响
+ taisho_roman_monarchy_progress_bar = {#??????
 	name = "taisho_roman_monarchy_progress_bar"
 	desc = "taisho_roman_monarchy_progress_bar_desc"
 
@@ -1183,7 +1183,7 @@ jap_shogunate_progress_bar = {#佐幕派
 
  }
 
- taisho_roman_military_progress_bar = {#军国主义影响
+ taisho_roman_military_progress_bar = {#??????
 	name = "taisho_roman_military_progress_bar"
 	desc = "taisho_roman_military_progress_bar_desc"
 
@@ -1457,7 +1457,7 @@ jap_shogunate_progress_bar = {#佐幕派
 
  }
 
- kenseiyougoundo_movement_progress_bar = {#护宪运动支持度
+ kenseiyougoundo_movement_progress_bar = {#???????
 	name = "kenseiyougoundo_movement_progress_bar"
 	desc = "kenseiyougoundo_movement_progress_bar_desc"
 
@@ -1636,7 +1636,7 @@ jap_shogunate_progress_bar = {#佐幕派
 
  }
 
- seikanron_korean_adm_progress_bar = {#朝鲜稳定度
+ seikanron_korean_adm_progress_bar = {#?????
 	name = "seikanron_korean_adm_progress_bar"
 	desc = "seikanron_korean_adm_progress_bar_desc"
 

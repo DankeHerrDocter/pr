@@ -1449,7 +1449,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 753786
+				size = 1753786
 			}
 			create_pop = {
 				culture = greek
@@ -1550,7 +1550,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 30012
+				size = 130012
 			}
 			create_pop = {
 				culture = armenian
@@ -1576,7 +1576,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 678712
+				size = 1678712
 			}
 			create_pop = {
 				culture = armenian
@@ -1617,7 +1617,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 150831
+				size = 1150831
 			}
 			create_pop = {
 				culture = kurdish
@@ -1672,7 +1672,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 61000
+				size = 161000
 			}
 			create_pop = {
 				culture = georgian
@@ -1726,7 +1726,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 865092
+				size = 1865092
 			}
 			create_pop = {
 				culture = kurdish

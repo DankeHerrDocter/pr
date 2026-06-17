@@ -57,11 +57,6 @@
 			add_interest_group = ig:ig_armed_forces
 			add_interest_group = ig:ig_intelligentsia
 		}	
-		create_political_lobby = {  
-			type = lobby_anti_country  
-			target = c:CHI
-			add_interest_group = ig:ig_industrialists
-		}
 	}
 	
 	c:PRU = {
@@ -84,12 +79,6 @@
 			type = lobby_pro_country  
 			target = c:AUS
 			add_interest_group = ig:ig_landowners
-		}
-		create_political_lobby = {  
-			type = lobby_anti_country  
-			target = c:CHI
-			add_interest_group = ig:ig_rural_folk
-			add_interest_group = ig:ig_devout
 		}
 	}
 	
@@ -156,40 +145,10 @@
 			add_interest_group = ig:ig_petty_bourgeoisie
 		}	
 		create_political_lobby = {  
-			type = lobby_anti_country  
-			target = c:CHI
-			add_interest_group = ig:ig_industrialists
-			add_interest_group = ig:ig_rural_folk
-		}
-		create_political_lobby = {  
 			type = lobby_pro_country  
 			target = c:POR
 			add_interest_group = ig:ig_intelligentsia
 			add_interest_group = ig:ig_petty_bourgeoisie
-		}
-	}
-
-	c:CHI = {
-		create_political_lobby = {  
-			type = lobby_pro_country  
-			target = c:KOR
-			add_interest_group = ig:ig_devout
-		}	
-		create_political_lobby = {  
-			type = lobby_anti_country  
-			target = c:GBR
-			add_interest_group = ig:ig_armed_forces
-		}
-		create_political_lobby = {  
-			type = lobby_anti_country  
-			target = c:JAP
-			add_interest_group = ig:ig_landowners
-		}
-		create_political_lobby = {  
-			type = lobby_pro_country  
-			target = c:GBR
-			add_interest_group = ig:ig_rural_folk
-			add_interest_group = ig:ig_intelligentsia
 		}
 	}
 
@@ -200,16 +159,6 @@
 			add_interest_group = ig:ig_armed_forces
 			add_interest_group = ig:ig_intelligentsia
 		}	
-		create_political_lobby = {  
-			type = lobby_pro_country  
-			target = c:CHI
-			add_interest_group = ig:ig_devout
-		}
-		create_political_lobby = {  
-			type = lobby_anti_country  
-			target = c:CHI
-			add_interest_group = ig:ig_landowners
-		}
 		create_political_lobby = {  
 			type = lobby_anti_country  
 			target = c:RUS
